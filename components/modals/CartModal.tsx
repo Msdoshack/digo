@@ -47,7 +47,7 @@ const CartCard = ({ product, onClose }: PropsCardCardType) => {
             <h3 className="font-semibold max-w-[150px] sm:max-w-xs line-clamp-2 text-xs sm:text-base">
               {product.name}
             </h3>
-            <p className="p-1 bg-gray-50 rounded-sm text-xs sm:text-sm font-medium">
+            <p className="p-1 bg-gray-50 rounded-sm text-sm sm:text-sm font-medium">
               #{product.price.toLocaleString()}
             </p>
           </div>

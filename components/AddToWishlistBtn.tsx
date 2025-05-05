@@ -13,13 +13,15 @@ const AddToWishlistBtn = ({ product }: PropsType) => {
 
   return (
     <button
-      className=""
+      className="flex items-center gap-1"
       onClick={() => {
         addToWishlist(product);
       }}
       title="add to wishlist"
     >
       <Heart className={` brand-color ${alreadyAdded && "fill-[#f33c7a]"}`} />
+
+      <span className="text-[10px]">Add to wish</span>
     </button>
   );
 };

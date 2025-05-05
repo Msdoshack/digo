@@ -169,23 +169,25 @@ const ProductDetails = ({ product }: PropsType) => {
           </div>
 
           <div className="flex flex-col justify-center items-center gap-5">
-            <AddToWishlistBtn
-              product={{
-                id: product.id,
-                name: product.name,
-                img: product.imgs[0],
-                price: product.price,
-                isAvailable: product?.isAvailable,
-                oldPrice: product.oldPrice,
-                brand: product.brand,
-                qty: 1,
-                unitLeft: product.unitLeft,
-                variant: {
-                  color: selectedColor,
-                  size: selectedSize,
-                },
-              }}
-            />
+            <div className="">
+              <AddToWishlistBtn
+                product={{
+                  id: product.id,
+                  name: product.name,
+                  img: product.imgs[0],
+                  price: product.price,
+                  isAvailable: product?.isAvailable,
+                  oldPrice: product.oldPrice,
+                  brand: product.brand,
+                  qty: 1,
+                  unitLeft: product.unitLeft,
+                  variant: {
+                    color: selectedColor,
+                    size: selectedSize,
+                  },
+                }}
+              />
+            </div>
 
             <Button
               onClick={() => {

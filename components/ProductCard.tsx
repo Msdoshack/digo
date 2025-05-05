@@ -18,7 +18,7 @@ const ProductCard = ({ product }: PropsType) => {
     >
       <Link
         href={`/products/${product.id}`}
-        className="w-full flex flex-col gap-2"
+        className="w-full flex flex-col gap-1"
       >
         <div className="flex justify-center">
           {/* IMAGE */}
@@ -44,21 +44,23 @@ const ProductCard = ({ product }: PropsType) => {
           {product.name}
         </p>
 
-        <p className="font-semibold text-xs sm:text-sm">
-          # {product.price.toLocaleString()}
-        </p>
+        <div className="flex items-center gap-2">
+          <p className="font-semibold text-sm sm:text-base">
+            # {product.price.toLocaleString()}
+          </p>
 
-        {product.oldPrice && (
-          <div className="-mt-1 flex items-center gap-5">
-            <p className="text-xs text-gray-500 line-through">
-              # {product.oldPrice.toLocaleString()}
-            </p>
+          {product.oldPrice && (
+            <div className="flex items-center gap-1">
+              <p className="text-[10px] sm:text-xs text-gray-500 line-through">
+                # {product.oldPrice.toLocaleString()}
+              </p>
 
-            <span className="text-xs text-red-500">
-              -{calculateDisCount(product.oldPrice, product.price)}%
-            </span>
-          </div>
-        )}
+              <span className="text-[10px] text-red-500 hidden sm:block">
+                -{calculateDisCount(product.oldPrice, product.price)}%
+              </span>
+            </div>
+          )}
+        </div>
 
         <ReactRating rating={product.rating} />
       </Link>

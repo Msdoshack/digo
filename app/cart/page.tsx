@@ -64,7 +64,7 @@ const CartPage = () => {
                 View all
               </Link>
             </div>
-            <div className="flex overflow-y-scroll gap-5 mb-4">
+            <div className="flex overflow-x-scroll gap-5 mb-4 hide-scrollbar">
               {product.map((product) => (
                 <OtherProductCard product={product} key={product.id} />
               ))}
@@ -81,7 +81,7 @@ const CartPage = () => {
               </Link>
             </div>
 
-            <div className="flex overflow-y-scroll gap-5">
+            <div className="flex overflow-x-scroll gap-5 hide-scrollbar">
               {suggested.map((product) => (
                 <OtherProductCard product={product} key={product.id} />
               ))}

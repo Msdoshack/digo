@@ -62,13 +62,6 @@ const CartCard = ({ product }: PropsType) => {
                 {product.brand}
               </p>
               <div className="flex items-center  gap-3">
-                {/* <div
-                  className={`text-xs sm:text-sm ${
-                    product.isAvailable ? "text-gray-500" : "brand-color"
-                  }`}
-                >
-                  {product.isAvailable ? "available" : "Sold Out"}
-                </div> */}
                 {product.variant && (
                   <div className="text-xs text-gray-500 flex gap-2 items-center ">
                     {product?.variant?.size && (
@@ -95,12 +88,12 @@ const CartCard = ({ product }: PropsType) => {
             </div>
           </div>
 
-          <div className="flex flex-col">
-            <h4 className="font-semibold">
+          <div className="flex items-center gap-2">
+            <h4 className="font-semibold text-sm sm:text-base">
               # {product.price.toLocaleString()}
             </h4>
             {product.oldPrice && (
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2">
                 <span className="text-gray-500 line-through text-sm">
                   #{product.oldPrice.toLocaleString()}
                 </span>
@@ -112,7 +105,7 @@ const CartCard = ({ product }: PropsType) => {
           </div>
         </Link>
 
-        <div className="mt-2 flex items-center justify-between">
+        <div className="mt-1 flex items-center justify-between">
           <Button
             onClick={() => {
               removeProduct(product.id);

@@ -27,13 +27,14 @@ const OrdersProductCard = ({ product, orderId }: PropsType) => {
       <div className="flex w-full flex-col justify-between gap-y-2">
         <div className="flex justify-between">
           <div className="flex gap-[1px] flex-col ">
+            <p className="text-xs text-gray-500">Order {orderId}</p>
+
             <h4 className="text-xs sm:text-base line-clamp-2">
               {product.name}
             </h4>
-            <p className="text-xs sm:text-sm font-semibold">
+            <p className="text-sm sm:text-base font-semibold">
               # {product.price.toLocaleString()}
             </p>
-            <p className="text-sm text-gray-500">Order {orderId}</p>
           </div>
 
           <Link

@@ -15,9 +15,9 @@ const ReactRating = ({ rating }: PropsType) => {
     <div>
       <StarRatings
         rating={avgRating}
-        starRatedColor="gold"
-        starHoverColor="gold"
-        starDimension="16px"
+        starRatedColor="orange"
+        starHoverColor="orange"
+        starDimension="14px"
         starSpacing="5px"
         // changeRating={(newRating) => console.log(newRating)}
         numberOfStars={5}

@@ -37,7 +37,7 @@ const WIshlistProductCard = ({ product }: PropsType) => {
           <h4 className="line-clamp-2 text-xs sm:text-sm lg:text-base">
             {product.name}
           </h4>
-          <p className="font-semibold text-xs sm:text-sm">
+          <p className="font-semibold text-sm sm:text-base">
             {" "}
             # {product.price.toLocaleString()}
           </p>

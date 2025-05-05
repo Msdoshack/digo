@@ -15,7 +15,9 @@ const OtherProductCard = ({ product }: PropsType) => {
         <Image src={product.imgs[0]} alt="" fill className="object-cover" />
       </div>
       <p className="text-xs sm:text-sm line-clamp-2">{product.name}</p>
-      <p className="font-medium"># {product.price.toLocaleString()}</p>
+      <p className="text-sm sm:text-base font-medium">
+        # {product.price.toLocaleString()}
+      </p>
       <p className="text-xs text-gray-500 line-through ">
         {product.oldPrice && (
           <span> # {product.oldPrice.toLocaleString()}</span>
