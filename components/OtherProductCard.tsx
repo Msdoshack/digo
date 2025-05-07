@@ -9,7 +9,9 @@ const OtherProductCard = ({ product }: PropsType) => {
   return (
     <Link
       href={`/products/${product.id}`}
-      className="flex flex-col gap-[2px] w-full"
+      className={`relative flex flex-col gap-[2px] w-full ${
+        !product.isAvailable && "opacity-40 pointer-events-none"
+      }`}
     >
       <div className="relative w-36 h-36 bg-gray-300">
         <Image src={product.imgs[0]} alt="" fill className="object-cover" />
@@ -23,6 +25,11 @@ const OtherProductCard = ({ product }: PropsType) => {
           <span> # {product.oldPrice.toLocaleString()}</span>
         )}
       </p>
+      {!product.isAvailable && (
+        <p className="absolute left-1/2 z-20 top-1/2 text-red-500 font-bold bg-black text-xs">
+          Sold Out
+        </p>
+      )}
     </Link>
   );
 };
