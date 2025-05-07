@@ -46,7 +46,7 @@ const AddToCartBtn = ({ product }: PropsType) => {
         onClick={handleAddToCartClick}
         size={"sm"}
         variant={alreadyInCart ? "default" : "outline"}
-        className={` text-[12px]! w-max   ${
+        className={`text-[10px] sm:text-[12px]! w-max   ${
           alreadyInCart?.id
             ? "brand-bg "
             : "brand-color ring ring-[#f33c7a] p-[2px]! px-1!"

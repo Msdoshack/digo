@@ -5,9 +5,10 @@ import { Heart } from "lucide-react";
 type PropsType = {
   product: ProductCardType;
   addFn: () => void;
+  showText?: boolean;
 };
 
-const AddToWishlistBtn = ({ product, addFn }: PropsType) => {
+const AddToWishlistBtn = ({ product, addFn, showText = false }: PropsType) => {
   const { wishlist } = useWishlistStore((state) => state);
 
   const alreadyAdded = wishlist.find((item) => item.id === product.id);
@@ -18,9 +19,15 @@ const AddToWishlistBtn = ({ product, addFn }: PropsType) => {
       onClick={addFn}
       title="add to wishlist"
     >
-      <Heart className={` brand-color ${alreadyAdded && "fill-[#f33c7a]"}`} />
+      <Heart
+        className={`size-5 sm:size-6 brand-color ${
+          alreadyAdded && "fill-[#f33c7a]"
+        }`}
+      />
 
-      <span className="text-[10px]">Add to wish</span>
+      <span className={`text-[10px] ${showText ? "inline" : "hidden"}`}>
+        Add to wish
+      </span>
     </button>
   );
 };

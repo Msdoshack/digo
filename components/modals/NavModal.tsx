@@ -34,7 +34,8 @@ const NavModal = ({ onClose, isOpen }: PropsType) => {
   const router = useRouter();
 
   const handleClick = (href: string) => {
-    router.push(href);
+    const hrefLowercase = href.toLowerCase();
+    router.push(hrefLowercase);
     onClose();
   };
   return (

@@ -4,6 +4,7 @@ import Link from "next/link";
 import ReactRating from "./ReactRating";
 import { calculateDisCount } from "@/util";
 import AddToCartBtn from "./AddToCartBtn";
+import AddToWishlistWrapper from "./AddToWishlist";
 
 type PropsType = {
   product: ProductCardType;
@@ -65,7 +66,11 @@ const ProductCard = ({ product }: PropsType) => {
         <ReactRating rating={product.rating} />
       </Link>
 
-      <AddToCartBtn product={product} />
+      <div className="flex justify-between">
+        <AddToCartBtn product={product} />
+
+        <AddToWishlistWrapper product={product} />
+      </div>
 
       {!product.isAvailable && (
         <p className="absolute left-20 z-20 top-36 text-red-500 font-bold bg-black">

@@ -8,7 +8,7 @@ const RecentlyViewedProduct = () => {
   const { history } = useUserStore((state) => state);
 
   return (
-    <div className="bg-white p-2 mb-5">
+    <div className="bg-white p-2 mt-16 mb-5 ">
       <div className="w-full flex items-center justify-between  mb-5">
         <h1 className="font-medium text-lg ">Recently Viewed</h1>
 

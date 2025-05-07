@@ -51,6 +51,7 @@ const CartCard = ({ product, onClose }: PropsCardCardType) => {
               #{product.price.toLocaleString()}
             </p>
           </div>
+
           <div className="flex items-center mt-1 gap-2">
             {product.variant && (
               <div className="text-xs text-gray-500 flex gap-2 items-center ">

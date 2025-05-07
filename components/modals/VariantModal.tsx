@@ -101,16 +101,15 @@ const VariantModal = ({
 
             <div className="flex gap-3 ">
               {validSizes.map((item, i) => (
-                <Button
+                <button
                   onClick={() => handleSizeClick(i, item.color!)}
                   key={i}
-                  variant={"outline"}
-                  className={`text-xs! px-2! ${
+                  className={`ring-1 ring-gray-200 text-pink-500 rounded-md py-1 px-2 text-sm cursor-pointer ${
                     idx === i && "ring-2 ring-[#f33c7a]"
                   }`}
                 >
                   {item.size}
-                </Button>
+                </button>
               ))}
             </div>
           </div>

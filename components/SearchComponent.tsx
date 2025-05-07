@@ -13,10 +13,12 @@ const SearchComponent = () => {
 
     const formData = new FormData(e.currentTarget);
 
-    const search = formData.get("search");
+    const search = formData.get("search") || "";
 
-    if (search) {
-      router.push(`/products?s=${search}`);
+    if (search !== "") {
+      router.push(`/products?q=${search}&c=all`);
+    } else {
+      router.push(`/products`);
     }
   };
   return (

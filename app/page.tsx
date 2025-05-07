@@ -1,6 +1,7 @@
 import CategoryList from "@/components/CategoryList";
 import ProductList from "@/components/ProductList";
 import Slider from "@/components/Slider";
+import { productsData } from "@/constants";
 import Link from "next/link";
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
             View all
           </Link>
         </div>
-        <ProductList />
+        <ProductList products={productsData} />
       </div>
 
       <div className="mt-24 px-2 bg-white py-1">
@@ -36,7 +37,7 @@ export default function Home() {
             View all
           </Link>
         </div>
-        <ProductList />
+        <ProductList products={productsData} />
       </div>
     </div>
   );

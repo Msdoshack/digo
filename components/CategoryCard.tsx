@@ -7,9 +7,10 @@ type PropsType = {
 };
 
 const CategoryCard = ({ category }: PropsType) => {
+  const lowerCaseCat = category.name.toLowerCase();
   return (
     <Link
-      href={`/products?c=${category.name}`}
+      href={`/products?c=${lowerCaseCat}`}
       className="shrink-0 w-[80%] sm:w-1/2 lg:w-1/4 xl:w-1/6"
     >
       <div className="relative bg-slate-100 w-full h-72">
