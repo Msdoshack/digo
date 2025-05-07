@@ -1,51 +1,47 @@
 "use client";
-import { Minus, Plus } from "lucide-react";
 import { useState } from "react";
-import { Button } from "./ui/button";
 import { calculateDisCount } from "@/util";
-import { useCartStore } from "@/store/userCart";
+
 import AddToWishlistBtn from "./AddToWishlistBtn";
+import { useWishlistStore } from "@/store/userWishlist";
+import VariantModal from "./modals/VariantModal";
+import AddToCartBtn from "./AddToCartBtn";
 
 type PropsType = {
   product: ProductCardType;
 };
 const ProductDetails = ({ product }: PropsType) => {
-  const [colorIdx, setColorIdx] = useState(0);
-  const [selectedColor, setSelectedColor] = useState(
-    product.colors[colorIdx]?.color
-  );
-  const { addProduct } = useCartStore((state) => state);
+  const [showVariantModal, setShowVariantModal] = useState(false);
 
-  const [sizeIdx, setSizeIdx] = useState(0);
+  const { addToWishlist, wishlist } = useWishlistStore((state) => state);
 
-  const [selectedSize, setSelectedize] = useState(
-    product.sizes[sizeIdx]?.size || ""
-  );
+  const AlreadyInWishlist = wishlist.find((item) => item.id === product.id);
 
-  const [qty, setQty] = useState(1);
-
-  const unitLeft = product.unitLeft;
-
-  const increase = () => {
-    if (qty < unitLeft) {
-      setQty((prev) => prev + 1);
+  const handleAddToWishlistClick = () => {
+    if (!AlreadyInWishlist && product.variants && product.variants.length > 1) {
+      setShowVariantModal(true);
+    } else {
+      addToWishlist({
+        id: product.id,
+        name: product.name,
+        img: product.imgs[0],
+        price: product.price,
+        isAvailable: product?.isAvailable,
+        oldPrice: product.oldPrice,
+        brand: product.brand,
+        qty: 1,
+        unitLeft: product.unitLeft,
+        variant: {
+          color: (product.variants && product.variants[0].color) || null,
+          size: (product.variants && product.variants[0].size) || null,
+        },
+      });
     }
   };
 
-  const decrease = () => {
-    if (qty > 1) {
-      setQty((prev) => prev - 1);
-    }
-  };
+  const validSizes = product.variants?.filter((item) => item.size !== null);
 
-  const handleSizeClick = (size: string, idx: number) => {
-    setSelectedize(size);
-    setSizeIdx(idx);
-  };
-  const handleColorClick = (color: string, idx: number) => {
-    setSelectedColor(color);
-    setColorIdx(idx);
-  };
+  const validColors = product.variants?.filter((item) => item.color !== null);
 
   return (
     <div className="flex flex-col gap-5">
@@ -72,32 +68,29 @@ const ProductDetails = ({ product }: PropsType) => {
       <div className="h-[2px] bg-gray-100" />
 
       {/* Colors */}
-      {!!product.colors.length && (
+      {validColors && validColors?.length > 0 && (
         <div>
-          <h4 className="font-medium mb-3">
-            {product.colors.length > 1 ? "Choose a color" : "Color"}
+          <h4 className="font-medium mb-1">
+            {validColors?.length > 1 ? "Colors" : "Color"}
           </h4>
           <ul className="flex items-center gap-6">
-            {product.colors?.map((item, i) =>
+            {validColors.map((item) =>
               item.isAvailable ? (
                 <li
                   key={item.color}
                   className="h-8 w-8 ring-1 ring-gray-300 cursor-pointer rounded-full relative"
-                  onClick={() => handleColorClick(item.color, i)}
-                  style={{ backgroundColor: item.color }}
-                >
-                  {colorIdx === i && (
-                    <div className="absolute w-10 h-10 rounded-full ring-2 ring-blue-200 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
-                  )}
-                </li>
+                  style={{ backgroundColor: item.color! }}
+                ></li>
               ) : (
-                <li
-                  key={item.color}
-                  className="h-8 w-8 ring-1 ring-gray-300 cursor-not-allowed rounded-full relative"
-                  style={{ backgroundColor: item.color }}
-                >
-                  <div className="absolute w-10 h-[3px] rounded-full bg-red-400 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-45" />
-                </li>
+                item.color && (
+                  <li
+                    key={item.color}
+                    className="h-8 w-8 ring-1 ring-gray-300 cursor-not-allowed rounded-full relative"
+                    style={{ backgroundColor: item.color }}
+                  >
+                    <div className="absolute w-10 h-[3px] rounded-full bg-red-400 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-45" />
+                  </li>
+                )
               )
             )}
           </ul>
@@ -105,21 +98,18 @@ const ProductDetails = ({ product }: PropsType) => {
       )}
 
       {/* Sizes */}
-      {!!product.sizes.length && (
+      {validSizes && validSizes?.length > 0 && (
         <div>
-          <h4 className="font-medium mb-3">
-            {product.sizes.length > 1 ? "Choose a size" : "Size"}
+          <h4 className="font-medium mb-1">
+            {validSizes?.length > 1 ? "Sizes" : "Size"}
           </h4>
 
           <ul className="flex items-center gap-3">
-            {product.sizes.map((item, i) =>
-              item.isAvailable ? (
+            {validSizes.map((item) =>
+              item.isAvailable && item.size ? (
                 <li
                   key={item.size}
-                  onClick={() => handleSizeClick(item.size, i)}
-                  className={`ring-1 ring-gray-200 text-pink-500 rounded-md py-1 px-4 text-sm cursor-pointer ${
-                    selectedSize === item.size && "ring-2 ring-pink-500"
-                  }`}
+                  className={`ring-1 ring-gray-200 text-pink-500 rounded-md py-1 px-4 text-sm cursor-pointer `}
                 >
                   {item.size}
                 </li>
@@ -137,81 +127,27 @@ const ProductDetails = ({ product }: PropsType) => {
       )}
 
       <div>
-        <h4 className="font-medium mb-3">Choose Quantity</h4>
-        <div className="flex items-center justify-between">
-          <div className="flex gap-8 items-center">
-            <div className="rounded-lg bg-gray-100 flex items-center gap-4 w-max">
-              <button
-                className="p-2 cursor-pointer disabled:text-gray-300 disabled:cursor-not-allowed"
-                onClick={decrease}
-                disabled={qty <= 1}
-              >
-                <Minus size={15} />
-              </button>
-
-              <span className="p-2">{qty}</span>
-
-              <button
-                className="p-2 cursor- disabled:text-gray-300"
-                disabled={qty === unitLeft}
-              >
-                <Plus size={15} onClick={increase} />
-              </button>
-            </div>
-            <div className="max-w-[100px] text-xs sm:text-sm">
-              {unitLeft <= 20 && (
-                <p>
-                  Only <span className="brand-color">{unitLeft}</span> left
-                  Dont&apos;t miss it
-                </p>
-              )}
-            </div>
-          </div>
-
+        <div className="flex items-center justify-end">
           <div className="flex flex-col justify-center items-center gap-5">
             <div className="">
               <AddToWishlistBtn
-                product={{
-                  id: product.id,
-                  name: product.name,
-                  img: product.imgs[0],
-                  price: product.price,
-                  isAvailable: product?.isAvailable,
-                  oldPrice: product.oldPrice,
-                  brand: product.brand,
-                  qty: 1,
-                  unitLeft: product.unitLeft,
-                  variant: {
-                    color: selectedColor,
-                    size: selectedSize,
-                  },
-                }}
+                addFn={handleAddToWishlistClick}
+                product={product}
               />
             </div>
 
-            <Button
-              onClick={() => {
-                addProduct({
-                  id: product.id,
-                  img: product.imgs[0],
-                  isAvailable: product.isAvailable,
-                  name: product.name,
-                  price: product.price,
-                  qty: qty,
-                  unitLeft: product.unitLeft,
-                  brand: product.brand,
-                  oldPrice: product?.oldPrice,
-                  variant: { color: selectedColor, size: selectedSize },
-                });
-              }}
-              size={"sm"}
-              className=" text-xs! font-medium brand-bg"
-            >
-              Add to cart
-            </Button>
+            <AddToCartBtn product={product} />
           </div>
         </div>
       </div>
+
+      {showVariantModal && (
+        <VariantModal
+          onClose={() => setShowVariantModal(false)}
+          product={product}
+          addFn={addToWishlist}
+        />
+      )}
     </div>
   );
 };

@@ -30,6 +30,7 @@ const CartCard = ({ product }: PropsType) => {
       updateQty(product.id, newQty);
     }
   };
+
   return (
     <div className="border-t border-gray-200 pt-4 pb-2 px-1">
       <div>

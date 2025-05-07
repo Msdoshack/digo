@@ -32,9 +32,9 @@ export const useWishlistStore = create<IUserWishlist>()(
             (item) => item.id !== product.id
           );
 
-          toast.success(`${product.name} - removed from wishlist`);
+          toast.success("Removed from wishlist");
         } else {
-          updatedWishlist = [...state.wishlist, product];
+          updatedWishlist = [product, ...state.wishlist];
           toast.success(`${product.name} - is added to wishlist`);
         }
 
@@ -52,7 +52,7 @@ export const useWishlistStore = create<IUserWishlist>()(
           (item) => item.id !== productId
         );
 
-        toast.success("removed");
+        toast.success("Removed from wishlist");
 
         const updatedTotalItems = filteredWishlist.length;
 

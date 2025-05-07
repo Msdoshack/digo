@@ -12,8 +12,8 @@ type OrderProps = {
   qty: number;
   id: string;
   variant?: {
-    size?: string;
-    color?: string;
+    size: string | null;
+    color: string | null;
   };
 };
 
@@ -29,21 +29,27 @@ const OrderCard = ({ img, name, qty, id, price, variant }: OrderProps) => {
 
       <div className="flex-1">
         <p className="line-clamp-2 text-xs sm:text-sm text-gray-700">{name}</p>
+
         <p className="text-xs text-gray-800 font-medium">
           # {price.toLocaleString()}
         </p>
+
         {variant && (
           <div className="flex items-center text-xs text-gray-500">
             {variant.size && <p>Size: {variant.size}</p>}
-            <div className="flex items-center gap-1">
-              Color:
-              <div
-                className="h-4 w-4 rounded-full"
-                style={{ backgroundColor: variant.color }}
-              />
-            </div>
+
+            {variant.color && (
+              <div className="flex items-center gap-1">
+                Color:
+                <div
+                  className="h-4 w-4 rounded-full"
+                  style={{ backgroundColor: variant.color! }}
+                />
+              </div>
+            )}
           </div>
         )}
+
         <p className="flex items-center gap-2 text-xs text-gray-500 mt-1">
           <span>QTY</span>
           <span>{qty}</span>
@@ -92,13 +98,13 @@ const OrderSummaryPage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2   gap-y-6 gap-x-4 mt-5 p-2 border border-gray-200 rounded-md">
           {cart.map((item) => (
             <OrderCard
-              key={item.id}
-              name={item.name}
-              price={item.price}
-              img={item.img}
-              qty={item.qty}
-              id={item.id}
-              variant={item.variant}
+              key={item?.id}
+              name={item?.name}
+              price={item?.price}
+              img={item?.img}
+              qty={item?.qty}
+              id={item?.id}
+              variant={item?.variant}
             />
           ))}
         </div>

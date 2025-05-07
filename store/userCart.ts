@@ -11,18 +11,6 @@ interface ICartStore {
   updateQty: (productId: string, qty: number) => void;
 }
 
-// type State = {
-//   cart: CartProductType[];
-//   totalItems: number;
-//   subTotal: number;
-// };
-
-// type Actions = {
-//   addProduct: (product: CartProductType) => void;
-//   removeProduct: (productId: string) => void;
-//   updateQty: (productId: string, qty: number) => void;
-// };
-
 export const useCartStore = create<ICartStore>()(
   persist(
     (set, get) => ({
@@ -37,22 +25,26 @@ export const useCartStore = create<ICartStore>()(
         );
 
         let updatedCart;
+
         if (existingProduct) {
-          updatedCart = state.cart.map((item) =>
-            item.id === product.id
-              ? { ...item, qty: item.qty + product.qty }
-              : item
-          );
+          updatedCart = state.cart.filter((item) => item.id !== product.id);
+          toast.success("Removed from cart");
+
+          // INCREASE && UPDATE QUANTITY
+          // updatedCart = state.cart.map((item) =>
+          //   item.id === product.id
+          //     ? { ...item, qty: item.qty + product.qty }
+          //     : item
+          // );
         } else {
-          updatedCart = [...state.cart, product];
+          updatedCart = [product, ...state.cart];
+          toast.success(`${product.name} - added to cart!`);
         }
 
         const updatedSubTotal = updatedCart.reduce(
           (sum, item) => sum + item.price * item.qty,
           0
         );
-
-        toast.success(`${product.name} - added to cart!`);
 
         return set({
           cart: updatedCart,
@@ -105,6 +97,17 @@ export const useCartStore = create<ICartStore>()(
   )
 );
 
+// type State = {
+//   cart: CartProductType[];
+//   totalItems: number;
+//   subTotal: number;
+// };
+
+// type Actions = {
+//   addProduct: (product: CartProductType) => void;
+//   removeProduct: (productId: string) => void;
+//   updateQty: (productId: string, qty: number) => void;
+// };
 // export const useCartStore = create<State & Actions>((set) => ({
 //   cart: [],
 //   totalItems: 0,

@@ -5,18 +5,14 @@ import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
 import { useWishlistStore } from "@/store/userWishlist";
-import { useCartStore } from "@/store/userCart";
+import AddToCartBtn from "./AddToCartBtn";
 
 type PropsType = {
-  product: WishlistType;
+  product: ProductCardType;
 };
 
-const WIshlistProductCard = ({ product }: PropsType) => {
+const HistoryProductCard = ({ product }: PropsType) => {
   const removeFn = useWishlistStore((state) => state.removeFromWishlist);
-
-  const { addProduct, cart } = useCartStore((state) => state);
-
-  const alreadyInCart = cart.find((item) => item.id === product.id);
 
   return (
     <div className="border border-gray-200 p-4 rounded-md">
@@ -28,7 +24,7 @@ const WIshlistProductCard = ({ product }: PropsType) => {
       >
         <div className="relative w-30 h-30">
           <Image
-            src={product.img}
+            src={product.imgs[0]}
             className="object-cover w-full h-full"
             alt=""
             fill
@@ -60,30 +56,13 @@ const WIshlistProductCard = ({ product }: PropsType) => {
             )}
           </div>
 
-          {product.variant && (
-            <div className="flex items-center gap-3 text-xs my-[2px] text-gray-500">
-              {product.variant.size && (
-                <span>Size: {product.variant.size}</span>
-              )}
-              {product.variant.color && (
-                <div className="flex items-center gap-1">
-                  <span>Color: </span>
-                  <div
-                    className="h-4 w-4 rounded-full"
-                    style={{ backgroundColor: product.variant.color }}
-                  />
-                </div>
-              )}
-            </div>
-          )}
-
           {product.isAvailable && (
             <p className="text-xs text-green-500 sm:text-sm">Available</p>
           )}
         </div>
       </Link>
 
-      <div className="w-full flex justify-end mt-4">
+      <div className="w-full flex justify-end">
         <div className="flex gap-4 items-center ">
           <Button
             size={"sm"}
@@ -93,37 +72,14 @@ const WIshlistProductCard = ({ product }: PropsType) => {
             }}
             className="text-xs!"
           >
-            Remove
+            remove
           </Button>
 
-          <Button
-            onClick={() => {
-              addProduct({
-                name: product.name,
-                id: product.id,
-                img: product.img,
-                isAvailable: product.isAvailable,
-                price: product.price,
-                oldPrice: product.oldPrice,
-                variant: product.variant,
-                brand: product.brand,
-                qty: product.qty,
-                unitLeft: product.unitLeft,
-              });
-            }}
-            size={"sm"}
-            className={`text-xs! font-medium   hover:opacity-85 ${
-              alreadyInCart
-                ? "brand-bg"
-                : "brand-white ring-1 ring-pink-400 bg-white brand-color hover:bg-white"
-            }`}
-          >
-            {alreadyInCart ? "In cart" : "Add to cart"}
-          </Button>
+          <AddToCartBtn product={product} />
         </div>
       </div>
     </div>
   );
 };
 
-export default WIshlistProductCard;
+export default HistoryProductCard;

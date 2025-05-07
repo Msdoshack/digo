@@ -1,17 +1,15 @@
 "use client";
 import CartCard from "@/components/CartCard";
 import OtherProductCard from "@/components/OtherProductCard";
+import RecentlyViewedProduct from "@/components/RecentlyViewedProduct";
 import { productsData } from "@/constants";
 import { useCartStore } from "@/store/userCart";
 import Link from "next/link";
 
 const product = productsData.slice(0, 5);
 
-const suggested = productsData.slice(4);
-
 const CartPage = () => {
   const { subTotal, cart, totalItems } = useCartStore((state) => state);
-
   return (
     <div className="bg-gray-100 w-full py-4">
       {cart.length > 0 ? (
@@ -72,21 +70,7 @@ const CartPage = () => {
           </div>
 
           {/* RECENTLY VIEWED */}
-          <div className="bg-white p-2 mb-5">
-            <div className="w-full flex items-center justify-between px-4 mb-5">
-              <h1 className="font-medium text-lg ">Recently Viewed</h1>
-
-              <Link href={"customer/history"} className="brand-color">
-                View all
-              </Link>
-            </div>
-
-            <div className="flex overflow-x-scroll gap-5 hide-scrollbar">
-              {suggested.map((product) => (
-                <OtherProductCard product={product} key={product.id} />
-              ))}
-            </div>
-          </div>
+          <RecentlyViewedProduct />
         </div>
       ) : (
         <div className="w-full h-[50vh] flex items-center justify-center bg-white">

@@ -137,7 +137,7 @@ Storage starting at 256 GB: Perfect for 4K videos, high-resolution photos, and c
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/16/9703293/4.jpg?6867",
     ],
 
-    price: 2100999, // fallback if sizes are not selected
+    price: 2100999,
 
     oldPrice: 2999999,
 
@@ -145,9 +145,7 @@ Storage starting at 256 GB: Perfect for 4K videos, high-resolution photos, and c
 
     brand: "apple",
 
-    sizes: [{ size: "256gb", isAvailable: true }],
-
-    colors: [{ color: "#d9c7b8", isAvailable: true }],
+    variants: [{ size: "256gb", color: "#d9c7b8", isAvailable: true }],
 
     unitLeft: 10,
     rating: [5, 5, 4, 5, 4.5, 5, 5, 5],
@@ -189,11 +187,13 @@ Storage (GB): 256
 
     price: 288600,
 
-    sizes: [],
     category: "phones",
 
+    variants: [{ size: null, color: "silver", isAvailable: true }],
+
     brand: "samsung",
-    colors: [{ color: "silver", isAvailable: true }],
+    // sizes: [],
+    // colors: [{ color: "silver", isAvailable: true }],
     unitLeft: 20,
     rating: [3.5, 5, 5, 4, 3, 3, 3, 5],
   },
@@ -228,9 +228,7 @@ Storage (GB): 256
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/90/193928/4.jpg?9016",
     ],
 
-    sizes: [],
-
-    colors: [{ color: "black", isAvailable: true }],
+    variants: [{ size: null, color: "black", isAvailable: true }],
 
     unitLeft: 40,
     rating: [3, 3, 3, 3, 3, 4, 4],
@@ -263,9 +261,7 @@ Storage (GB): 256
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/06/6514162/4.jpg?8873",
     ],
 
-    sizes: [],
-
-    colors: [{ color: "black", isAvailable: true }],
+    variants: [{ size: null, color: "black", isAvailable: true }],
 
     unitLeft: 40,
     rating: [5, 5, 5, 5, 5, 5, 5],
@@ -334,9 +330,7 @@ preparing baby food, among other purposes. It conveniently enables you to
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/9107893/4.jpg?1374",
     ],
 
-    sizes: [],
-
-    colors: [{ color: "black", isAvailable: true }],
+    variants: [{ size: null, color: "black", isAvailable: true }],
 
     unitLeft: 40,
     rating: [3.5, 3.5, 3.5, 3.5, 3.5],
@@ -377,10 +371,6 @@ Lint Filter: The Hisense washing machine is equipped with a lint filter. The lin
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/06/797234/4.jpg?9705",
     ],
 
-    sizes: [],
-
-    colors: [],
-
     unitLeft: 13,
     rating: [4.5, 4, 4, 5, 3, 4, 4],
   },
@@ -417,10 +407,6 @@ Colorful look, colorful life2000W high power, quick boiling water Food grade sta
 
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/88/1724373/4.jpg?9274",
     ],
-
-    sizes: [],
-
-    colors: [],
 
     unitLeft: 13,
     rating: [4, 4, 4, 4, 4, 4, 5],
@@ -461,11 +447,11 @@ Colorful look, colorful life2000W high power, quick boiling water Food grade sta
 
     sizes: [],
 
-    colors: [
-      { color: "black", isAvailable: true },
-      { color: "white", isAvailable: true },
-      { color: "red", isAvailable: true },
-      { color: "gray", isAvailable: true },
+    variants: [
+      { size: null, color: "black", isAvailable: true },
+      { size: null, color: "white", isAvailable: true },
+      { size: null, color: "red", isAvailable: true },
+      { size: null, color: "gray", isAvailable: true },
     ],
 
     unitLeft: 13,
@@ -506,9 +492,7 @@ A Class Panel Resolution: 1366x768 HDMI USB GAME. It can be used as a computer m
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/25/8797052/4.jpg?3818",
     ],
 
-    sizes: [],
-
-    colors: [{ color: "black", isAvailable: true }],
+    variants: [{ size: null, color: "black", isAvailable: true }],
 
     unitLeft: 33,
 
@@ -552,9 +536,7 @@ Brand story: SKYRUN was established in 2005. It is a local manufacturing company
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/27/5037773/4.jpg?4575",
     ],
 
-    sizes: [],
-
-    colors: [{ color: "black", isAvailable: true }],
+    variants: [{ size: null, color: "black", isAvailable: true }],
 
     unitLeft: 33,
 
@@ -590,14 +572,12 @@ Brand story: SKYRUN was established in 2005. It is a local manufacturing company
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/49/0923292/4.jpg?5128",
     ],
 
-    sizes: [
-      { size: "XL", isAvailable: true },
-      { size: "XXL", isAvailable: true },
-      { size: "XXXL", isAvailable: true },
-      { size: "XXXXL", isAvailable: false },
+    variants: [
+      { size: "XL", color: null, isAvailable: true },
+      { size: "XXL", color: null, isAvailable: true },
+      { size: "XXXL", color: null, isAvailable: true },
+      { size: "XXXXL", color: null, isAvailable: true },
     ],
-
-    colors: [],
 
     unitLeft: 33,
 
@@ -637,9 +617,9 @@ High Efficiency Compressor: Fixed speed and wide voltage operation compressor th
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/24/1332231/4.jpg?5611",
     ],
 
-    sizes: [],
+    // sizes: [],
 
-    colors: [],
+    // colors: [],
 
     unitLeft: 23,
 
@@ -677,9 +657,9 @@ A collaborative approach to work requires a powerful, secure, and durable laptop
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/38/6886101/3.jpg?5276",
     ],
 
-    sizes: [],
+    // sizes: [],
 
-    colors: [],
+    // colors: [],
 
     unitLeft: 23,
 
@@ -728,9 +708,9 @@ Our fuel efficient generators saves extra fuel cost.
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/32/0371622/4.jpg?1529",
     ],
 
-    sizes: [],
+    // sizes: [],
 
-    colors: [],
+    // colors: [],
 
     unitLeft: 23,
 
@@ -779,9 +759,9 @@ Back-up power
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/19/7870093/3.jpg?4221",
     ],
 
-    sizes: [],
+    // sizes: [],
 
-    colors: [],
+    // colors: [],
 
     unitLeft: 23,
 
@@ -818,9 +798,9 @@ Tp-Link TL-840 Wireless Router 3G/4G with an integrated 4G LTE modem and a built
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/31/6980051/3.jpg?5388",
     ],
 
-    sizes: [],
+    // sizes: [],
 
-    colors: [],
+    // colors: [],
 
     unitLeft: 23,
 
@@ -876,9 +856,9 @@ Featuring a sleek, pure white design, this device combines elegance with practic
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/2418192/4.jpg?8301",
     ],
 
-    sizes: [],
+    // sizes: [],
 
-    colors: [],
+    // colors: [],
 
     unitLeft: 23,
 
@@ -918,9 +898,9 @@ The slim bezel frameless design gives you end to end display for a better viewin
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/0996104/4.jpg?8010",
     ],
 
-    sizes: [],
+    // sizes: [],
 
-    colors: [],
+    // colors: [],
 
     unitLeft: 23,
 
@@ -981,9 +961,9 @@ Backlit Magic Keyboard and Touch ID for secure unlock
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/1822963/4.jpg?8428",
     ],
 
-    sizes: [],
+    // sizes: [],
 
-    colors: [],
+    // colors: [],
 
     unitLeft: 23,
 
@@ -1025,9 +1005,9 @@ Charge your iPhone or iPad without a computer thanks to the Apple 20 W USB Type-
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/95/3793101/2.jpg?4144",
     ],
 
-    sizes: [],
+    // sizes: [],
 
-    colors: [],
+    // colors: [],
 
     unitLeft: 23,
 
@@ -1323,5 +1303,3 @@ export const placements = [
   { id: "04", name: "flash sales" },
   { id: "05", name: "reconmended" },
 ];
-
-// https://images.pexels.com/photos/5447070/pexels-photo-5447070.jpeg?auto=compress&cs=tinysrgb&w=1200

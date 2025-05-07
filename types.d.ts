@@ -1,19 +1,3 @@
-type CartProductType = {
-  id: string;
-  img: string;
-  name: string;
-  price: number;
-  oldPrice?: number;
-  qty: number;
-  isAvailable: boolean;
-  unitLeft: number;
-  brand: string;
-  variant?: {
-    color?: string;
-    size?: string;
-  };
-};
-
 type ColorType = {
   color: string;
   isAvailable: boolean;
@@ -25,6 +9,28 @@ type SizeType = {
   isAvailable: boolean;
 };
 
+type VariantType = {
+  color: string | null;
+  size: string | null;
+  isAvailable: boolean;
+};
+
+type CartProductType = {
+  id: string;
+  img: string;
+  name: string;
+  price: number;
+  oldPrice?: number;
+  qty: number;
+  isAvailable: boolean;
+  unitLeft: number;
+  brand: string;
+  variant?: {
+    color: string | null;
+    size: string | null;
+  };
+};
+
 type ProductCardType = {
   id: string;
   name: string;
@@ -32,11 +38,12 @@ type ProductCardType = {
   price: number;
   oldPrice?: number;
   isAvailable: boolean;
-  // isPriceVary: boolean;
+
   featured: boolean;
   imgs: string[];
-  colors: ColorType[];
-  sizes: SizeType[];
+  variants?: VariantType[];
+  // colors: ColorType[];
+  // sizes: SizeType[];
   unitLeft: number;
   category: string;
   brand: string;
@@ -59,8 +66,8 @@ type OrderedProductType = {
   status: string;
 
   variant?: {
-    color: string;
-    size: string;
+    color: string | null;
+    size: string | null;
   };
 };
 
@@ -71,10 +78,12 @@ type WishlistType = {
   oldPrice?: number;
   img: string;
   isAvailable: boolean;
+
   variant?: {
-    size?: string;
-    color?: string;
+    size: string | null;
+    color: string | null;
   };
+
   brand: string;
   unitLeft: number;
   qty: number;

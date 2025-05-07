@@ -1,6 +1,8 @@
+import AddToHistoryComp from "@/components/AddToHistoryComp";
 import ProductDetails from "@/components/ProductDetails";
 import ProductImages from "@/components/ProductImages";
 import ReactRating from "@/components/ReactRating";
+import RecentlyViewedProduct from "@/components/RecentlyViewedProduct";
 import { productsData } from "@/constants";
 import React from "react";
 
@@ -83,6 +85,10 @@ const page = async ({ params }: { params: Params }) => {
               </p>
             </div>
           </div>
+
+          <RecentlyViewedProduct />
+
+          <AddToHistoryComp product={product} />
         </>
       ) : (
         <div className="h-[calc(100vh-80px)] flex items-center justify-center">

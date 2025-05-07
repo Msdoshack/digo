@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Button } from "../ui/button";
 import { useRouter } from "next/navigation";
 import { useCartStore } from "@/store/userCart";
@@ -39,11 +39,11 @@ const CartCard = ({ product, onClose }: PropsCardCardType) => {
         />
       </div>
 
-      <div className="flex flex-col justify-between w-full">
+      <div className="flex flex-col justify-between w-full cursor-pointer">
         {/* Top */}
         <div onClick={() => handleClick(`/products/${product.id}`)}>
+          {/* Product name && Price */}
           <div className="flex items-center justify-between gap-8">
-            {/* Title */}
             <h3 className="font-semibold max-w-[150px] sm:max-w-xs line-clamp-2 text-xs sm:text-base">
               {product.name}
             </h3>
@@ -116,8 +116,28 @@ const CartModal = ({ onClose }: PropsType) => {
     onClose();
   };
 
+  const modalRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        modalRef.current &&
+        !modalRef.current.contains(event.target as Node)
+      ) {
+        onClose();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [onClose]);
+
   return (
-    <div className="w-max absolute rounded-md shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-white top-12 right-0 flex flex-col gap-6 p-4 z-30 max-h-[calc(100vh-80px)] overflow-y-scroll hide-scrollbar">
+    <div
+      className="w-max absolute rounded-md shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-white top-12 right-0 flex flex-col gap-6 p-4 z-30 max-h-[calc(100vh-80px)] overflow-y-scroll hide-scrollbar"
+      ref={modalRef}
+    >
       {userCart.length > 0 ? (
         <div className="flex flex-col gap-8">
           <h2 className="text-xl">Shopping Cart</h2>
