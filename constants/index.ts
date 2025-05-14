@@ -111,6 +111,232 @@ export const slides = [
 
 export const productsData = [
   {
+    id: "0000096",
+
+    name: "Mateamoda Women Bags Ladies Bags Handbags Purse Sling Bag Shoulder Bag",
+
+    category: "bags",
+
+    brand: "unknown",
+
+    price: 19631,
+    oldPrice: 21553,
+
+    desc: `
+Product Details
+No.of the bags: 1 bag
+
+Include: 1 bag; 1 strap
+
+Material: PU(Artificial leather)
+
+Inner material: Polyester
+
+Closure type: Zipper
+
+Size: As marked in the picture
+
+Wearing method: Handbag; Crossbody Bag; Shoulder Bag
+
+Pattern: Solid
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/65/1449051/1.jpg?8494",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/65/1449051/2.jpg?7793",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/65/1449051/3.jpg?7793",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 5, 4, 5, 4],
+  },
+
+  {
+    id: "0000097",
+
+    name: "Crocodile Pattern Vintage Shoulder Bag Small Square Bag - Red",
+
+    category: "bags",
+
+    brand: "unknown",
+
+    price: 11499,
+    oldPrice: 23500,
+
+    desc: `
+Stylish and Lightweight: This woman's leather vintage bag is not only fashionable but also lightweight, making it suitable for all occasions
+
+Convenient and Versatile: With its adjustable strap and single compartment, this shoulder cross-body bag is convenient for carrying your essentials and suitable for various occasions
+
+Durable and Water-Resistant: Made from leather, this messenger handbag is durable and can withstand everyday wear and tear. Its water-resistant feature ensures your belongings stay dry and protected
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/85/0287593/1.jpg?2108",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/85/0287593/2.jpg?2108",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/85/0287593/3.jpg?2108",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 5, 4, 5, 4],
+  },
+  {
+    id: "0000089",
+
+    name: "Men Glossy Tassel Brogue Shoes Loafers & Slip-ons Formal Corporate",
+
+    category: "shoes",
+
+    brand: "unknown",
+
+    price: 29120,
+    oldPrice: 30235,
+
+    desc: `
+Tips: Standard EU Leather shoe size, one size bigger than sneakers
+If the leather shoes you wear are size 41, go for size 41
+If you wear a size 41 sneaker, you buy a size 40
+The comfortable round head design makes it easy to wear and fits your feet. The anti-collision toe cap releases a comfortable experience. The upper is made of breathable, comfortable and soft fabric, which has a light and shock-absorbing effect. The high-quality rubber sole adopts a non-slip texture design, which is wear-resistant and not easy to slip. It is fashionable and eye-catching. It is very suitable for men who are pursuing trend and unique personality design. The inner lining is made of breathable fabric, which makes it easy to wear and exercise.This pair of shoes is suitable for all men, with fashionable personality and trendy color matching, high-quality workmanship, and a must-have for trendy men.Tips: Measurements are the maximum size,please allow 0.5-1cm tolerance. Compare the chart size with your feet length carefully before ordering. Style: Casual，Sport.Features: Comfortable，Durable，Very Cool.Occasions: Sports、Casual、Office、Outdoor、Dating、Everyday、Shopping.7 days * 24 hours Customer Service.Free VIP Jumia Express Service，Enjoy fast arrival, delivery within 1-3 days.Free VIP Jumia Express Service，Enjoy package protection to prevent loss of goods. Tips1: If you follow the fashion trend, please FOLLOW our shop.Tips2: If you want to enjoy 50% or higher discount shopping, please FOLLOW our shop.Tips3: If you are looking for high-quality and inexpensive products, please FOLLOW our shop.Tips: Measurements are the maximum size,please allow 0.5-1cm tolerance. Compare the chart size with your feet length carefully before ordering.Please help me to light up 5 stars  
+`,
+
+    variants: [
+      { size: "EU 40", color: null, isAvailable: false },
+      { size: "EU 41", color: null, isAvailable: true },
+      { size: "EU 42", color: null, isAvailable: true },
+      { size: "EU 43", color: null, isAvailable: true },
+      { size: "EU 44", color: null, isAvailable: true },
+      { size: "EU 45", color: null, isAvailable: true },
+    ],
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/9086482/1.jpg?1942",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/9086482/2.jpg?1942",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/9086482/3.jpg?4225",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/9086482/4.jpg?4225",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [4, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000098",
+
+    name: "Men's Business Briefcase, Crossbody Bag, Shoulder Bag, Laptop Bag - Black",
+
+    category: "bags",
+
+    brand: "unknown",
+
+    price: 22000,
+    oldPrice: 33979,
+
+    desc: `
+Men's fashion business briefcase, crossbody handbag, fashion shoulder bag, laptop bag, business travel soft leather bag
+Product information:
+Name: men's briefcase, men's shoulder bag
+Category: handbag
+Material: PU Leather
+Color：Black
+Style: European and American retro
+Luggage shape: horizontal square
+Opening method: zipper buckle
+Bracelet root number: unique
+Processing methods: smooth surface
+Bag internal structure: zipper pocket, mobile phone pocket, ID card pocket
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/61/1875772/1.jpg?4037",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/61/1875772/2.jpg?4037",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/61/1875772/3.jpg?4037",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 5, 4, 5, 4],
+  },
+
+  {
+    id: "0000099",
+
+    name: "Classic Male Travel And Office Document Laptop Bag",
+
+    category: "bags",
+
+    brand: "unknown",
+
+    price: 17850,
+    oldPrice: 31200,
+
+    desc: `
+welcome to my store100% brand newMen's Leather Business Briefcase,Laptop Bag,Men's Handbag,Shoulder Bag,Men's Travel Briefcases,Black BrownSize: length 36cm * height 28cm * thickness 10cmStyle: Business CasualColor:  brownUses: handbag / messenger / shoulder bag / briefcaseWeight: 0.71kg (approx)Best Match: Complements any style dress and color-matched shoes.Note 1: 1inch=2.54cm, 1cm=0.39inchNote 2: There may be slight color difference, due to computer monitor settings.Note 3: With the difference in the measurement method, please allow 1-3cm in size deviation.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/05/7928332/1.jpg?8365",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/05/7928332/2.jpg?8365",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/05/7928332/3.jpg?8170",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 5, 4, 5, 4],
+  },
+  {
     id: "0000001",
     name: "Apple iPhone 16 Pro Max DESERT - Titanium",
 
@@ -196,6 +422,267 @@ Storage (GB): 256
     // colors: [{ color: "silver", isAvailable: true }],
     unitLeft: 20,
     rating: [3.5, 5, 5, 4, 3, 3, 3, 5],
+  },
+
+  {
+    id: "0000091",
+
+    name: "Women Canvas Shoulder Shopping Tote Bag Ladies Handbag",
+
+    category: "bags",
+
+    brand: "unknown",
+
+    price: 5699,
+    oldPrice: 9000,
+
+    desc: `
+This canvas shoulder backpack features a fashionable letter pattern design. 
+This shoulder bag is made of pure cotton canvas, with a high-quality polyester lining and two finely woven hem ropes. The thread ends are reinforced with sewing, making it lightweight and durable.
+It features a secure zipper closure to protect the safety and privacy of the items inside. There is a built-in pocket in the main compartment that can be used to store valuable items such as mobile phones, wallets, etc. 
+Whether it's shoulder, back, or hand held, it's easy to use.
+The size of the canvas shoulder backpack is 10.62In/27CM-13.77In/35CM X 12.59In/32CM, with a width of approximately 3.14In/8CM. The internal capacity is spacious enough to easily accommodate books, notebooks, clothes, and other travel items.
+It can be used as a shoulder bag or handbag. You can bring it for shopping, dating, travel, shopping, commuting, or to the library. Whether it's sunny or rainy, you can carry this bag with you as long as you need it.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/32/9916782/1.jpg?5604",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/32/9916782/2.jpg?5604",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/32/9916782/3.jpg?5604",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/32/9916782/4.jpg?5604",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [4, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000050",
+
+    name: "Lenovo Pad Plus (Tab P12 2023) 8GB + 128GB With Stylus Pen",
+
+    category: "Tablets",
+
+    brand: "lenovo",
+
+    price: 540000,
+
+    oldPrice: 850200,
+
+    desc: `
+Introducing the Lenovo 12.7-inch Android 13 Tablet — a powerful and stylish device designed for work, study, and entertainment. Powered by an MTK Octa-Core processor, 8GB RAM, and 128GB storage, this tablet delivers smooth performance and ample space for all your apps, videos, and documents. The 10200mAh battery ensures long-lasting power, making it perfect for users who are always on the go. With dual cameras — 13MP rear and 8MP front — capturing clear photos, video calls, and online classes become more enjoyable.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/54/4565804/1.jpg?6506",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/54/4565804/2.jpg?6506",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/54/4565804/3.jpg?6506",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/54/4565804/4.jpg?6506",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000066",
+
+    name: "Hp Envy 15 X360 Touchscreen-13th Gen Intel Core I7, 16GB RAM,1TB SSD, Backlit Keyboard, Wins 11",
+
+    category: "Laptops",
+
+    brand: "hp",
+
+    price: 1750000,
+    oldPrice: 1990000,
+
+    desc: `
+Latest 2023 release of HP Envy 15 x360 convertible series updated with the new 13th Gen Intel  Platform core i7 processor and a sharper 5MP Camera. 
+
+Operating system : Windows 11 Home
+From a rejuvenated Start menu, to new ways to connect to your favorite people, news, games, and content—Windows 11 is the place to think, express, and create in a natural way.
+
+Display : 15.6-inch diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge
+Always see your content at its best with 178-degree wide-viewing angles, FHD and a vibrant picture. And with touchscreen technology, you can control your PC right from the screen.
+
+Processor : Intel platform powered by 12th Generation Intel Core i7-1260P (Up to 4.7 GHz, 12 Cores)
+13th Gen Intel Core processor distributes performance where you need it the most — saving you time and increasing your ability to do the things you actually want.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/31/6245602/1.jpg?0142",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/31/6245602/2.jpg?0142",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/31/6245602/3.jpg?0142",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/31/6245602/4.jpg?0142",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 3, 3, 5, 5, 5, 4],
+  },
+
+  {
+    id: "0000067",
+
+    name: "DELL Latitude 5400 TOUCHSCREEN Core I7 -512GB SSD/16GB RAM Keyboard BACKLIT /WIN 11+ BAG",
+
+    category: "Laptops",
+
+    brand: "dell",
+
+    price: 5900000,
+    oldPrice: 6500000,
+
+    desc: `
+Latest 2023 release of HP Envy 15 x360 convertible series updated with the new 13th Gen Intel  Platform core i7 processor and a sharper 5MP Camera. 
+
+Operating system : Windows 11 Home
+From a rejuvenated Start menu, to new ways to connect to your favorite people, news, games, and content—Windows 11 is the place to think, express, and create in a natural way.
+
+Display : 15.6-inch diagonal, FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge
+Always see your content at its best with 178-degree wide-viewing angles, FHD and a vibrant picture. And with touchscreen technology, you can control your PC right from the screen.
+
+Processor : Intel platform powered by 12th Generation Intel Core i7-1260P (Up to 4.7 GHz, 12 Cores)
+13th Gen Intel Core processor distributes performance where you need it the most — saving you time and increasing your ability to do the things you actually want.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/9611032/1.jpg?0996",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/9611032/2.jpg?0996",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/9611032/3.jpg?0996",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 5, 5, 5, 4],
+  },
+
+  {
+    id: "0000088",
+
+    name: "MEN CLASSIC SUEDE CHAIN DESIGNERS SHOE BLACK",
+
+    category: "shoes",
+
+    brand: "unknown",
+
+    price: 34700,
+    oldPrice: 55500,
+
+    desc: `
+Effortless style meets comfort in this premium sneakers with durable elevated soles. These amazing running shoes will be your go-to pair for casual outings as its design easily stands the test of combining both fashion and function. Classic, refined, and modern, the upper fabric allows for breathability and the solid heels enable easy traction. The minimalist design means they’re perfect for the boardroom or the bar right after work.
+
+`,
+
+    variants: [
+      { size: "EU 40", color: null, isAvailable: true },
+      { size: "EU 41", color: null, isAvailable: true },
+      { size: "EU 42", color: null, isAvailable: true },
+      { size: "EU 43", color: null, isAvailable: true },
+      { size: "EU 44", color: null, isAvailable: true },
+    ],
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/99/8289953/1.jpg?2217",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/99/8289953/2.jpg?2217",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [4, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000051",
+
+    name: "AGM PAD T3 Android 14 Tablet 10 8(4+4)GB RAM+64GB ROM 4G Dual SIM 6000mAh PC",
+
+    category: "Tablets",
+
+    brand: "agm",
+
+    price: 180640,
+
+    oldPrice: 306480,
+
+    desc: `
+Running on Android 14, the PAD T3 tablet offers the latest features in multitasking, customization, and security. Its 8-core UNISOC T606 CPU delivers smooth and efficient performance, with an Antutu benchmark score of 200,000—five times faster than similar processors. The tablet supports both 2.4GHz and 5GHz Wi-Fi, ensuring optimal connectivity for various needs.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/3382104/1.jpg?7047",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/3382104/2.jpg?2645",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/3382104/3.jpg?2645",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/3382104/4.jpg?2645",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 3, 4, 5, 4],
   },
 
   {
@@ -413,6 +900,47 @@ Colorful look, colorful life2000W high power, quick boiling water Food grade sta
   },
 
   {
+    id: "0000049",
+
+    name: "redbeat A2 Tablet, Dual SIM, 10.1-inch , 8(4+4)GB RAM/128GB ROM, Android 14, 6000 MAh Battery,Gray",
+
+    category: "Tablets",
+
+    brand: "redbeat",
+
+    price: 202200,
+    oldPrice: 270510,
+
+    desc: `
+If you're looking for a tablet that combines performance and value for money, the Redbeat A2 is for you. Equipped with an octa-core 1.6GHz processor, this tablet ensures that your daily operations and multitasking will still run smoothly. 4GB of RAM and 128GB of storage with support for virtual memory expansion brings more storage and faster response time to meet your needs.
+The Redbeat A2 runs the latest Android 14 operating system, providing you with a smoother and safer experience. 10.1-inch HD display with 800*1280 resolution provides a detailed and lifelike display, providing a great visual experience whether you're watching videos or browsing the web. The 5MP front and 8MP rear cameras allow you to record the best moments of your life anytime, anywhere.
+In terms of battery life,
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/0337563/1.jpg?3157",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/0337563/2.jpg?9865",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/0337563/3.jpg?9865",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/0337563/4.jpg?9865",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 3, 4, 5, 4],
+  },
+
+  {
     id: "0000008",
 
     name: "P9 Wireless Bluetooth Headset Headphone Black",
@@ -457,6 +985,396 @@ Colorful look, colorful life2000W high power, quick boiling water Food grade sta
     unitLeft: 13,
 
     rating: [4, 4, 3, 4, 5, 4, 5],
+  },
+
+  {
+    id: "0000064",
+
+    name: "DELL Latitude 7490 Intel Core I7/ 512GB SSD 16GB RAM/BACKLIGHT KEYBOARD-WIN 11PRO+BAG",
+
+    category: "Laptops",
+
+    brand: "dell",
+
+    price: 595000,
+    oldPrice: 880000,
+
+    desc: `
+Designed to keep you productive and entertained from anywhere, the DELL 39.6 cm (15”) laptop combines a long battery life with a sleek and portable, micro-edge bezel design.
+
+
+PROCESSOR FAMILY
+ Intel® CORE I7 FAST PROCESSOR- FULL HD DISPLAY
+
+39.6 cm (15") diagonal, FHD 1920x1080P, micro-edge, BrightView, 220 nits, 45% NTSC
+
+PROCESSOR
+
+Intel® CORE I7- (Up to 4.1 GHz with Intel® Turbo Boost Technology, 6 MB L3 cache, 4 cores)
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/1627013/1.jpg?2317",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/1627013/2.jpg?2317",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/1627013/3.jpg?2317",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 5, 5, 5, 4],
+  },
+
+  {
+    id: "0000065",
+
+    name: "Hp Omen 16 Gaming 13th Gen Intel Core I7 16GB RAM/1TB SSD 16.1 Nvidia RTX 4050 6GB WINS 11",
+
+    category: "Laptops",
+
+    brand: "hp",
+
+    price: 2500000,
+    oldPrice: 2580000,
+
+    desc: `
+Designed to keep you productive and entertained from anywhere, the DELL 39.6 cm (15”) laptop combines a long battery life with a sleek and portable, micro-edge bezel design.
+
+
+PROCESSOR FAMILY
+ Intel® CORE I7 FAST PROCESSOR- FULL HD DISPLAY
+
+39.6 cm (15") diagonal, FHD 1920x1080P, micro-edge, BrightView, 220 nits, 45% NTSC
+
+PROCESSOR
+
+Intel® CORE I7- (Up to 4.1 GHz with Intel® Turbo Boost Technology, 6 MB L3 cache, 4 cores)
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/64/2825042/1.jpg?9372",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/64/2825042/2.jpg?9372",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/64/2825042/3.jpg?9372",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/64/2825042/4.jpg?9372",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 5, 5, 5, 4],
+  },
+
+  {
+    id: "0000043",
+
+    name: "TiLECC 10.1 Inch Android Tablet PC 12 Dual Camera Sim 8GB RAM 512GB Bluetooth Fntastic Black",
+
+    category: "Tablets",
+
+    brand: "tilecc",
+
+    price: 129999,
+
+    oldPrice: 699999,
+
+    desc: `
+   Regarding this product: [System and Memory]: The M16 tablet is equipped with the Android 13 system, an eight core processor, and dynamically adjusted to enhance system collaboration stability and compatibility. The M16 tablet is equipped with 8GB RAM 512GB ROM, supporting up to 1TB of memory expansion (via MicroSD/TF card), and can be configured as additional/removable memory. Tablets provide enough space to run applications or store pictures, movies, documents, and books. Provide sufficient space to operate and store applications, e-books, movies, images, and learning files.   [10.1 inch intelligent IPS display]: The M16 tablet adopts a brand new 10.1 inch TFT tablet IPS display and thin film sensor, which can increase the viewing angle and touch sensitivity. Improved screen brightness, color, and adaptability can reduce screen power consumption. The 10000 mAh battery and dynamic adjustment can extend the overall hardware battery life. Use YouTube, YouTube Kids, and Prime Video to get better colors and sound on a 10.1-inch screen.   [Work, Study, and Entertainment]: The tablet supports WPS and Office desktop files, such as WPS, WORD, EXCEL, PPT, PDF, and more file management and editing applications that can be downloaded from the Play Store. The tablet is equipped with a 5-megapixel front camera,
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/07/0932393/1.jpg?5742",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/07/0932393/2.jpg?5742",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/07/0932393/3.jpg?5742",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000095",
+
+    name: "Roomy Corduroy Tote Bag With Wide Shoulder Strap For Women",
+
+    category: "bags",
+
+    brand: "unknown",
+
+    price: 23000,
+    oldPrice: 33000,
+
+    desc: `
+Generous Storage Space: This tote bag boasts a spacious interior, making it an ideal companion for carrying all your daily essentials and more. Whether you're running errands, heading to work, or embarking on a weekend getaway, this bag has got you covered.
+Durable Corduroy Construction: Crafted from high-quality corduroy, this bag combines durability with a touch of timeless elegance. The sturdy material ensures longevity, while the soft texture adds a luxurious feel to your everyday carry.
+Versatile Carrying Options: Equipped with both wide shoulder straps and a detachable crossbody strap, this bag offers versatile carrying options to suit your preferences. Easily switch between shoulder and crossbody modes for maximum comfort and convenience.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/24/3657083/1.jpg?3870",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/24/3657083/2.jpg?0678",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/24/3657083/3.jpg?0678",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 5, 4, 5, 4],
+  },
+  {
+    id: "0000044",
+
+    name: "Maxim MatrixPad Ultra Slim 10.1 HD Display, 6GB + 128GB, 512GB TF Extendable, Android 13.0",
+
+    category: "Tablets",
+
+    brand: "maxim",
+
+    price: 159990,
+
+    oldPrice: 179990,
+
+    desc: `
+   Maxim MatrixPad S13 comes with a 10.1 inch HD display, 6GB RAM, 128GB ROM (expandable up to 512 GB), 4GLTE network, 5G + 2.4G Wifi, Octa-Core processor, Android 13.0 OS, Dual SIM, Dual cameras(8MP rear camera), 5G WiFi Browsing, FM, GPS. What's more, it's featured the Read mode, with which you can enjoy immersive reading in black and white. Complete tasks, enjoy movies on the go, watch online recipes or drama on FaceBook, read E-books, play light games or use offline Google map outdoor. Make your day joyful and convenient.
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/54/1431973/1.jpg?8345",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/54/1431973/2.jpg?8345",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/54/1431973/2.jpg?8345",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000068",
+
+    name: "Apple MacBook Air 13.6 8GB/512GB M2 - Space Grey 2022",
+
+    category: "Laptops",
+
+    brand: "apple",
+
+    price: 1999999,
+    oldPrice: 2999999,
+
+    desc: `
+13.6" Space Grey MacBook Air with M2 Chip - 512GB SSD Laptop
+
+MacBook
+
+Don’t take it lightly Redesigned around the next-generation M2 chip, MacBook Air is strikingly thin and brings exceptional speed and power efficiency within its durable all‑aluminium enclosure. It’s the ultrafast, ultra-capable laptop that lets you work, play or create just about anything — anywhere.
+
+13.6"Retina Display
+
+2560 x 1664Resolution
+
+Apple M2Processor
+
+512GBSSD Capacity
+
+There’s power in silenceThanks to the efficiency of the M2 chip, MacBook Air can deliver amazing performance without a fan — so it stays completely silent, no matter how intense the task.
+
+Puts the earth firstAs responsible as it is durable, MacBook Air features 100 per cent recycled aluminium in its compact enclosure.
+
+Prepare for Take-Off
+4K Recording
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/9534841/1.jpg?9333",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/9534841/2.jpg?6579",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/9534841/3.jpg?6579",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 5, 5, 5, 4],
+  },
+
+  {
+    id: "0000069",
+
+    name: "Ace Elec ACE 14.1'' Intel Celeron J4105 4Core CPU 16GB+512GB Laptop SILVER",
+
+    category: "Laptops",
+
+    brand: "ace elec",
+
+    price: 850000,
+
+    desc: `
+ACE Laptop, 14.1 Inch FHD IPS 16:9 Screen, Intel Celeron Quad Core CPU, 16GB LPDDR4 RAM 128GB Storage, Office 365 1-Year Subscription, Laptops Computer with Numeric Keypad, 4 Stereo Speakers, WiFi.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/74/8526673/1.jpg?0474",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/74/8526673/2.jpg?0474",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/74/8526673/3.jpg?0474",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/74/8526673/4.jpg?0474",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 5, 5, 5, 4],
+  },
+  {
+    id: "0000035",
+
+    name: "Apple IPhone 13 Pro Max - 6.7 - 6GB RAM, 256GB ROM, 5G - Blue",
+
+    category: "Phones",
+
+    brand: "apple",
+
+    price: 1200000,
+
+    desc: `
+  6.7-inch Super Retina XDR display with ProMotion for a faster, more responsive feel
+Cinematic mode adds shallow depth of field and shifts focus automatically in your videos
+Pro camera system with new 12MP Telephoto, Wide, and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording
+12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording
+A15 Bionic chip for lightning-fast performance
+6GB RAM + 256GB ROM
+(12MP + 12MP + 12MP) 
+5G
+6.7-inch Super Retina XDR display with ProMotion for a faster, more responsive feel
+Cinematic mode adds shallow depth of field and shifts focus automatically in your videos
+Pro camera system with new 12MP Telephoto, Wide, and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording
+12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording
+A15 Bionic chip for lightning-fast performance
+6GB RAM + 256GB ROM
+(12MP + 12MP + 12MP) 
+5G
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/54/6252472/1.jpg?8456",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/54/6252472/2.jpg?8456",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 5, 4, 5, 4],
+  },
+
+  {
+    id: "0000038",
+
+    name: "Nokia C10 - 6.5 (2GB RAM, 32GB ROM) Android 11, Dual SIM - GREY",
+
+    category: "Phones",
+
+    brand: "nokia",
+
+    price: 300000,
+
+    desc: `Nokia C10 is the first phone to ditch HMD Global's primarily number-based branding of the smartphones so far. Nokia C10 comes with the traditional smartphone design without any notches, hole-punch, or pop-up cameras. The phone's key highlights include the presence of a quad-core processor, 2GB of RAM, and 3,000mAh battery. HMD Global is pushing it as the first smartphone for consumers coming from a feature phone.
+
+Millions of consumers across markets in Africa, Middle East and APAC will upgrade from a feature phone to their first smartphone “Nokia C10 is a smartphone they can trust bringing quality experiences at an affordable price with 3G connectivity.
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/42/0757962/1.jpg?4343",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/42/0757962/1.jpg?4343",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 5, 4, 5, 4],
   },
 
   {
@@ -541,6 +1459,390 @@ Brand story: SKYRUN was established in 2005. It is a local manufacturing company
     unitLeft: 33,
 
     rating: [4, 5, 3, 3, 5, 4, 5],
+  },
+
+  {
+    id: "0000075",
+
+    name: "DELL ALIENWARE M16 R1 GAMING Intel Core i9-13900HX 1TB SSD 32GB 16 (2560x1600) QHD+ 240Hz WIN11 NVIDIA RTX 4080 12288MB Backlit Keyboard DARK METALLIC MOON",
+
+    category: "Laptops",
+
+    brand: "dell",
+
+    price: 4570000,
+
+    desc: `
+Specifications:
+1. Processor and Performance
+Processor: Intel® Core™ i9-13900HX (13th Generation)
+Base Clock Speed: 2.6 GHz
+Max Turbo Frequency: Up to 5.4 GHz
+Cores: 24 cores (8 Performance + 16 Efficiency)
+Threads: 32 threads
+Cache: 36MB Intel Smart Cache
+The Intel Core i9-13900HX is built for high-end gaming, multitasking, and running resource-intensive applications without breaking a sweat.
+2. Memory and Storage
+RAM: 32GB DDR5 4800MHz
+High-speed memory ensures smooth multitasking, fast load times, and seamless performance even during demanding tasks.
+Storage: 1TB PCIe Gen 4.0 NVMe M.2 SSD
+Enjoy blazing-fast storage for quick boot-ups and load times and ample space to store games, videos, and creative files.
+3. Graphics
+GPU: NVIDIA GeForce RTX 4080 12GB GDDR6
+The RTX 4080 provides outstanding graphics performance for gaming at the highest settings, 4K rendering, and VR-ready experiences. With Ray Tracing and DLSS technology, expect lifelike visuals and enhanced frame rates for smooth gameplay.
+12GB GDDR6 VRAM ensures the ability to handle even the most demanding applications, including professional video editing, 3D rendering, and next-gen gaming.
+4. Display
+Screen Size: 16.0 inches
+Resolution: QHD+ (2560 x 1600)
+Refresh Rate: 165Hz
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/54/5934404/1.jpg?8139",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/54/5934404/2.jpg?8139",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/54/5934404/3.jpg?8139",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 5, 5, 5, 4],
+  },
+
+  {
+    id: "0000085",
+
+    name: "Male Formal Glossy Tassel Brogue Shoes Loafers & Slip-ons Formal Black",
+
+    category: "shoes",
+
+    brand: "unknown",
+
+    price: 27845,
+    oldPrice: 36866,
+
+    desc: `
+The comfortable round head design makes it easy to wear and fits your feet. The anti-collision toe cap releases a comfortable experience. The upper is made of breathable, comfortable and soft fabric, which has a light and shock-absorbing effect. The high-quality rubber sole adopts a non-slip texture design, which is wear-resistant and not easy to slip. It is fashionable and eye-catching. It is very suitable for men who are pursuing trend and unique personality design. The inner lining is made of breathable fabric, which makes it easy to wear and exercise.This pair of shoes is suitable for all men, with fashionable personality and trendy color matching, high-quality workmanship, and a must-have for trendy men.Tips: Measurements are the maximum size,please allow 0.5-1cm tolerance. Compare the chart size with your feet length carefully before ordering. Style: Casual，Sport.Features: Comfortable，Durable，Very Cool.Occasions: Sports、Casual、Office、Outdoor、Dating、Shopping.Free VIP Jumia Express Service，Enjoy package protection to prevent loss of goods.
+Tips1: If you follow the fashion trend, please FOLLOW our shop.Tips2: If you want to enjoy 50% or higher discount shopping, please follow our shop.Tips3: If you are looking for high-quality and inexpensive products, please FOLLOW our shop.Tips: Measurements are the maximum size,please allow 0.5-1cm tolerance. Compare the chart size with your feet length carefully before ordering.Please help me to light up 5 stars when you receive the goods
+`,
+
+    variants: [
+      { size: "EU 41", color: null, isAvailable: true },
+      { size: "EU 42", color: null, isAvailable: false },
+      { size: "EU 43", color: null, isAvailable: true },
+      { size: "EU 44", color: null, isAvailable: true },
+      { size: "EU 45", color: null, isAvailable: false },
+      { size: "EU 46", color: null, isAvailable: true },
+    ],
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/99/2248872/1.jpg?6111",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/99/2248872/2.jpg?6111",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/99/2248872/3.jpg?6111",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [3, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000086",
+
+    name: "NEW ARRIVAL MEN DESIGNERS HIGH STONE SHOES BLACK",
+
+    category: "shoes",
+
+    brand: "unknown",
+
+    price: 31980,
+    oldPrice: 39800,
+
+    desc: `
+effortless style meets comfort in this premium sneakers with durable elevated soles. These amazing running shoes will be your go-to pair for casual outings as its design easily stands the test of combining both fashion and function. Classic, refined, and modern, the upper fabric allows for breathability and the solid heels enable easy traction. The minimalist design means they’re perfect for the boardroom or the bar right after work.
+
+Function: breathable, wear-resistant
+Foot length 41=255,42=260,43=265,44=270
+`,
+
+    variants: [
+      { size: "EU 41", color: null, isAvailable: true },
+      { size: "EU 42", color: null, isAvailable: false },
+      { size: "EU 43", color: null, isAvailable: true },
+      { size: "EU 44", color: null, isAvailable: true },
+      { size: "EU 45", color: null, isAvailable: false },
+      { size: "EU 46", color: null, isAvailable: true },
+    ],
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/78/9856653/1.jpg?4653",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/78/9856653/1.jpg?4653",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [3, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000076",
+
+    name: "Apple MacBook Pro 14 M3 Chip 8GB RAM, 512GB - 2023 - Space Grey",
+
+    category: "Laptops",
+
+    brand: "apple",
+
+    price: 2499000,
+
+    oldPrice: 3000000,
+
+    desc: `
+The 14-inch MacBook Pro blasts forward with M3, an incredibly advanced chip that brings serious speed and capability. With industry-leading battery life—up to 22 hours—and a beautiful Liquid Retina XDR display, it’s a pro laptop without equal. 
+
+SUPERCHARGED BY M3—With an 8-core CPU and 10-core GPU using hardware-accelerated ray tracing, the Apple M3 chip can help you blaze through everyday multitasking and take on pro projects like editing thousands of photos or 4K video.
+
+UP TO 22 HOURS OF BATTERY LIFE¹—Go all day thanks to the power-efficient design of Apple silicon. MacBook Pro delivers the same exceptional performance whether it’s running on battery or plugged in.
+
+RESPONSIVE UNIFIED MEMORY AND STORAGE— 8GB of unified memory makes everything you do fast and fluid. Up to 512GB of superfast SSD storage launches apps and opens files in an instant.²
+
+BRILLIANT PRO DISPLAY—The 14.2-inch Liquid Retina XDR display³ features Extreme Dynamic Range, 1000 nits of sustained brightness for stunning HDR content, up to 600 nits of brightness for SDR content, and pro reference modes for doing your best work on the go.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/21/8501604/1.jpg?0349",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/21/8501604/2.jpg?0349",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 5, 5, 5, 4],
+  },
+
+  {
+    id: "0000080",
+
+    name: "Asus VIVOBOOK PRO 15 INTEL CORE I5 UP TO 4.4GHZ 8GB RAM 512GB SSD NVIDIA 1650 (4GB) WINDOWS 11",
+
+    category: "Laptops",
+
+    brand: "asus",
+
+    price: 9900000,
+    oldPrice: 1100000,
+
+    desc: `
+Dell XPS 13 9350 ( 34T4H74) Ultra 7 15TH GEN 32GB RAM 1TB
+
+Tech Specs
+Processor
+
+Intel® Core™ Ultra 7 258V (8 cores, up to 4.8 GHz)
+
+Operating System
+
+Windows 11 Home, Copilot+ PC
+
+Graphics Card
+
+Intel® Arc™ graphics
+
+Display
+
+13.4", Touch, 3K 2880x1800, 60Hz, OLED, Anti-Reflect, 400 nit, InfinityEdge, Eyesafe®
+
+Memory
+
+ 
+
+32GB, LPDDR5X, 8533MT/s, integrated
+
+Storage
+
+1TB M.2 PCIe NVMe Solid State Drive
+
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/5331304/1.jpg?5410",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/5331304/2.jpg?5410",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/5331304/3.jpg?5410",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/5331304/4.jpg?5410",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [4, 3, 3, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000081",
+
+    name: "ADIDAS Advantage Lifestyle Court Lace Shoes",
+
+    category: "shoes",
+
+    brand: "adidas",
+
+    price: 30600,
+    oldPrice: 61200,
+
+    desc: `
+These kids' adidas lace-up sneakers are great for school, sports clubs and all the play that kids fit in between. They're made with a smooth, synthetic upper for a comfortable feel. A sturdy rubber outsole offers dependable traction.
+
+Made with a series of recycled materials, this upper features at least 50% recycled content. This product represents just one of our solutions to help end plastic waste.
+
+
+`,
+
+    variants: [
+      { size: "EU 28", color: null, isAvailable: true },
+      { size: "EU 29", color: null, isAvailable: true },
+      { size: "EU 30", color: null, isAvailable: true },
+      { size: null, color: "black", isAvailable: true },
+    ],
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/57/8904491/1.jpg?0570",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/57/8904491/2.jpg?4398",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/57/8904491/3.jpg?4398",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [4, 3, 3, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000036",
+
+    name: "Bontel 5606,1.77,3000mah Battery,dual Sim,spot Light, Blue",
+
+    category: "Phones",
+
+    brand: "bontel",
+
+    price: 14000,
+
+    desc: `
+ The Bontel 5606 is a affordable feature phone, that comes with 1.77inch screen, Dual SIM phone with 3,000mah big battery Capacity that last long.    Bontel 5606 can connect with wireless FM radio, support up to 32 GB expandable memory dare, spotlight and side torch key . It has digital camera and BT support. It is easy to use and mode. 
+The Bontel 5606 is a affordable feature phone, that comes with 1.77inch screen, Dual SIM phone with 3,000mah big battery Capacity that last long.    Bontel 5606 can connect with wireless FM radio, support up to 32 GB expandable memory dare, spotlight and side torch key . It has digital camera and BT support. It is easy to use and mode. 
+The Bontel 5606 is a affordable feature phone, that comes with 1.77inch screen, Dual SIM phone with 3,000mah big battery Capacity that last long.    Bontel 5606 can connect with wireless FM radio, support up to 32 GB expandable memory dare, spotlight and side torch key . It has digital camera and BT support. It is easy to use and mode. 
+The Bontel 5606 is a affordable feature phone, that comes with 1.77inch screen, Dual SIM phone with 3,000mah big battery Capacity that last long.    Bontel 5606 can connect with wireless FM radio, support up to 32 GB expandable memory dare, spotlight and side torch key . It has digital camera and BT support. It is easy to use and mode. 
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/63/727144/1.jpg?5468",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/63/727144/2.jpg?5468",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 5, 4, 5, 4],
+  },
+
+  {
+    id: "0000037",
+
+    name: "Samsung Galaxy S10, 6.1 (8GB + 128GB ROM) Single Sim - Black",
+
+    category: "Phones",
+
+    brand: "samsung",
+
+    price: 290000,
+
+    desc: `
+ Brand / Model Samsung Galaxy S10System OS Android 9.0CPU Exynox 9820 / Qualcomm Snapdragon 855 Octa Core 2.8GHzGPU Adreno 640RAM 8 GBROM 128 GB Extend card No supports SD Memory Card (TF-Card)ScreenDisplay Size 6.1 inch Quad HD+Screen Resolution 3040 x 1440Screen Type Super AMOLED HDR10+General Languages Default English, Etotalk Mod ROM has, Italian, Czech, German, Russian, Portuguese, Spanish, French, Dutch, Polish, Romanian, Danish, Greek, Brazil Portuguese, Croatian, Latvian, Lithuanian, Hungarian, Afrikaner, Ethiopic, Indonesian, Malay, Catalan, Norwegian, Roma, Slovak, Slovenian, Finnish, Swedish, Swahili, Filipino, Indonesian, Vietnamese, Turkish, Zulu, Bulgarian, Serbian, Ukrainian, Persian, Hindi, Thai, Korean, Japanese, Arabic, Hebrew, others please ask, (If you need your local language menu, please choose Etotalk Mod ROM.)Dimensions 162.6x77.1x7.94mmColor Silver /  BlackNet Weight 198gCameraFront Camera 10.0 mega pixelRear Camera 12.0 mega pixel 12.0 mega pixel 16.0 mega pixel Four CameraBand2G GSM: 850 / 900 / 1800 / 1900 MHz3G WCDMA: 850 / 900 / 1900 / 2100 MHz4G TDD-LTE: B34 / B39(1900MHz) / B40(2300MHz) / B41(2500MHz)FDD-LTE: B1(2100MHz) / B2(1900MHz) / B3(1800MHz) / B4(1700MHz) / B5(850MHz) / B7(2600MHz) / B8(900MHz) / B12(700MHz) / B13(700MHz) / B18(800MHz) / B19(800MHz) / B20(800MHz) / B25(1900MHz) / B26(850MHz) / B28(700MHz)5G 5G NR： / N260 (39GHz) / N261 (28GHz)SAR 0.5 W/KgSIM Card Slot Single SIMNano Sim, LTE/WCDMA/GSMData Transfer & ConnectivityData transfer Bluetooth 5.0 USB 3.1 Type-CMobile internet WiFi, EDGE, GPRS, UMTS, HSPA, HSPA+, FDD LTEGPS GPS Glonass BeidouFunctions / FeaturesFunctions / Features G-sensor, P-Sensor, L-Sensor, Wifi, GPS, OTG, Multi-touch, E-compass, Hall IC, NFC, Front Fingerprint Scanner, Single Sim, Air Pressure SensorSensor Gravity Sensor ,  Proximity Sensor ,  Light Sensor ,  Magnetic Sensor ,  Gyroscope SensorBattery Built-in Li-pol Battery 3400mAh
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/4149552/1.jpg?6813",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/4149552/2.jpg?6813",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/4149552/3.jpg?6813",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 5, 4, 5, 4],
   },
 
   {
@@ -667,6 +1969,79 @@ A collaborative approach to work requires a powerful, secure, and durable laptop
   },
 
   {
+    id: "0000033",
+
+    name: "itel A18s 5.0 Screen, 32GB + 2GB RAM, 3020mAh Battery,- Orange",
+
+    category: "Phones",
+
+    brand: "itel",
+
+    price: 72290,
+
+    desc: `Description-A18s
+Multi-Functions Fingerprint
+Multi Functions Fingerprint SensorFingerprint sensor is not just for unlock. A18 come with multi functions fingerprint sensor which allow you to unlock apps, take photos, record videos, answer phone calls, record phone calls, stop alarm clock, even customize any of your fingerprints as unique shortcut to launch apps in a second.
+
+32GB, More Space For Storageitel A18 come with 32GB internal memory, available memory has 140% increase if compare to A32F, which means there is about 12GB will be available on A18 Other than that, the optimized Android Go OS with new and reimagined pre-installed apps, now your  plus has more free space to save photos, videos and install more apps.
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/17/4381452/1.jpg?9028",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/17/4381452/2.jpg?9028",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 5, 4, 5, 4],
+  },
+
+  {
+    id: "0000034",
+
+    name: "Samsung Galaxy S20 5G,Single SIM -Grey +pouch & Screen Guard",
+
+    category: "Phones",
+
+    brand: "samsung",
+
+    price: 315000,
+
+    desc: `
+    Brand / ModelBrand / Model Samsung Galaxy S20 5G G981USystemOS Android 10CPU Qualcomm Snapdragon 865 Octa Core 2.8GHzRAM 8GBROM 128 GBExtend card MAX supports 512GB Class 10 Micro SD Memory Card (TF-Card)ScreenDisplay Size 6.2 inch Quad HD+Screen Resolution 3200 x 1440Screen Type AMOLEDGeneralLanguages Default English, Etotalk Mod ROM has, Italian, Czech, German, Russian, Portuguese, Spanish, French, Dutch, Polish, Romanian, Danish, Greek, Brazil Portuguese, Croatian, Latvian, Lithuanian, Hungarian, Afrikaner, Ethiopic, Indonesian, Malay, Catalan, Norwegian, Roma, Slovak, Slovenian, Finnish, Swedish, Swahili, Filipino, Indonesian, Vietnamese, Turkish, Zulu, Bulgarian, Serbian, Ukrainian, Persian, Hindi, Thai, Korean, Japanese, Arabic, Hebrew, others please ask, (If you need your local language menu, please choose Etotalk Mod ROM.)Dimensions 151.7x69.1x7.9mmColor Gray /  Blue /  PinkNet Weight 163gCameraFront Camera 10.0 mega pixelRear Camera 12.0 mega pixel 64.0 mega pixel 12.0 mega pixel Tri-lens CameraBand2G GSM: 850 / 900 / 1800 / 1900 MHz3G WCDMA: 850 / 900 / 1900 / 2100 MHz4G TDD-LTE: B34 / B39(1900MHz) / B40(2300MHz) / B41(2500MHz)FDD-LTE: B1(2100MHz) / B2(1900MHz) / B3(1800MHz) / B4(1700MHz) / B5(850MHz) / B7(2600MHz) / B8(900MHz) / B12(700MHz) / B13(700MHz) / B18(800MHz) / B19(800MHz) / B20(800MHz) / B25(1900MHz) / B26(850MHz) / B28(700MHz)5G 5G NR： / N41(2500Mhz) / N78(3500MHz) / N79(4500MHz)SAR 0.5 W/KgSIM Card Slot Single SimSim 1: Nano Sim/Micro SD, LTE/WCDMA/GSMData Transfer & ConnectivityData transfer Bluetooth 5.0 USB 3.1 Type-CMobile internet WiFi, EDGE, GPRS, UMTS, HSPA, HSPA+, FDD LTEGPS GPSFunctions / FeaturesFunctions / Features G-sensor, P-Sensor, L-Sensor, Wifi, GPS, OTG, Multi-touch, Single SIM, E-compass, Hall IC, NFC, IR Sensor, Face ID, Air Pressure Sensor, Screen Fingerprint ScannerSensor Gravity Sensor ,  Proximity Sensor ,  Light Sensor ,  Magnetic Sensor ,  Gyroscope SensorBatteryBattery Built-in Li-pol Battery 4000mAhWhat's in the box1 x Headset 1 x Micro-USB connector1 x Owner's Manual1 x Power adapter1 x SIM card removal tool1 x Device1 x USB connector (USB-C)1 x USB-C cable
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/91/0412342/1.jpg?9713",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/91/0412342/2.jpg?9713",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 5, 4, 5, 4],
+  },
+
+  {
     id: "0000014",
 
     name: "Haier Thermocool 1.25kVA/1kW Single Phase Petrol Generator (1500MS)",
@@ -715,6 +2090,61 @@ Our fuel efficient generators saves extra fuel cost.
     unitLeft: 23,
 
     rating: [4, 5, 4, 5, 5, 5, 5],
+  },
+
+  {
+    id: "0000087",
+
+    name: "Baby Girls Cute Summer Soft Pink Jelly Sandals With Bow",
+
+    category: "shoes",
+
+    brand: "unknown",
+
+    price: 5500,
+    oldPrice: 9000,
+
+    desc: `
+Beautiful soft pink adorable shoes for your adorable daughters. This cute pair of rubber jelly sandals are comfortable, lovely and very easy to wear. Your adorable little daughter will absolutely love it.
+These girls' sandals are sure to keep your little ones feet cool as well as stylish this summer. Their touch fasten strap makes them ideal for both quick and easy fitting whilst ensuring that their feet stay secure. 
+Make a pretty new statement in her Spring/Summer wardrobe this year with a pair of these ever so cute girls pink easy fasten sandals by with bow. They showcase an easy fasten strap meaning they provide quick and easy fitting and are perfect for on the go, everyday wear during the warmer months. Additionally, these sandals feature fine stitch detailing, a fully gripped outer sole, beautiful details and an open toe front. Perfect for Summer holidays, garden parties and everyday wear for your little one this season and all season. 
+
+Rubber sole
+Cushioned lining for increased all-day comfort
+High quality materials, soft, breathable and comfortable.
+Non-slip sole: Synthetic sole provides a good skid and wear resistance.
+An Ideal Choice For Summertime and Holidays---This open-toe sandals come with an adjustable strap, giving her a comfortable fit that moves with her. Perfect for the beach or any summer assemble. 
+`,
+
+    variants: [
+      { size: "EU 24", color: null, isAvailable: true },
+      { size: "EU 25", color: null, isAvailable: true },
+      { size: "EU 26", color: null, isAvailable: true },
+      { size: "EU 27", color: null, isAvailable: true },
+      { size: "EU 28", color: null, isAvailable: false },
+      { size: "EU 30", color: null, isAvailable: false },
+    ],
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/37/2329622/1.jpg?1576",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/37/2329622/2.jpg?2987",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/37/2329622/3.jpg?2987",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/37/2329622/4.jpg?1664",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [3, 4, 4, 3, 4, 5, 4],
   },
 
   {
@@ -971,6 +2401,183 @@ Backlit Magic Keyboard and Touch ID for secure unlock
   },
 
   {
+    id: "0000093",
+
+    name: "Women Shoulder Messenger Bag Chain Crossbody Ladies Bags",
+
+    category: "bags",
+
+    brand: "unknown",
+
+    price: 7060,
+    oldPrice: 9200,
+
+    desc: `
+Feature:
+Fashion pure color, shoulder bag.
+PU leather material, stylish and durable.
+
+Specification:
+Texture: PU
+Size: 21*8*14cm
+Shoulder strap height: 50cm
+Shoulder strap style: single
+Closing method: zipper
+Pattern: plain
+With or without interlayer: None
+Applicable scene: Leisure
+Applicable object: Youth
+Popular style name: underarm bag
+Function: shoulder bag, handbag
+Color: Black/Brown/Pink/White
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/41/7819543/1.jpg?5614",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/41/7819543/2.jpg?5614",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/41/7819543/3.jpg?5614",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/41/7819543/4.jpg?5614",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 5, 4, 5, 4],
+  },
+
+  {
+    id: "0000094",
+
+    name: "12 Litre Insulated Lunch Box Black",
+
+    category: "bags",
+
+    brand: "unknown",
+
+    price: 13500,
+    oldPrice: 19999,
+
+    desc: `
+LARGE CAPACITY: Two zipped compartments, 1 zipped front pocket and 1 internal mesh pocket give you plenty of space for your lunch boxes, containers, drinks, fruit and other food items. The front pocket is designed to hold napkins and personal items, making it easier to organise and find your belongings (27*20*22 cm/10.2*7.4*8.2 inches).
+
+The 8 mm thick PEVA foam lining maintains hot and cold temperatures for 8 to 10 hours, improving the quality, freshness and taste of your food.
+
+INSULATION AND WATERPROOFING: The inner layer is made of aluminium foil (food-grade and with low thermal conductivity), which is highly insulating and keeps your food hot and cold for longer. The thick, soft PEVA lining is easy to clean and the dense seams make the bag extremely hard-wearing and prevent leaks.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/97/0592182/1.jpg?2599",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/97/0592182/2.jpg?2599",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/97/0592182/3.jpg?2599",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/97/0592182/4.jpg?2599",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 5, 4, 5, 4],
+  },
+
+  {
+    id: "0000047",
+
+    name: "XIAOMI Redmi Pad SE 8.7 4GB RAM / 128GB ROM Android 13 - Grey",
+
+    category: "Tablets",
+
+    brand: "xiaomi",
+
+    price: 170318,
+
+    desc: `
+Redmi Pad SE 8.7 enhances visual comfort and audio immersion for a well-rounded entertainment offering. CertifieTÜV Rheinland for Low Blue Light and Flicker Free, along with fast DC dimming, the tablet aims to reduce eye strain and provide a comfortable reading and web browsing experience. It also offers two distinct reading modes to cater different user preferences — Paper Reading mode mimics a physical book, while Classic mode provides a traditional digital experience. These modes ensure a comfortable and personalized experience.
+
+For audio, Redmi Pad SE 8.7 is equipped with dual stereo speakers that deliver immersive sound. Supported by DolbAtmos®, the tablet delivers enhanced audio quality. Whether streaming content, listening to music, or engaging in mobile gaming, Redmi Pad SE 8.7 provides a satisfying blend of visual and audio enhancements.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/8440473/1.jpg?6137",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/8440473/2.jpg?6137",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/8440473/3.jpg?6137",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000048",
+
+    name: "XIAOMI Redmi Pad Pro 5G 12.1 6GB RAM / 128GB ROM Xiaomi HyperOS, Android U - Grey",
+
+    category: "Tablets",
+
+    brand: "xiaomi",
+
+    price: 470071,
+
+    desc: `
+12.1-inch 2.5K ultra-clear display
+Professional-grade eye protection screen
+
+Enjoy a more comfortable large-screen experience with a 12.1-inch flagship display featuring a classic 16:10 aspect ratio, whether you're reading, gaming, or watching movies. With 2.5K ultra-clear WQHD+ resolution and 249 ppi, the display delivers professional-level performance with crystal-clear detail precision.
+
+120Hz AdaptiveSync
+High refresh rate and high brightness
+Smoother user experience
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/71/1560473/1.jpg?9428",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/71/1560473/2.jpg?9428",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 3, 4, 5, 4],
+  },
+
+  {
     id: "0000020",
 
     name: "Apple 20Watts USB-C Power Adapter - 3 Pins",
@@ -1012,6 +2619,1907 @@ Charge your iPhone or iPad without a computer thanks to the Apple 20 W USB Type-
     unitLeft: 23,
 
     rating: [4, 5, 4, 3, 4, 5, 5],
+  },
+
+  {
+    id: "0000021",
+
+    name: "Samsung Galaxy S8+ S8 Plus LTE Android Cell Phone 6.2 12MP (4GB, 64GB ROM)- Blue",
+
+    category: "Phones",
+
+    brand: "samsung",
+
+    price: 250000,
+
+    desc: `
+The Samsung S8+(Plus) is not afraid to show off its smarts! 
+
+
+A combination of user-friendly features and innovative design make this one of the best of its range. Bring your best moments to life with the 8MP and 12MP front and back cameras respectively, you'll create powerful memories. Downloads, charging, and switching to incredibly fast speeds thanks to its octa core 10nm processor, the world's first. Gaming enthusiasts want to enjoy the life-like immersion that the 5.8 inch super AMOLED screen provides. Designed to take spills, splashes, and dunks, and still keep going, enjoy the super smart Samsung S8.  
+
+
+    `,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/747534/1.jpg?5026",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/747534/2.jpg?5026",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 23,
+
+    rating: [4, 5, 4, 5, 4, 5, 5],
+  },
+
+  {
+    id: "0000022",
+
+    name: "Tecno CAMON 20 Pro 5G Doodle Edition - 6.67 (256GB/8GB) 5000mAh",
+
+    category: "Phones",
+
+    brand: "tecno",
+
+    price: 390000,
+
+    desc: `Tecno Camon 20 Pro 5G Mr. Doodle Edition is the world-first graffiti-art style back cover designed in collaboration with the graffiti artist Mr Doodle. The doodle design is available on the Camon 20 Pro 4G, the Camon 20 Pro 5G, and the Camon 20 Premier Edition. In regards to specs, this 5G model is similar to its regular variant. It features a 6.67 inches, a custom user interface, triple camera lenses and powered by Mediatek Dimensity 8050 processor with 8GB of RAM and backed up by 5000mAh battery with 33W fast charging. `,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/21/5196704/1.jpg?3533",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/21/5196704/2.jpg?3533",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 23,
+
+    rating: [4, 5, 4, 5, 4, 5, 5],
+  },
+
+  {
+    id: "0000083",
+
+    name: "Men's Industrial Safety Boots With Steel Toe, Kevlar Midsole",
+
+    category: "shoes",
+
+    brand: "unknown",
+
+    price: 63000,
+    oldPrice: 65000,
+
+    desc: `
+ Men's Industrial Safety Boots with Steel Toe and Kevlar Midsole
+
+When it comes to workplace safety and comfort, our Men's Industrial Safety Boots with Steel Toe and Kevlar Midsole stand out as the ultimate choice for the modern professional. Designed for durability and engineered for performance, these boots are perfect for construction sites, factories, and any demanding environment.
+
+Unmatched Protection
+
+Safety is paramount, and our boots deliver with a robust steel toe cap that meets rigorous safety standards. This feature ensures your toes are shielded from heavy objects and accidental impacts, providing you with peace of mind on the job. Additionally, the Kevlar midsole offers exceptional puncture resistance, protecting your feet from sharp materials on the ground.
+`,
+
+    variants: [
+      { size: "EU 41", color: null, isAvailable: true },
+      { size: "EU 42", color: null, isAvailable: false },
+      { size: "EU 43", color: null, isAvailable: true },
+      { size: "EU 44", color: null, isAvailable: true },
+      { size: "EU 45", color: null, isAvailable: true },
+      { size: "EU 46", color: null, isAvailable: true },
+    ],
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/25/7607993/1.jpg?0280",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/25/7607993/2.jpg?0280",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/25/7607993/3.jpg?0280",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/25/7607993/4.jpg?0280",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [3, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000084",
+
+    name: "NEW ARRIVAL SHINING STONE UP DESIGNERS SHOE BLACK",
+
+    category: "shoes",
+
+    brand: "unknown",
+
+    price: 28400,
+    oldPrice: 39800,
+
+    desc: `
+Introducing our latest collection of men's lace-up brogues, now available on Jumia!
+
+You should expect to find a pair of high-quality and well-crafted shoes. Brogue shoes are characterized by their perforated detailing, typically on the toe cap, and serrated edges along the seams. They are typically made from high-quality materials such as leather, which gives them a polished and sophisticated look. The shoes should come in a box and wrapped in tissue paper or other protective materials. They should be laced up and ready to wear. The soles should be made of sturdy materials such as rubber or leather, providing good grip and durability.
+`,
+
+    variants: [
+      { size: "EU 41", color: null, isAvailable: true },
+      { size: "EU 42", color: null, isAvailable: false },
+      { size: "EU 43", color: null, isAvailable: true },
+      { size: "EU 44", color: null, isAvailable: true },
+      { size: "EU 45", color: null, isAvailable: false },
+      { size: "EU 46", color: null, isAvailable: true },
+    ],
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/24/3088183/1.jpg?5786",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/24/3088183/1.jpg?5786",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [3, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000023",
+
+    name: "Realme Note 50 Dual SIM 4GB RAM 128GB 4G",
+
+    category: "Phones",
+
+    brand: "realme",
+
+    price: 128200,
+
+    oldPrice: 159900,
+
+    desc: `Large 6.74-inch display
+Secondary camera resolution 5 MP
+Charging Type: Type-C
+Number of SIM Cards Dual SIM Cards
+Secondary camera 5 - 7.9 MP
+RAM size 3 GB
+The battery capacity is 5000 mAh
+RAM 64 GB
+Product weight 186 grams
+Edition: Middle East Edition
+The screen size is 6.74 inches
+SIM type Nano SIM
+Color name Sky Blue
+Display type IPS LCD
+OS version Android 13
+Operating system Android
+Voice call function Yes
+Operating system number Realme UI T
+Processor number T612
+Fast charging Yes
+What's in the box Earpiece, adapter, USB cable, quick guide, warranty card
+Network Frequency Bands GSM/LTE/UMTS
+Processor name Unisoc
+Number of cores: Eight cores
+Main camera function sheet
+Model 2024
+Network type 4G
+Condition New
+Product length 167.2 mm
+Product height 8 mm
+Product width/depth 76.7 mm
+Sensor: Accelerometer, proximity sensor, fingerprint scanner
+Model RMX3834
+Model name: realme Note 50
+Main camera (MP) 13`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/57/7136773/1.jpg?0928",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/57/7136773/2.jpg?0928",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/57/7136773/3.jpg?0928",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/57/7136773/4.jpg?0928",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 23,
+
+    rating: [4, 3, 4, 5, 4, 5, 5],
+  },
+
+  {
+    id: "0000024",
+
+    name: "itel RS4 256GB ROM+8 GB RAM Silvery White",
+
+    category: "Phones",
+
+    brand: "itel",
+
+    price: 159900,
+
+    oldPrice: 250000,
+
+    desc: `Display120Hz 6.56'' Punch-hole HD+ Display
+Battery Capacity5000mAh
+Charging45W PowerCharge
+Processor Helio G99 Ultimate Gaming Processor
+Memory 256GB ROM+8 GB RAM
+Front Camera 8MP
+Display
+120Hz 6.56'' Punch-hole HD+ Display
+Battery Capacity5000mAh
+Charging45W PowerCharge
+ProcessorHelio G99 Ultimate Gaming Processor
+Memory 256GB ROM+24(12+12) GB RAM
+Front Camera 8MPRear Camera 50MP
+Photography Functions
+50MP Mode, Super Night Mode, AI Clear Portrait, Magic Sky-change Mode, 10x Zoom, Filters, AI Scene Recognition, HDR Mode, Pro Mode, Panorama, Slow Motion, Time-lapse, etc.
+System itel OS 13
+Weight198g
+Thickness8.15mm
+Display120Hz 6.56'' Punch-hole HD+ Display
+Battery Capacity5000mAh
+Charging45W PowerCharge
+ProcessorHelio G99 Ultimate Gaming Processor
+Memory 256GB ROM+24(12+12) GB RAM
+Front Camera 8MP
+Display
+120Hz 6.56'' Punch-hole HD+ Display
+Battery Capacity5000mAh
+Charging45W PowerCharge`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/48/5662933/1.jpg?2485",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/48/5662933/2.jpg?2479",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/48/5662933/3.jpg?2485",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/48/5662933/4.jpg?2485",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 43,
+
+    rating: [4, 3, 4, 5, 4, 5, 5],
+  },
+
+  {
+    id: "0000025",
+
+    name: "Infinix Smart 9HD 6.7 4GB RAM/64GB ROM Titanium",
+
+    category: "Phones",
+
+    brand: "infinix",
+
+    price: 136211,
+
+    desc: `Smart 9HD
+
+You can take advantage of a wide range of outstanding features that complement your lifestyle with the amazing Infinix SMART 9HD phone. You can show off your flair everywhere you go with this phone, which has a sizable 5000 mAh battery, up to 6 GB of RAM, and a 16.76 cm (6.7) -INCH Display that makes every image come to life. Also, you can enhance your online appearance with the SMART 9' 13MP Dual Camera, which is crisp and clear. The powerful Dual Flash provides you with the optimal lighting to spotlight your subject while it is possible 
+
+Massive Battery
+With the amazing 5000 Mah battery on the Infinix SMART 9HD smartphone, get through your day and stay productive. Leveraging it, a single charge allows you to enjoy up to 10 movies or listen to over 1200 songs. so, the 10Watt charging capability allows you to quickly recharge your phone.
+Powerful RAM
+This phone's capability for up to 4GB of RAM and 64GB of internal storage makes multitasking a pleasure. Thus, you can store whatever you need and run quite as many apps as you like without experiencing any hassles.`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/76/9228483/1.jpg?5383",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/76/9228483/2.jpg?5383",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/76/9228483/3.jpg?5383",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/76/9228483/4.jpg?5383",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 43,
+
+    rating: [4, 3, 4, 5, 4, 5, 5],
+  },
+
+  {
+    id: "0000026",
+
+    name: "XIAOMI Redmi A3 Pro 6.88 4GB RAM / 128GB ROM Android 14 - Midnight Black",
+
+    category: "Phones",
+
+    brand: "xiaomi",
+
+    price: 118895,
+
+    oldPrice: 121895,
+
+    desc: `Type:IPS LCD
+Aspect Ratio and PPI:260 ppi density
+Size: 6.88 inches, 112.4 cm2 (~84.0% screen-to-body ratio)
+Refresh Rate: 120 Hz
+Resolution: 720 x 1640 pixels
+Peak brightness (nit): 120Hz, 450 nits (typ), 600 nits (HBM)
+Features: IPS LCD
+Dimensions: 171.9 x 77.8 x 8.2 mm (6.77 x 3.06 x 0.32 in)
+Weight: 204 / 207 / 211 g (7.20 oz)
+Sensors: Fingerprint (side-mounted), accelerometer, compass
+3.5mm Jack
+NFC: (market/region dependent)
+USB: Type-C 2.0
+Loudspeaker Loudness (dB): Yes
+SIM Card Type: Nano-SIM, dual stand-by
+Number of SIM Area: Dual SIM
+Wi-Fi 802.11 a/b/g/n/ac, dual-band
+Bluetooth: 5.4, A2DP, LE
+Mediatek Helio G81 Ultra
+CPU:Octa-core 2.0 GHz
+GPU: Mali-G52 MC2
+Android 14, HyperOS
+Memory: 4GB /128GB
+SD Card Slot: microSDXC (dedicated slot)
+Battery Capacity: 5160 mAh
+Type: 18W
+Fast Charging: Yes`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/13/2297973/1.jpg?8671",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/13/2297973/2.jpg?8671",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/13/2297973/3.jpg?8671",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/13/2297973/4.jpg?8671",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 43,
+
+    rating: [4, 3, 3, 5, 4, 3, 5],
+  },
+
+  {
+    id: "0000027",
+
+    name: "Samsung Galaxy Z Fold 5 5G 12GB 512GB ROM Dual Sim - Black",
+
+    category: "Phones",
+
+    brand: "samsung",
+
+    price: 2400000,
+
+    oldPrice: 2500000,
+
+    desc: `The Galaxy Z Fold5 of 2023 focuses on much-needed camera upgrades and throws in some subtle physical polishing, all the while maintaining the core concept of the productivity-driven phone-turns-tablet form factor.
+
+The camera setup of the Z Fold3,  Z fold4 used some relatively ancient hardware, and the new model changes most of it. Having in principle the same wide-ultra wide-telephoto arrangement, the Z Fold5 gets more reach on the long end and a larger sensor main camera, while the ultra-wide remains untouched. Mind you, it's still not a cutting-edge configuration - it's almost the same as the one on the Galaxy S22 (+) with some fine print in the autofocusing section.
+
+In the physical touches, we're seeing that the bezels have been trimmed down, the outer screen has adopted a slightly less tall aspect (still taller than virtually anything), and the whole thing now weighs ever so slightly less - all evolutionary changes that may or may be spotted in practice. It's certainly not the gapless foldable we've all been droning on that Samsung should make, while Chinese manufacturers are, in fact, making.
+
+Speaking of the display, the foldable inner panel maintains the numbers of the old model the diagonal is 7.6 inches refresh rate mazes out at 120Hz, and it's a granularly adaptive refresh rate, as befitting the Fold's high-end status. The outer panel matches the big one for refresh rate capability, and while the diagonal remains unchanged from the predecessor at 6.2 inches, the new aspect should make it slightly more convenient while also marginally increasing the usable area.`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/68/9527973/1.jpg?8992",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/68/9527973/2.jpg?8992",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/68/9527973/3.jpg?8992",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 43,
+
+    rating: [4, 5, 5, 5, 4, 5, 5],
+  },
+
+  {
+    id: "0000028",
+
+    name: "Google Pixel Pixel 9 Pro Fold 256GB ROM 16GB RAM Nano SIM - Obsidian",
+
+    category: "Phones",
+
+    brand: "google",
+
+    price: 2350000,
+
+    desc: `Meet Pixel 9 Pro Fold with Gemini. It's engineered by Google and brings you the best of Google’s AI first. With a display of epic proportions, you can multitask in Split Screen and enjoy immersive entertainment. Snap brilliant selfies with the powerful rear camera, and use tabletop mode for hands-free pics. Pixel 9 Pro Fold is built to last. With a sturdy hinge and Corning® Gorilla® Glass Victus® 2 on the outer display and back, it can handle life's little "oops" moments. Pixel 9 Pro Fold easily fits in your pocket. And its elegant design features smooth matt glass and a sleek metal finish. Immerse yourself in entertainment and ease through daily tasks with the 8" Super Actua Flex inner display and 6.3" Actua outer display. Google Tensor G4 is Pixel's fastest, most powerful chip yet. It powers Google’s AI for innovative camera features, seamless multitasking and more help throughout the day. The Pixel 9 Pro Fold battery charges quickly and can last over 24 hours. Turn on Extreme Battery Saver, and it can last up to 72 hours. `,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/85/0934483/1.jpg?9656",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/85/0934483/2.jpg?9656",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 43,
+
+    rating: [4, 4, 5, 5, 4, 5, 4],
+  },
+
+  {
+    id: "0000074",
+
+    name: "Lenovo LEGION 5 GAMING 14TH GEN INTEL CORE I7 5.2GHZ 16GB RAM 1TB SSSD RTX 4060 (8GB) 16 WQXGA WINS 11",
+
+    category: "Laptops",
+
+    brand: "lenovo",
+
+    price: 2955000,
+
+    oldPrice: 3100000,
+
+    desc: `
+LENOVO 15 GAMING 16IRX9 LAPTOP
+
+
+High-Speed Memory & Storage 
+
+High-End Performance CPU] Latest powerful and efficient 14th Generation Intel i7-14650HX Processor (Up to 5.2 GHz with Intel Turbo Boost Technology, 30 MB Intel Smart cache, 16 Cores, 24 Threads)
+
+16" WQXGA 165Hz Display] 2560 x 1600 pixels, IPS, 350 nits, Anti-glare, 100% sRGB, 165Hz, Dolby Vision, G-SYNC, Low Blue Light, 165Hz, Thin Bezel LCD; Powered by [NVIDIA GeForce RTX 4060] with 8GB GDDR6
+
+Connection & Ports] Wi-Fi 6E (2x2) 802.11AX and Bluetooth 5.2 Combo; 1x USB 3.2 Gen 2 Type-C support Power Delivery / DisplayPort / 10Gbps, 1x USB 3.2 Gen 2 Type-C support DisplayPort / 10Gbps, 1x USB 3.2 Gen 1 Type-A support Always On / 5Gbps, 2x USB 3.2 Gen 1 Type-A support 5Gbps, 1x RJ-45, 1x HDMI v2.1, 1x Headphone and microphone combo 
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/42/0537104/1.jpg?7346",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/42/0537104/2.jpg?7346",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/42/0537104/3.jpg?7346",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/42/0537104/4.jpg?7346",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 5, 5, 5, 4],
+  },
+
+  {
+    id: "0000077",
+
+    name: "Hp 15 VICTUS GAMING, 12TH GEN INTEL CORE I5, 16GB RAM, 512GB SSD,4GB NVIDIA RTX 3050 WINS 11",
+
+    category: "Laptops",
+
+    brand: "hp",
+
+    price: 1339000,
+
+    oldPrice: 1560000,
+
+    desc: `
+The 14-inch MacBook Pro blasts forward with M3, an incredibly advanced chip that brings serious speed and capability. With industry-leading battery life—up to 22 hours—and a beautiful Liquid Retina XDR display, it’s a pro laptop without equal. 
+
+SUPERCHARGED BY M3—With an 8-core CPU and 10-core GPU using hardware-accelerated ray tracing, the Apple M3 chip can help you blaze through everyday multitasking and take on pro projects like editing thousands of photos or 4K video.
+
+UP TO 22 HOURS OF BATTERY LIFE¹—Go all day thanks to the power-efficient design of Apple silicon. MacBook Pro delivers the same exceptional performance whether it’s running on battery or plugged in.
+
+RESPONSIVE UNIFIED MEMORY AND STORAGE— 8GB of unified memory makes everything you do fast and fluid. Up to 512GB of superfast SSD storage launches apps and opens files in an instant.²
+
+BRILLIANT PRO DISPLAY—The 14.2-inch Liquid Retina XDR display³ features Extreme Dynamic Range, 1000 nits of sustained brightness for stunning HDR content, up to 600 nits of brightness for SDR content, and pro reference modes for doing your best work on the go.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/45/0363162/1.jpg?0913",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/45/0363162/2.jpg?0913",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/45/0363162/3.jpg?0913",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/45/0363162/4.jpg?0913",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 5, 5, 5, 4],
+  },
+
+  {
+    id: "0000029",
+
+    name: "Apple IPhone 16 Pro Max - 8GB - 256GB -5G - Black Titanium",
+
+    category: "Phones",
+
+    brand: "apple",
+
+    price: 2299000,
+    oldPrice: 3000000,
+
+    desc: `STUNNING TITANIUM DESIGN—iPhone 16 Pro Max has a strong and light titanium design with a larger 6.9-inch Super Retina XDR display. It’s remarkably durable with the latest-generation Ceramic Shield material that’s 2x tougher than any smartphone glass.
+
+BUILT FOR APPLE INTELLIGENCE—Apple Intelligence is the personal intelligence system that helps you write, express yourself, and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data. Coming fall 2024.
+
+TAKE TOTAL CAMERA CONTROL—Camera Control gives you an easier way to quickly access camera tools, like zoom or depth of field, so you can take the perfect shot in record time.
+
+MAGNIFICENT SHOTS—Take your videos to a whole new level with 4K 120 fps Dolby Vision, enabled by the 48MP Fusion camera. The improved 48MP Ultra Wide camera lets you capture mesmerizing detail in macro photos and wide-angle shots.`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/5487973/1.jpg?3146",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/5487973/1.jpg?3146",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 43,
+
+    rating: [4, 4, 5, 5, 4, 5, 4],
+  },
+
+  {
+    id: "0000030",
+
+    name: "Apple IPhone 15 Pro Max 6.7 512GB Nano-SIM 5G - Natural Titanium",
+
+    category: "Phones",
+
+    brand: "apple",
+
+    price: 2000000,
+
+    desc: `iPhone. Forged in titanium.iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up.
+A17 Pro chip.A monster win for gaming.It’s here. The biggest redesign in the history of Apple GPUs. A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it.
+A camera that captures your wildest imagination.From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.
+Get in on the Action button.The all‑new Action button is a fast track to your favorite feature. Once you set the one you want, just press and hold to launch the action.`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/68/4554283/1.jpg?3620",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/68/4554283/2.jpg?3620",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 43,
+
+    rating: [4, 4, 5, 5, 4, 5, 4],
+  },
+
+  {
+    id: "0000031",
+
+    name: "Apple iPhone 15 Pro Max 6.7 - 512GB Nano-SIM & ESIM 5G",
+
+    category: "Phones",
+
+    brand: "apple",
+
+    price: 2000000,
+
+    desc: `iPhone. Forged in titanium.iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars. Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up.
+
+A monster win for gaming. It’s here. The biggest redesign. A17 Pro is an entirely new class of iPhone that delivers our best graphics performance by far. Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it.
+
+A camera that captures your wildest imagination. From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.With iPhone 15 Pro, you have multiple focal lengths to work with. It’s like having seven pro lenses in your pocket, everywhere you go.`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/75/6163204/1.jpg?0887",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/75/6163204/2.jpg?0887",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [4, 4, 5, 5, 4, 5, 4],
+  },
+
+  {
+    id: "0000032",
+
+    name: "Oneplus 13, 6.82 5G 16GB RAM 512GB Dual Sim - Midnight Ocean",
+
+    category: "Phones",
+
+    brand: "oneplus",
+
+    price: 1900000,
+
+    desc: `The OnePlus 13 has a unique brand design that’s now available in a vegan leather option as well. Accompanying the new design are new cases with magnets in place to hold the new wireless charging accessories. The phone is both IP68 and IP69 certified for dust and water resistance.
+
+OnePlus has a new quad-curved screen for its mostly flat display, which is a departure from the curved edge displays on previous models. The phone runs OxygenOS 15, which is based on Android 15 and comes with many new and useful AI-enabled features.
+
+The phone offers plenty of raw performance for regular use and demanding tasks like gaming and camera usage thanks to its new 3nm processor. The camera performance is unparalleled at this price point, and the same holds true for video recording.
+
+`,
+
+    variants: [{ size: "16GB 512Gb", color: null, isAvailable: true }],
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/5004004/1.jpg?5523",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/5004004/2.jpg?5523",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [4, 4, 5, 5, 4, 5, 4],
+  },
+
+  {
+    id: "0000040",
+
+    name: "Huawei Honor 8X 6.5 6GB RAM 128GB ROM Kirin 710 3750mAh Dual Back 20MP Camera",
+
+    category: "Phones",
+
+    brand: "huawei",
+
+    price: 80000,
+
+    oldPrice: 189780,
+
+    desc: `Full View Display with Nearly Borderless Design. Seamless HD full view screen, with advanced chip-on-film (COF) technology and special antenna design. Only 4. 25 mm width of bottom border, and incredible screen-to-body ratio of 91%. The display occupies nearly the entire front of the phone. 
+6. 5-inch and 1080P High Definition. With its nearly borderless design, the phone can retain the same body size as a 5. 5-inch phone, making for an easier grip. The 19. 5: 9 aspect ratio and enhanced visual quality show more details and offer a better cinematic experience. 
+Glass Body with Visual Grating Effect. Second-generation anti-glare film, with two visual effects and 15 layers of rich reflective craftsmanship on the same glass back. On the left border: complex intertwined and grained texture. On the right border: classic, unique pattern effect of Honor flagship phones. 
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/50/0652904/1.jpg?7628",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/50/0652904/2.jpg?1576",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/50/0652904/3.jpg?1576",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/50/0652904/4.jpg?1576",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 5, 4, 5, 4],
+  },
+
+  {
+    id: "0000041",
+
+    name: "VINSA 10x6 Inch Professional Graphic Drawing Tablet 12 Express",
+
+    category: "Tablets",
+
+    brand: "vinsa",
+
+    price: 40640,
+
+    oldPrice: 73034,
+
+    desc: `
+    10x6 Inch Professional Graphics Drawing Tablet 12 Express Keys with 8192 Levels Battery-Free Stylus/8pcs Nibs/Pen Clip Support PC/Laptop Connection Compatible with Windows Mac for Painting Designing Online Course 
+ 
+Features:
+
+[Professional Graphics Tablet]: Graphics Drawing Tablet with 10x6 inch active area, provides you a sufficient creative area. 5080LPI resolution and 233PPS report rate, enabling the painting smooth and truly show you art works.
+
+[8192 Levels Pressure]: Comes with a battery-free stylus, 8192 levels pressure, premium nibs makes the strokes more delicate. 60° tilt sensing ensure the accuracy of handwritten painting and restore the true hand-painted feel
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/755296/1.jpg?7876",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/755296/2.jpg?7876",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/755296/4.jpg?1431",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/755296/3.jpg?7876",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000042",
+
+    name: "LCD Drawing Tablet For Children/Electronics Writing Board",
+
+    category: "Tablets",
+
+    brand: "unknown",
+
+    price: 17500,
+
+    oldPrice: 23000,
+
+    desc: `
+    NOTE: It display two different colorThis is a product that helps children to develop their drawing and writing talent without wasting of papers in the house or staining the wall of the house with ink or pencil. 
+The LCD writing pad is Environment friendly, electronic alternative to memo pads, sticky notes, sketch books, dry erase boards and other writing/drawing mediums. Using the LCD writing tablet instead of paper memo pads everyday will SAVE a lot of trees. 
+Large writing surface with 8.5 inch LCD screen gives you even more room to draw or write to show your imagination or education content. Let imaginations run wild without worrying about the mess from markers. The case and LCD screen are made from durable, shatter-proof, non-toxic plastic materials.
+ LCD writing tablet uses flexible liquid crystal display technology. The screen is sensitive to the stylus pressure when writing text or drawing pictures and graphics. 8.5 inch eWriter is the model that that started the paperless writing revolution. Easily erase at a push of a button, comes with replaceable battery. As a result, the tablet very closely mimics drawing with a pen and paper.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/45/7290763/1.jpg?4823",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/45/7290763/1.jpg?4823",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000045",
+
+    name: "Tablet 8GB+256GB 10.1 Inch Screen 5G Calling Snapdragon 888 Processor",
+
+    category: "Tablets",
+
+    brand: "unknown",
+
+    price: 138130,
+
+    oldPrice: 262450,
+
+    desc: `
+Features: 
+【High-performance Processor】
+The tablet uses the Snapdragon 888 processor, which can easily cope with running various apps or multitasking, providing a smooth user experience.
+
+【Large Storage Capacity】 
+8G+256GB storage space, which can be expanded to 128GB, has enough space to save your favorite movies, photos, and games, meeting your various needs.
+
+【High-clear Large Screen】
+The 10.1-inch large screen, with a high-clear resolution of 1920*1200, brings the ultimate visual enjoyment whether watching movies, playing games, or working.
+
+【Long Standby Time】
+The 7000mAh large battery can provide several hours of continuous use time whether it is for work, entertainment, or on the road.
+
+【Multifunctional Network Connection】 
+Supports 5G WiFi and 5G calls, dual card dual standby, and can maintain a stable network connection whether at home or outside.
+
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/46/4997372/1.jpg?9252",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/46/4997372/2.jpg?2035",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/46/4997372/4.jpg?9252",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000046",
+
+    name: "XIAOMI Redmi Pad Pro 12.1 6GB RAM/128GB ROM Android 14 - Grey",
+
+    category: "Tablets",
+
+    brand: "xiaomi",
+
+    price: 384276,
+
+    desc: `
+Enjoy a more comfortable large-screen experience with a 12.1-inch flagship display featuring a classic 16:10 aspect ratio, whether you're reading, gaming, or watching movies. With 2.5K ultra-clear WQHD+ resolution and 249 ppi, the display delivers professional-level performance with crystal-clear detail precision.
+
+High refresh rate and high brightness
+Smoother user experience
+With a 120Hz adaptive refresh rate and a maximum brightness of 600 nits, the display offers smooth and stable visuals whether you're watching sports or playing fast-paced games.
+
+Redmi Pad Pro
+10,000mAh (typ) ultra-long battery life, with up to 33.9 days of standby time after a full charge
+Reading, videos, games, in whatever scenario, can all meet your entertainment needs and enjoy the peace of mind brought by the long-lasting battery life
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/50/4219073/1.jpg?5523",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/50/4219073/2.jpg?5523",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000078",
+
+    name: "Lenovo LEGION 9 161RX9-83G0CTO1WW- Intel Core I9-14900HX",
+
+    category: "Laptops",
+
+    brand: "lenovo",
+
+    price: 7000000,
+
+    oldPrice: 7800000,
+
+    desc: `
+Lenovo Legion Pro 9i Gen 9 16" Gaming Laptop (2024 Model) Intel 14th Gen i9-14900HX 24C, NVIDIA GeForce RTX 4090 16GB, 32GB RAM, 2TB (1TB+1TB) NVMe SSD, 16" 3.2K Mini-Led 165Hz 1200-nits, Win 11 Home. Liquid cooled. AI tuned. Your future is forged. Experience the laptop that’s changing the entire PC gaming industry, with revolutionary liquid cooling tech, AI features, and more. 
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/63/7448404/1.jpg?7965",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/63/7448404/2.jpg?7965",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/63/7448404/3.jpg?7965",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 3, 3, 3, 5, 5, 4],
+  },
+
+  {
+    id: "0000079",
+
+    name: "DELL Xps 13 9350 ( 34t4h74) Ultra 7 15th Gen 32gb Ram 1tb",
+
+    category: "Laptops",
+
+    brand: "dell",
+
+    price: 3200000,
+
+    desc: `
+Dell XPS 13 9350 ( 34T4H74) Ultra 7 15TH GEN 32GB RAM 1TB
+
+Tech Specs
+Processor
+
+Intel® Core™ Ultra 7 258V (8 cores, up to 4.8 GHz)
+
+Operating System
+
+Windows 11 Home, Copilot+ PC
+
+Graphics Card
+
+Intel® Arc™ graphics
+
+Display
+
+13.4", Touch, 3K 2880x1800, 60Hz, OLED, Anti-Reflect, 400 nit, InfinityEdge, Eyesafe®
+
+Memory
+
+ 
+
+32GB, LPDDR5X, 8533MT/s, integrated
+
+Storage
+
+1TB M.2 PCIe NVMe Solid State Drive
+
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/6362704/1.jpg?4705",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/6362704/2.jpg?4705",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/6362704/3.jpg?4705",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [4, 3, 3, 3, 5, 5, 4],
+  },
+
+  {
+    id: "0000052",
+
+    name: "Samsung GALAXY TAB A9+ 8GB RAM 128GB ROM 11inches 5G (Nano SIM)",
+
+    category: "Tablets",
+
+    brand: "samsung",
+
+    price: 470000,
+
+    oldPrice: 490000,
+
+    desc: `
+SAMSUNG GALAXY TAB A9+ 5G OVERVIEW 
+Classic and contemporary
+Stylish with a touch of cool, the Galaxy Tab A9 and Tab A9+ features a sleek design and a smooth metal body. Enjoy Samsung’s signature tablet design in Graphite, Silver and Navy with each hue highlighting effortless charm.
+
+Expansive, bright visuals with smooth motion
+Experience the joy of entertainment on the large, bright display. Galaxy Tab A9+'s high screen refresh rate lets you immerse in the visuals with smooth and fluid motion. Even when you are out in the sun, step into the captivating world of your favorite content.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/20/4322353/1.jpg?1246",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/20/4322353/2.jpg?1246",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/20/4322353/3.jpg?1246",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/20/4322353/4.jpg?1246",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000053",
+
+    name: "Hp EliteBook 845 G8 - Ryzen 5 Pro 5650U/AMD 2.3 - 16GB RAM/512GB SSD WIN 11 PRO+BAG",
+
+    category: "Laptops",
+
+    brand: "hp",
+
+    price: 585000,
+
+    oldPrice: 590000,
+
+    desc: `
+
+HP EliteBook 845 G8
+Operating System:	WINDOWS 11 PRO
+CPU:	Ryzen 5 Pro 5650U/AMD 2.3
+Max Turbo Speed:	UP TO 4.2 GHz With Intel Turbo boost system
+Number of Cores:	Quad-Core
+Cache:	L3 - 12MB
+Features (Processor / Chipset):	Hyper-Threading Technology, Intel Turbo Boost Technology 2.0, Intel Smart Cache
+Features (Display):	55% NTSC colour gamut, Full HD ultra wide-viewing angle (UWVA) eDP anti-glare
+Features (Input):	Spill-resistant, multi-touch clickpad, gesture function, precision touchpad, glass clickpad, DuraKeys
+Features (Communications):	Miracast, dual stream (2x2), MU-MIMO
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/3568032/1.jpg?3991",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/3568032/2.jpg?3991",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/3568032/3.jpg?3991",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000055",
+
+    name: "DELL Latitude 5400 Touchscreen Intel Core I5-1TB SSD/16GB RAM Keyboard BACKLIT /WIN 11 PRO+ BAG",
+
+    category: "Laptops",
+
+    brand: "dell",
+
+    price: 540000,
+
+    oldPrice: 750000,
+
+    desc: `
+
+Designed to keep you productive and entertained from anywhere, the DELL 39.6 cm (14”) laptop combines a long battery life with a sleek and portable, micro-edge bezel design.
+
+PROCESSOR FAMILY
+Generation Intel® CORE i5 FAST PROCESSOR- FULL HD DISPLAY
+
+39.6 cm (14") diagonal, FHD 1920x1080P, micro-edge, BrightView, 220 nits, 45% NTSC
+
+PROCESSOR
+
+Intel® CORE I5- (Up to 4.1 GHz with Intel® Turbo Boost Technology, 6 MB L3 cache, 4 cores)
+
+CHIPSET
+Intel® Integrated SoC
+
+
+MEMORY
+16GB DDR4-2666 MHz RAM Transfer rates up to 2666 MT/s.
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/44/6016943/1.jpg?7964",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/44/6016943/2.jpg?7964",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/44/6016943/3.jpg?7964",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000056",
+
+    name: "Hp ELITEBOOK 830 G7 TOUCHSCREEN INTEL CORE I7 512SSD 16GB RAM BACKLIT KEYS FINGERPRINT WINS 11PRO+ Bag",
+
+    category: "Laptops",
+
+    brand: "hp",
+
+    price: 710000,
+
+    desc: `
+
+The HP EliteBook 830 G7 is a high-quality, premium laptop designed for professionals and business users who require a combination of performance, portability, and advanced features. Here is a detailed description of the HP EliteBook 830 G7:
+
+Processor: 10th Generation Intel Core i7 Processor The laptop is powered by a 10th Generation Intel Core i7 processor. This high-performance CPU provides excellent processing power, allowing you to handle demanding tasks, run resource-intensive applications, and multitask efficiently.
+
+Memory: 16GB RAM The EliteBook 830 G7 comes equipped with 16GB of DDR4 RAM. This substantial amount of memory enables smooth multitasking, making it easy to work with multiple applications simultaneously without any performance slowdowns.
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/56/2828913/1.jpg?1967",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/56/2828913/2.jpg?1967",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/56/2828913/3.jpg?1967",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/56/2828913/4.jpg?1967",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000057",
+
+    name: "DELL Latitude 3190 2in1 TOUCHSCREEN 8GB RAM, INTEL PENTIUM 128GB SSD WIN 10",
+
+    category: "Laptops",
+
+    brand: "dell",
+
+    price: 230000,
+
+    desc: `
+The Dell latitude 3190  11 intel pentium  laptop is built to adjust to the way you work and relax, with battery to last all day. The 11-inch HD screen makes your entertainment look good. The slim, supremely flexible design lets you watch any way you want. This Dell Chromebook laptop is equipped with an Intel Pentium  processor for the perfect combination of performance, power consumption and value. The Chrome operating system was designed to be fast, easy to use and secure for every day use. Connect to the web with Wi-Fi 5 (2x2) and Bluetooth 5. Custom-tuned dual speakers are of exceptional setero quality. A good product with multi-touchscreen.
+
+Operating system: Window 11
+Processor: Intel Pentium 3190 
+Touchscreen 
+Display: 11.0-inch diagonal, HD (1366 x 768), micro-edge, BrightView
+Memory: 8GB LPDDR4-2400 SDRAM (onboard)
+Internal storage: 128GB Solid State Drive 
+Graphics: Intel UHD Graphics 600
+Battery life: Up to 12 hours and 30 minutes (mixed usage)
+Wireless: Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi and Bluetooth 5.0 combo
+Camera: Wide Vision 720p HD camera with integrated dual array digital microphones
+
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/72/7855204/1.jpg?5049",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/72/7855204/2.jpg?5049",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/72/7855204/3.jpg?5049",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/72/7855204/4.jpg?5049",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000059",
+
+    name: "Ace Elec 14.1'' Intel(R)Pentium(R) CPU N3700 16GB+128GB - Silver",
+
+    category: "Laptops",
+
+    brand: "ace elec",
+
+    price: 220442,
+
+    desc: `
+ACE Laptop is equipped with   Intel(R)Pentium(R) CPU N3700 @ 1.60GHz 1601 processor, Quad-core, Quad-thread, Base Frequency 2.0GHz, Turbo up to 2.4GHz, efficiently running your programs as well as loading your tasks, running smoothly and smoothly, it's an excellent product.
+
+16GB LPDDR4 + 128GB SSD + 64GB TF Card Expansion
+
+ACE N141 laptop s come with a huge amount of RAM and storage space to fulfill your needs. The lap top comes with 16GB LPDDR4 RAM and 128GB storage, supports TF card expansion up to 64GB, realizing massive space.
+
+14.1-inch Full HD IPS Display
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/19/8487963/1.jpg?3957",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/19/8487963/2.jpg?3957",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/19/8487963/4.jpg?3957",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000060",
+
+    name: "DELL Latitude 7490 TOUCHSCREEN Intel Core I5- 512GB SSD/16GB RAM BACKLIGHT KEYBOARD/WIN 11 PRO+BAG",
+
+    category: "Laptops",
+
+    brand: "dell",
+
+    price: 450000,
+    oldPrice: 790000,
+
+    desc: `
+Designed to keep you productive and entertained from anywhere, the DELL 39.6 cm (14”) laptop combines a long battery life with a sleek and portable, micro-edge bezel design.
+
+
+PROCESSOR FAMILY
+Generation Intel® CORE i5 FAST PROCESSOR- FULL HD DISPLAY
+
+39.6 cm (14") diagonal, FHD 1920x1080P, micro-edge, BrightView, 220 nits, 45% NTSC
+
+PROCESSOR
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/40/3543403/1.jpg?1346",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/40/3543403/2.jpg?1346",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/40/3543403/3.jpg?1346",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/40/3543403/4.jpg?0653",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000061",
+
+    name: "DELL Latitude 7490 TOUCHSCREEN Intel Core I5- 512GB SSD/16GB RAM BACKLIGHT KEYBOARD/WIN 11 PRO+BAG",
+
+    category: "Laptops",
+
+    brand: "dell",
+
+    price: 450000,
+    oldPrice: 790000,
+
+    desc: `
+Designed to keep you productive and entertained from anywhere, the DELL 39.6 cm (14”) laptop combines a long battery life with a sleek and portable, micro-edge bezel design.
+
+
+PROCESSOR FAMILY
+Generation Intel® CORE i5 FAST PROCESSOR- FULL HD DISPLAY
+
+39.6 cm (14") diagonal, FHD 1920x1080P, micro-edge, BrightView, 220 nits, 45% NTSC
+
+PROCESSOR
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/40/3543403/1.jpg?1346",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/40/3543403/2.jpg?1346",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/40/3543403/3.jpg?1346",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/40/3543403/4.jpg?0653",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000062",
+
+    name: "Apple MacBook Pro 14 Laptop - M3 Pro Chip - 18GB - 14-core GPU - 512 SSD - Space Black/2023",
+
+    category: "Laptops",
+
+    brand: "apple",
+
+    price: 3050000,
+
+    desc: `
+Built for all types of creatives, including photographers, filmmakers, 3D artists, music producers, developers, and more, the space black Apple 14" MacBook Pro is the ultimate pro mobile workstation for the ultimate user.
+
+The system features the Apple M3 Pro 11-Core Chip, which provides the power and performance efficiency needed to handle all your professional workflows. Now built on 3nm process technology, the M3 Pro 11-Core Chip is combined with a 14-Core GPU. The next-gen GPU features Dynamic Caching, hardware-accelerated ray tracing, and mesh shading, all of which significantly increase performance for the most demanding pro apps and games.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/91/2178772/1.jpg?1191",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/91/2178772/2.jpg?1191",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000063",
+
+    name: "Hp EliteBook G6 Laptop- Intel Core I5- TOUCHSCREEN -16GB RAM/512GB SSD/Backlit Keyboard/FP Reader Windows 11 Pro+ BAG",
+
+    category: "Laptops",
+
+    brand: "hp",
+
+    price: 535000,
+
+    desc: `
+ELITEBOOK LAPTOP- TOUCHSCREEN - INTEL CORE I5 - FINGERPRINT READER- BACKLIT KEYBOARD- FULL HD DISPLAY
+ 
+
+Product Type:	ELITEBOOK TOUCHSCREEN LAPTOP
+Operating System:	WINDOWS 11 PRO
+CPU:	Intel Core i5-8350U 
+Max Turbo Speed:	UP TO 4.2 GHz With Intel Turbo boost system
+Number of Cores:	Quad-Core
+Cache:	L3 - 12MB
+Features (Processor / 	Hyper-Threading Technology, Intel Turbo Boost Technology 2.0, Intel Smart Cache
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/35/3343404/1.jpg?2193",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/35/3343404/2.jpg?2193",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/35/3343404/3.jpg?2193",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/35/3343404/4.jpg?2193",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 5, 4, 5, 4],
+  },
+
+  {
+    id: "0000070",
+
+    name: "Hp 15 VICTUS GAMING, 12TH GEN INTEL CORE I5, 16GB RAM, 512GB SSD,4GB NVIDIA RTX 2050 WINS 11",
+
+    category: "Laptops",
+
+    brand: "hp",
+
+    price: 1341000,
+
+    desc: `
+Keep up with the biggest games and the best players. Up to 12th gen Intel® Core ​and graphics.
+Superior processing components
+Play at your best with a 12th Gen Intel® Core™ processor , a modern graphics card, and plenty of memory.
+
+Sophisticated and refined design
+With a smaller footprint and up to three colors options , this spritely device looks good anywhere.
+
+Every feature you could need
+From the updated thermal design to the HD camera, this laptop has everything.
+
+A dynamic processor that adapts to you for superior multi-tasking performance
+12th Gen Intel® Core™ processors distributes performance where you need it the most — saving you time and increasing your ability to do the things you actually want.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/83/6773042/1.jpg?1984",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/83/6773042/2.jpg?1984",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/83/6773042/3.jpg?1984",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/83/6773042/4.jpg?1984",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 5, 5, 5, 4],
+  },
+
+  {
+    id: "0000071",
+
+    name: "Asus ROG Strix SCAR 18-G834JR-XS97-4090Windows 11 Pro 32GB",
+
+    category: "Laptops",
+
+    brand: "asus",
+
+    price: 7300000,
+
+    oldPrice: 7800000,
+
+    desc: `
+THE PINNACLE OF PERFORMANCE - Dominate the battlefield with Windows 11 Pro, a 14th Gen Intel Core i9-14900HX processor, and NVIDIA GeForce RTX 4090 Laptop GPU at 175W Max TGP.
+BLAZING FAST MEMORY AND STORAGE – Multitask swiftly with 32GB of DDR5-5600MHz memory and 2TB of PCIe 4x4 in RAID 0 with a raw throughput up to 7000mb/s.
+ROG NEBULA HDR – The Nebula standard guarantees a premium display with high specs for the best visuals. Featuring QHD 240Hz/3ms, 100% DCI-P3, Pantone Validation, among other premium features on the SCAR 18.
+ROG INTELLIGENT COOLING – The SCAR 18 features upgraded liquid metal on both the CPU and GPU, and a third intake fan among other premium features, to allow for sustained performance over long gaming sessions.
+MUX SWITCH WITH ADVANCED OPTIMUS - A MUX Switch increases laptop gaming performance by 5-10% by routing frames directly from the dGPU to the display. Advanced Optimus enables an automatic switch between the iGPU and dGPU, optimizing battery life.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/19/6939404/1.jpg?0461",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/19/6939404/2.jpg?0461",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/19/6939404/3.jpg?0461",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 5, 5, 5, 4],
+  },
+
+  {
+    id: "0000072",
+
+    name: "Lenovo IDEAPAD 1 INTEL CELERON 4GB RAM 256GB SSD 15.6 HD WINS 10+ Mouse",
+
+    category: "Laptops",
+
+    brand: "lenovo",
+
+    price: 340000,
+
+    oldPrice: 450765,
+
+    desc: `
+AboutThe Lenovo IdeaPad  is a 15.6-inch laptop with a screen resolution of 1920 x 1080. It has 4GB of memory and a 256 SSD drive. It has an Intel Celeron 1.1 to 2.6ghzGHz processor. It was with Windows 10 Home installed.
+It has 3 full-size USB ports built-in on the laptop. Video outputs include: an HDMI full-size port. It supports WiFi 802.11ac, so it's compatible with high-speed routers. It has a 0.3MP webcam for video conferencing. 
+The Lenovo IdeaPad  measures 15.6 inches wide by 9.9 inches deep by 1 inches high, and it weighs 3.7 lbs. It's backed by a 12-month warranty
+The Lenovo Ideapad  breaks the mold of the contemporary 2-in-1 convertibles. Its design not only capitalizes on a more flattened and sleeker overall surface. It is ultimately a more distinctly commutable gadget to aid users to boot the system up wherever they wish to go. The Lenovo Ideapad V130 demonstrates a wide range of versatility when it comes to accomplishing essential tasks pertaining to productivity. 
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/7780942/1.jpg?0284",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/7780942/2.jpg?0284",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/7780942/3.jpg?0284",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/7780942/4.jpg?0284",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 5, 5, 5, 4],
+  },
+
+  {
+    id: "0000073",
+
+    name: "DELL Latitude 7490 1TB SSD/16GB RAM/ Intel Core I7/ BACKLIGHT KEYBOARD-WIN 11PRO+BAG",
+
+    category: "Laptops",
+
+    brand: "dell",
+
+    price: 650000,
+
+    oldPrice: 700000,
+
+    desc: `
+Designed to keep you productive and entertained from anywhere, the DELL 39.6 cm (15”) laptop combines a long battery life with a sleek and portable, micro-edge bezel design.
+
+
+PROCESSOR FAMILY
+Intel® CORE I7 FAST PROCESSOR- FULL HD DISPLAY
+
+39.6 cm (15") diagonal, FHD 1920x1080P, micro-edge, BrightView, 220 nits, 45% NTSC
+
+PROCESSOR
+
+Intel® CORE I7- (Up to 4.1 GHz with Intel® Turbo Boost Technology, 6 MB L3 cache, 4 cores)
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/0977963/1.jpg?1847",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/0977963/2.jpg?1847",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/0977963/3.jpg?1847",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/0977963/4.jpg?1847",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 5, 5, 5, 4],
+  },
+
+  {
+    id: "0000082",
+
+    name: "Men Leather Shoes Strap Breathable Non-slip Casual Loafers",
+
+    category: "shoes",
+
+    brand: "unknown",
+
+    price: 9980,
+    oldPrice: 18900,
+
+    desc: `
+ Product Category: Loafers Opening depth: shallow mouth (below 7cm) Suitable season: summer, spring, autumn Popular elements: leather stitching style: fashion Applicable gender: male pattern: plain Upper material: artificial leather Toe shape: round Heel height: low heel (1-3CM) Function: wear-resistant Style: casual Gross weight: 0.55KG Sole Material: Plastic Applicable sports: general Way of wearing: front tie Heel shape: flat heel Inner material: imitation leather Applicable scene: leisure Upper height: low top Sole process: injection molding shoes Insole material: PU Help surface inner material: PU Color: black Size: 40,41,42,43,44
+
+
+`,
+
+    variants: [
+      { size: "EU 40", color: null, isAvailable: false },
+      { size: "EU 42", color: null, isAvailable: true },
+      { size: "EU 43", color: null, isAvailable: true },
+      { size: "EU 44", color: null, isAvailable: true },
+    ],
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/63/6733852/1.jpg?9200",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/63/6733852/3.jpg?9200 ",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/63/6733852/2.jpg?9997",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [3, 3, 3, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000090",
+
+    name: "Ladies Everything Womens Sneakers Canvas - Casual Trainers Chunky Loafers School Shoes For Girls - Highgrade Neoprene Rubber",
+
+    category: "shoes",
+
+    brand: "ladies everything",
+
+    price: 13999,
+    oldPrice: 22000,
+
+    desc: `
+Tips: Standard EU Leather shoe size, one size bigger than sneakers
+If the leather shoes you wear are size 41, go for size 41
+If you wear a size 41 sneaker, you buy a size 40
+The comfortable round head design makes it easy to wear and fits your feet. The anti-collision toe cap releases a comfortable experience. The upper is made of breathable, comfortable and soft fabric, which has a light and shock-absorbing effect. The high-quality rubber sole adopts a non-slip texture design, which is wear-resistant and not easy to slip. It is fashionable and eye-catching. It is very suitable for men who are pursuing trend and unique personality design. The inner lining is made of breathable fabric, which makes it easy to wear and exercise.This pair of shoes is suitable for all men, with fashionable personality and trendy color matching, high-quality workmanship, and a must-have for trendy men.Tips: Measurements are the maximum size,please allow 0.5-1cm tolerance. Compare the chart size with your feet length carefully before ordering. Style: Casual，Sport.Features: Comfortable，Durable，Very Cool.Occasions: Sports、Casual、Office、Outdoor、Dating、Everyday、Shopping.7 days * 24 hours Customer Service.Free VIP Jumia Express Service，Enjoy fast arrival, delivery within 1-3 days.Free VIP Jumia Express Service，Enjoy package protection to prevent loss of goods. Tips1: If you follow the fashion trend, please FOLLOW our shop.Tips2: If you want to enjoy 50% or higher discount shopping, please FOLLOW our shop.Tips3: If you are looking for high-quality and inexpensive products, please FOLLOW our shop.Tips: Measurements are the maximum size,please allow 0.5-1cm tolerance. Compare the chart size with your feet length carefully before ordering.Please help me to light up 5 stars  
+`,
+
+    variants: [
+      { size: "EU 38", color: null, isAvailable: true },
+      { size: "EU 39", color: null, isAvailable: true },
+      { size: "EU 40", color: null, isAvailable: false },
+    ],
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/6038933/1.jpg?4616",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/6038933/2.jpg?4616",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/6038933/3.jpg?4616",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/22/6038933/4.jpg?4616",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [4, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "0000092",
+
+    name: "4-Piece Leather Shoulder Bag / Handbags Set - Pink",
+
+    category: "bags",
+
+    brand: "unknown",
+
+    price: 10976,
+    oldPrice: 24000,
+
+    desc: `
+Handbags are ladies indispensable tie-decoration. Look chic with the gorgeous set of bags perfect for all occasions. Spacious enough to hold all your essential stuff, magazine, iPad, phones, keys, umbrella etc. This bag is for that classy lady looking pull a " chic "appearance. It comes in different sizes and suit the varied events you attend.  Pamper your self with a new look and accompanying handbag.
+Notice
+1. The product size is measured by hand. There may be a difference of 1-3cm, which is in the normal range.
+
+2. Please judge the product size according to the size marked in the product link, instead of your feelings based on the pictures. Since the same product can appear large or small due to the distance when taking the pictures.
+
+3. During the shooting process of the product, due to the difference of light, there may be a slight color difference between the real object and the pictures, which is a normal phenomenon.
+
+4. The product may be squeezed during delivery. If the product you received is not as flat as it looks in the pictures, please don't worry. This is a normal phenomenon and it will be fine after using it for a while.
+
+5. The product will have some smell of the material itself when produced from the factory. This is normal for new products. Take the product out of the package and the smell will disappear in a few days.
+
+6. Please store the product in a ventilated and cool place. Do not place in damp places or be exposed to strong sunlight for a long time.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/904987/1.jpg?6333",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/904987/2.jpg?6333",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/904987/3.jpg?6333",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/94/904987/4.jpg?6333",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [4, 4, 4, 3, 4, 5, 4],
+  },
+
+  {
+    id: "00000100",
+
+    name: "Camera Backpack Flexible Partition Padded Bag Shockproof Insert Protection",
+
+    category: "bags",
+
+    brand: "unknown",
+
+    price: 17750,
+    oldPrice: 22499,
+
+    desc: `
+Camera Backpack
+
+Red color
+
+Note: Backpack ONLY, the cameras, lenses and other accessories are not included.
+
+
+
+Descriptions:
+
+Multi use
+
+This lightweight and sturdy backpack offers versatile storage compartments that allow you to store your camera, accessories and other personal items in a safe and convenient location
+
+Compatible with Canon, Nikon, Sony, Olympus, Pentax digital cameras and other digital cameras and photographic equipment.
+`,
+
+    isAvailable: true,
+
+    featured: true,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/767346/1.jpg?6748",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/767346/2.jpg?6748",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/23/767346/3.jpg?6748",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 5, 4, 5, 4],
   },
 ];
 
@@ -1189,31 +4697,37 @@ export const categories = [
     name: "Phones",
     img: "https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&w=800",
   },
+
   {
     id: "002",
     name: "Tablets",
     img: "https://images.pexels.com/photos/3727465/pexels-photo-3727465.jpeg?auto=compress&cs=tinysrgb&w=1200",
   },
+
   {
     id: "003",
     name: "Laptops",
     img: "https://images.pexels.com/photos/1181233/pexels-photo-1181233.jpeg?auto=compress&cs=tinysrgb&w=1200",
   },
+
   {
     id: "004",
     name: "Shoes",
     img: "https://images.pexels.com/photos/609771/pexels-photo-609771.jpeg?auto=compress&cs=tinysrgb&w=1200",
   },
+
   {
     id: "005",
     name: "Bags",
     img: "https://images.pexels.com/photos/575435/pexels-photo-575435.jpeg?auto=compress&cs=tinysrgb&w=1200",
   },
+
   {
     id: "006",
     name: "Phone Accessories",
     img: "https://images.pexels.com/photos/583843/pexels-photo-583843.jpeg?auto=compress&cs=tinysrgb&w=1200",
   },
+
   {
     id: "007",
     name: "Computer Accessories",
@@ -1294,6 +4808,20 @@ export const brands = [
   { id: "014", name: "TP-Link", img: "" },
 
   { id: "015", name: "Century", img: "" },
+  { id: "016", name: "tecno", img: "" },
+  { id: "017", name: "itel", img: "" },
+  { id: "018", name: "infinix", img: "" },
+  { id: "019", name: "xiaomi", img: "" },
+  { id: "020", name: "bontel", img: "" },
+  { id: "021", name: "vinsa", img: "" },
+  { id: "022", name: "tilecc", img: "" },
+  { id: "023", name: "redbeat", img: "" },
+
+  { id: "024", name: "dell", img: "" },
+  { id: "025", name: "ace elec", img: "" },
+  { id: "026", name: "asus", img: "" },
+  { id: "027", name: "lenovo", img: "" },
+  { id: "028", name: "adidas", img: "" },
 ];
 
 export const placements = [

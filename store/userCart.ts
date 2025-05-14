@@ -27,15 +27,16 @@ export const useCartStore = create<ICartStore>()(
         let updatedCart;
 
         if (existingProduct) {
-          updatedCart = state.cart.filter((item) => item.id !== product.id);
-          toast.success("Removed from cart");
+          // updatedCart = state.cart.filter((item) => item.id !== product.id);
+          // toast.success("Removed from cart");
 
           // INCREASE && UPDATE QUANTITY
-          // updatedCart = state.cart.map((item) =>
-          //   item.id === product.id
-          //     ? { ...item, qty: item.qty + product.qty }
-          //     : item
-          // );
+          updatedCart = state.cart.map((item) =>
+            item.id === product.id
+              ? { ...item, qty: item.qty + product.qty }
+              : item
+          );
+          toast.success("item quantity increased by one");
         } else {
           updatedCart = [product, ...state.cart];
           toast.success(`${product.name} - added to cart!`);

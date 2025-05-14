@@ -4,6 +4,10 @@ import Slider from "@/components/Slider";
 import { productsData } from "@/constants";
 import Link from "next/link";
 
+const featuredProduct = productsData.slice(10, 20);
+
+const newArrival = productsData.slice(60, 70);
+
 export default function Home() {
   return (
     <div className="bg-gray-100 pb-16  ">
@@ -18,7 +22,7 @@ export default function Home() {
             View all
           </Link>
         </div>
-        <ProductList products={productsData} />
+        <ProductList products={featuredProduct} />
       </div>
 
       <div className="mt-24 px-2 bg-white py-1">
@@ -37,7 +41,7 @@ export default function Home() {
             View all
           </Link>
         </div>
-        <ProductList products={productsData} />
+        <ProductList products={newArrival} />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Button } from "../ui/button";
 import { ChevronRight, Power, X } from "lucide-react";
 import { categories, customersMenu } from "@/constants";
@@ -38,6 +38,26 @@ const NavModal = ({ onClose, isOpen }: PropsType) => {
     router.push(hrefLowercase);
     onClose();
   };
+
+  const navModalRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        navModalRef.current &&
+        !navModalRef.current.contains(event.target as Node)
+      ) {
+        onClose();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
     <motion.div
       variants={navVariant}
@@ -46,7 +66,10 @@ const NavModal = ({ onClose, isOpen }: PropsType) => {
       exit={"exit"}
       className="fixed top-0 left-0 w-full bg-[#00000099] h-screen gap-4 items-center text-white z-50 "
     >
-      <div className="w-3/4 h-full  gap-8  bg-white text-black overflow-y-scroll hide-scrollbar pb-8">
+      <div
+        ref={navModalRef}
+        className="w-3/4 h-full  gap-8  bg-white text-black overflow-y-scroll hide-scrollbar pb-8"
+      >
         <div className="flex items-center gap-4 p-3 border-b border-gray-200">
           <X
             size={25}

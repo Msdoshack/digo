@@ -3,15 +3,19 @@ import { useWishlistStore } from "@/store/userWishlist";
 import { Heart } from "lucide-react";
 
 type PropsType = {
-  product: ProductCardType;
+  productId: string;
   addFn: () => void;
   showText?: boolean;
 };
 
-const AddToWishlistBtn = ({ product, addFn, showText = false }: PropsType) => {
+const AddToWishlistBtn = ({
+  productId,
+  addFn,
+  showText = false,
+}: PropsType) => {
   const { wishlist } = useWishlistStore((state) => state);
 
-  const alreadyAdded = wishlist.find((item) => item.id === product.id);
+  const alreadyAdded = wishlist.find((item) => item.id === productId);
 
   return (
     <button

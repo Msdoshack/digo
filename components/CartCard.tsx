@@ -6,13 +6,14 @@ import { Button } from "./ui/button";
 import { Minus, Plus, Trash } from "lucide-react";
 import { calculateDisCount } from "@/util";
 import { useCartStore } from "@/store/userCart";
+import RemoveFromCartBtn from "./RemoveFromCartBtn";
 
 type PropsType = {
   product: CartProductType;
 };
 
 const CartCard = ({ product }: PropsType) => {
-  const { removeProduct, updateQty } = useCartStore((state) => state);
+  const { updateQty } = useCartStore((state) => state);
   const [qty, setQty] = useState(product.qty);
 
   const increase = () => {
@@ -107,15 +108,11 @@ const CartCard = ({ product }: PropsType) => {
         </Link>
 
         <div className="mt-1 flex items-center justify-between">
-          <Button
-            onClick={() => {
-              removeProduct(product.id);
-            }}
-            variant={"link"}
-            className="flex items-center gap-4 brand-color px-1! hover:no-underline"
-          >
-            <Trash /> Remove
-          </Button>
+          <RemoveFromCartBtn
+            product={product}
+            className="capitalize"
+            Icon={Trash}
+          />
 
           <div
             className={`flex items-center gap-4 pr-1 ${

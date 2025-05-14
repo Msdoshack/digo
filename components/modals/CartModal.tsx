@@ -4,6 +4,7 @@ import React, { useEffect, useRef } from "react";
 import { Button } from "../ui/button";
 import { useRouter } from "next/navigation";
 import { useCartStore } from "@/store/userCart";
+import RemoveFromCartBtn from "../RemoveFromCartBtn";
 
 type PropsCardCardType = {
   product: CartProductType;
@@ -16,7 +17,6 @@ type PropsType = {
 };
 
 const CartCard = ({ product, onClose }: PropsCardCardType) => {
-  const removeProduct = useCartStore((state) => state.removeProduct);
   const router = useRouter();
 
   const handleClick = (url: string) => {
@@ -86,14 +86,7 @@ const CartCard = ({ product, onClose }: PropsCardCardType) => {
             {product.isAvailable ? "available" : "Sold Out"}
           </div>
 
-          <button
-            onClick={() => {
-              removeProduct(product.id);
-            }}
-            className="brand-color no-underline text-sm"
-          >
-            remove
-          </button>
+          <RemoveFromCartBtn product={product} />
         </div>
       </div>
     </div>
