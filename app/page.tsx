@@ -30,7 +30,7 @@ export default function Home() {
             Featured Products
           </h1>
 
-          <Link href={"/products?p=featured"} className="text-sm brand-color">
+          <Link href={"/products?pl=featured"} className="text-sm brand-color">
             View all
           </Link>
         </div>
