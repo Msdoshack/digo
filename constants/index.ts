@@ -4772,56 +4772,270 @@ export const categories = [
   },
 ];
 
+export const topBrands = [
+  {
+    id: "001",
+    name: "apple",
+    img: "https://www.apple.com/newsroom/images/default/qr/QR-Apple-logo.jpg.square_social.jpg",
+  },
+  {
+    id: "002",
+    name: "samsung",
+    img: "https://images.samsung.com/is/image/samsung/assets/global/about-us/brand/logo/mo/256_144_1.png?$512_N_PNG$",
+  },
+  {
+    id: "003",
+    name: "nexus",
+    img: "https://www.logo.wine/a/logo/Nexus_5X/Nexus_5X-Logo.wine.svg",
+  },
+  {
+    id: "004",
+    name: "SILVER CREST",
+    img: "https://0501.nccdn.net/4_2/000/000/06b/a1b/picture2.jpg#RDAMDAID12117240",
+  },
+
+  {
+    id: "005",
+    name: "Hisense",
+    img: "https://images.seeklogo.com/logo-png/44/2/hisense-logo-png_seeklogo-449490.png",
+  },
+  {
+    id: "009",
+    name: "Skyrun",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSezCnY_a6zxczUyT7exkgnXTx5uvHQ9gblwNFv7tu6LDA5VVJMw5dvUMZDO3-hdVUsBvQ&usqp=CAU",
+  },
+  {
+    id: "011",
+    name: "Haier Thermocool",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPVevdL0uw77x44y7vFnnyPUqCfaanLbsuSA&s",
+  },
+  {
+    id: "012",
+    name: "Hp",
+    img: "https://www.logo.wine/a/logo/HP_Inc./HP_Inc.-Logo.wine.svg",
+  },
+  {
+    id: "013",
+    name: "Mtng",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdfoKNo3w3MB8yaUuVycl39IEnyFwN8vNDLQ&s",
+  },
+
+  {
+    id: "015",
+    name: "Century",
+    img: "https://century.com.ng/wp-content/uploads/2024/09/CENTURY-LOGO.jpg",
+  },
+  {
+    id: "016",
+    name: "tecno",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnQrloETz2rwO4TZm6uFmHPzXVi8GfdpQmAw&s",
+  },
+  {
+    id: "017",
+    name: "itel",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-req4K32CSA_wDH-KcCl0PMYYbKaLSlxJOg&s",
+  },
+  {
+    id: "018",
+    name: "infinix",
+    img: "https://seeklogo.com/images/I/infinix-logo-62FA1B616A-seeklogo.com.png",
+  },
+
+  {
+    id: "024",
+    name: "dell",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dell_Logo.svg/2048px-Dell_Logo.svg.png",
+  },
+  {
+    id: "027",
+    name: "lenovo",
+    img: "https://www.svgrepo.com/show/303399/lenovo-1-logo.svg",
+  },
+  {
+    id: "028",
+    name: "adidas",
+    img: "https://cdn.logojoy.com/wp-content/uploads/20231013154327/Adidas-logo-1991-1-600x319.png",
+  },
+];
+
 export const brands = [
-  { id: "001", name: "apple", img: "" },
+  {
+    id: "001",
+    name: "apple",
+    img: "/brand/apple-brand.jpg",
+    topBrand: true,
+  },
 
-  { id: "002", name: "samsung", img: "" },
+  {
+    id: "002",
+    name: "samsung",
+    img: "/brand/samsung-brand.avif",
+    topBrand: true,
+  },
 
-  { id: "003", name: "nexus", img: "" },
+  {
+    id: "003",
+    name: "nexus",
+    img: "/brand/nexus-brand.svg",
+    topBrand: true,
+  },
 
-  { id: "004", name: "ecoflow", img: "" },
+  {
+    id: "004",
+    name: "ecoflow",
+    img: "/brand/ecoflow-brand.png",
+  },
 
-  { id: "004", name: "SILVER CREST", img: "" },
+  {
+    id: "004",
+    name: "SILVER CREST",
+    img: "/brand/silvercrest-brand.jpg",
+    topBrand: true,
+  },
 
-  { id: "005", name: "Hisense", img: "" },
+  {
+    id: "005",
+    name: "Hisense",
+    img: "/brand/hisense-brand.png",
+    topBrand: true,
+  },
 
-  { id: "006", name: "Syinix", img: "" },
+  {
+    id: "006",
+    name: "Syinix",
+    img: "/brand/syinix-brand.png",
+  },
 
-  { id: "007", name: "unknown", img: "" },
+  {
+    id: "007",
+    name: "unknown",
+    img: "/brand/unknown-brand.png",
+  },
 
-  { id: "008", name: "Hikers", img: "" },
+  {
+    id: "008",
+    name: "Hikers",
+    img: "/brand/hikers-brand.png",
+  },
 
-  { id: "009", name: "Skyrun", img: "" },
+  {
+    id: "009",
+    name: "Skyrun",
+    img: "/brand/skyrun-brand.png",
+    topBrand: true,
+  },
 
   {
     id: "010",
     name: "Berrykey",
-    img: "",
+    img: "/brand/berrykey-brand.png",
   },
 
-  { id: "011", name: "Haier Thermocool", img: "" },
+  {
+    id: "011",
+    name: "Haier Thermocool",
+    img: "/brand/haier-brand.png",
+    topBrand: true,
+  },
 
-  { id: "012", name: "Hp", img: "" },
+  {
+    id: "012",
+    name: "Hp",
+    img: "/brand/hp-brand.svg",
+    topBrand: true,
+  },
 
-  { id: "013", name: "Mtng", img: "" },
+  {
+    id: "013",
+    name: "Mtng",
+    img: "/brand/mtn-brand.png",
+    topBrand: true,
+  },
 
-  { id: "014", name: "TP-Link", img: "" },
+  {
+    id: "014",
+    name: "TP-Link",
+    img: "/brand/Tplink-brand.svg",
+  },
 
-  { id: "015", name: "Century", img: "" },
-  { id: "016", name: "tecno", img: "" },
-  { id: "017", name: "itel", img: "" },
-  { id: "018", name: "infinix", img: "" },
-  { id: "019", name: "xiaomi", img: "" },
-  { id: "020", name: "bontel", img: "" },
-  { id: "021", name: "vinsa", img: "" },
-  { id: "022", name: "tilecc", img: "" },
-  { id: "023", name: "redbeat", img: "" },
+  {
+    id: "015",
+    name: "Century",
+    img: "/brand/century-brand.jpg",
+    topBrand: true,
+  },
+  {
+    id: "016",
+    name: "tecno",
+    img: "/brand/techno-brand.png",
+    topBrand: true,
+  },
+  {
+    id: "017",
+    name: "itel",
+    img: "/brand/itel-brand.png",
+    topBrand: true,
+  },
+  {
+    id: "018",
+    name: "infinix",
+    img: "/brand/infinix-brand.png",
+    topBrand: true,
+  },
+  {
+    id: "019",
+    name: "xiaomi",
+    img: "/brand/xiaomi-brand.png",
+  },
+  {
+    id: "020",
+    name: "bontel",
+    img: "/brand/bontel-brand.png",
+  },
+  {
+    id: "021",
+    name: "vinsa",
+    img: "/brand/vinsa-brand.jpeg",
+  },
+  {
+    id: "022",
+    name: "tilecc",
+    img: "/brand/tilecc-brand.jpg",
+  },
+  {
+    id: "023",
+    name: "redbeat",
+    img: "/brand/redbeat-brand.jpeg",
+  },
 
-  { id: "024", name: "dell", img: "" },
-  { id: "025", name: "ace elec", img: "" },
-  { id: "026", name: "asus", img: "" },
-  { id: "027", name: "lenovo", img: "" },
-  { id: "028", name: "adidas", img: "" },
+  {
+    id: "024",
+    name: "dell",
+    img: "/brand/dell-brand.png",
+    topBrand: true,
+  },
+  {
+    id: "025",
+    name: "ace elec",
+    img: "/brand/aceelec-brand.png",
+  },
+  {
+    id: "026",
+    name: "asus",
+    img: "/brand/asus-brand.jpg",
+  },
+  {
+    id: "027",
+    name: "lenovo",
+    img: "/brand/lenovo-brand.svg",
+    topBrand: true,
+  },
+  {
+    id: "028",
+    name: "addidas",
+    img: "/brand/addidas-brand.png",
+    topBrand: true,
+  },
 ];
 
 export const placements = [

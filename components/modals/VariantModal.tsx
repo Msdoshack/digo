@@ -99,13 +99,13 @@ const VariantModal = ({
           <div className="mb-5">
             <h5 className="text-gray-600 mb-3 font-medium">Choose Size:</h5>
 
-            <div className="flex gap-3 ">
+            <div className="flex gap-3 flex-wrap ">
               {validSizes.map((item, i) => (
                 <button
                   onClick={() => handleSizeClick(i, item.color!)}
                   key={i}
-                  className={`ring-1 ring-gray-200 text-pink-500 rounded-md py-1 px-2 text-sm cursor-pointer ${
-                    idx === i && "ring-2 ring-[#f33c7a]"
+                  className={` text-pink-500 rounded-md py-1 px-2 text-sm cursor-pointer ${
+                    idx === i ? "ring-2 ring-[#f33c7a]" : "ring-1 ring-gray-200"
                   }`}
                 >
                   {item.size}

@@ -111,6 +111,11 @@ type CategoryType = {
   name: string;
   img: string;
 };
+type BrandType = {
+  id: string;
+  name: string;
+  img: string;
+};
 
 type PhoneType = {
   no: string;

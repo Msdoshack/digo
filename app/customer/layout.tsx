@@ -9,7 +9,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="bg-gray-100">
       <div className="px-2 md:px-8 lg:px-16 xl:px-32 2xl:px-64 flex flex-col md:flex-row gap-4 md:py-5">
-        <div className="md:w-1/4  md:block bg-white rounded-md p-2 sticky top-[80px] md:top-[96px] h-max">
+        <div className="md:w-1/4 md:block bg-white rounded-md p-2 sticky top-[80px] md:top-[96px] h-max z-10">
           <div className="hidden md:flex flex-col gap-1 ">
             <Link
               href={"/customer/account"}

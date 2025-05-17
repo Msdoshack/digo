@@ -5,11 +5,12 @@ import { usePathname, useSearchParams, useRouter } from "next/navigation";
 
 type PropsType = {
   productLength: number;
+  limit?: number;
 };
 
-const Pagination = ({ productLength }: PropsType) => {
+const Pagination = ({ productLength, limit = 30 }: PropsType) => {
   const [page, setPage] = useState(1);
-  const limit = 30;
+  // const limit = 30;
 
   const searchParams = useSearchParams();
   const router = useRouter();

@@ -6,7 +6,13 @@ import { productsData } from "@/constants";
 import Image from "next/image";
 import React from "react";
 
-type ParamType = Promise<{ c?: string; s?: string; q: string; p: string }>;
+type ParamType = Promise<{
+  c?: string;
+  s?: string;
+  q: string;
+  p: string;
+  b: string;
+}>;
 
 const Products = async ({ searchParams }: { searchParams: ParamType }) => {
   // IF ALL CATEGORY IS SELECTED THEN SET CATEGORY TO BE EMPTY STRING
@@ -16,14 +22,17 @@ const Products = async ({ searchParams }: { searchParams: ParamType }) => {
   // const sort = (await searchParams).s ?? "";
   const search = (await searchParams).q ?? "";
 
+  const brand = (await searchParams).b ?? "";
+
   const page = (await searchParams).p ?? 1;
 
-  const itemsPerPage = 30; // You can change this as needed
+  const itemsPerPage = 30;
+
   const startIndex = (Number(page) - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
 
   const filteredData =
-    search || category
+    search || category || brand
       ? productsData.filter((product) => {
           const matchesQuery = search
             ? product.name.toLowerCase().includes(search.toLowerCase()!)
@@ -33,7 +42,11 @@ const Products = async ({ searchParams }: { searchParams: ParamType }) => {
             ? product.category.toLowerCase() === category.toLowerCase()
             : false;
 
-          return matchesQuery || matchesCategory;
+          const matchesBrand = brand
+            ? product.brand.toLowerCase() === brand.toLowerCase()
+            : false;
+
+          return matchesQuery || matchesCategory || matchesBrand;
         })
       : productsData;
 
