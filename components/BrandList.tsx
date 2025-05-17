@@ -3,7 +3,13 @@ import React from "react";
 import { brands } from "@/constants";
 import BrandCard from "./BrandCard";
 
-const topBrands = brands.filter((product) => product?.topBrand === true);
+const topBrands = brands
+  .filter((product) => product?.topBrand === true)
+  .sort((a, b) =>
+    a.name.localeCompare(b.name, undefined, {
+      sensitivity: "base",
+    })
+  );
 
 const BrandList = () => {
   return (

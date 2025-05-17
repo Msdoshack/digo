@@ -44,7 +44,7 @@ const Filter = () => {
   }, []);
 
   return (
-    <div className="mt-12 flex lg:justify-between bg-white -mx-4 p-4 rounded-md">
+    <div className=" flex lg:justify-between bg-white -mx-4 sm:-mx-0 p-4 md:gap-8 rounded-md">
       <div className="flex gap-2 sm:gap-4 md:gap-6 gap-y-4 flex-wrap ">
         {/* CATEGORY */}
         <Select

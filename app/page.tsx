@@ -63,8 +63,8 @@ export default function Home() {
       </div>
 
       <div className="mt-24 px-2 bg-white py-1">
-        <div className="flex items-center justify-between">
-          <h1 className="sm:text-lg px-2 md:px-8 lg:px-16 xl:px-32 2xl:px-6 mb-4 font-medium">
+        <div className="flex items-center justify-between mb-4">
+          <h1 className="sm:text-lg px-2 md:px-8 lg:px-16 xl:px-32 2xl:px-6 font-medium">
             Top Brands
           </h1>
 

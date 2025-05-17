@@ -19,7 +19,7 @@ const BrandCard2 = ({ brand }: PropsType) => {
           className="object-cover"
         />
       </div>
-      <h1 className="mt-2 md:text-lg tracking-wide text-center">
+      <h1 className="mt-2 md:text-lg tracking-wide text-center capitalize">
         {brand.name}
       </h1>
     </Link>
