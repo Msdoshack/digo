@@ -26,19 +26,16 @@ const AccountPage = () => {
 
       <div className="flex  flex-wrap w-full gap-4">
         <Card title="Account Details">
-          <h4 className="text-gray-700">Fullname: Solomon Moses</h4>
-          <p className="text-gray-500 text-sm">
-            Email: msdosdarapper@gmail.com
-          </p>
+          <h4 className="text-gray-700">Fullname: Prestige Customer</h4>
+          <p className="text-gray-500 text-sm">Email: thisuser@gmail.com</p>
           <p className="text-gray-500 text-sm">Phone: +2347063433942</p>
           <p className="text-gray-500 text-sm">Gender: Male</p>
         </Card>
         <Card title="Address book">
           <h4 className="text-gray-700">Your default shipping address:</h4>
           <p className="text-gray-500 text-sm">
-            Moses Solomon Ijebu ode... makelewo, back of cele church The
-            celestial church after de-sky comfort hotel Ijebu Ode Folagbade,
-            Ogun +234 8025437724
+            Flat 2B, Emerald Heights Apartments 33 Bode Thomas Street, Surulere,
+            Lagos Nigeria ZIP: 101283
           </p>
         </Card>
         <Card title="News letter">

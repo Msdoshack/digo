@@ -11,7 +11,7 @@ const BrandCard = ({ brand }: PropsType) => {
   return (
     <Link
       href={`/products?b=${lowerCasedBrand}`}
-      className="shrink-0 w-[70%] sm:w-1/2 lg:w-1/4 "
+      className="shrink-0 w-[70%] sm:w-1/2 lg:w-1/4 border p-2 rounded-md"
     >
       <div className="relative bg-slate-100 w-full h-52 sm:h-72">
         <Image
@@ -22,7 +22,7 @@ const BrandCard = ({ brand }: PropsType) => {
           className="object-cover"
         />
       </div>
-      <h1 className="mt-2 md:text-lg tracking-wide text-center capitalize">
+      <h1 className="p-2 bg-gray-100 rounded-b-md md:text-lg tracking-wide text-center capitalize">
         {brand.name}
       </h1>
     </Link>

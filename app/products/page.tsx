@@ -1,6 +1,7 @@
 import Filter from "@/components/Filter";
 import Pagination from "@/components/Pagination";
 import ProductList from "@/components/ProductList";
+import ScrollToTopOnQueryChange from "@/components/ScrollToTopOnQueryChange";
 import { Button } from "@/components/ui/button";
 import { productsData } from "@/constants";
 import Image from "next/image";
@@ -70,11 +71,14 @@ const Products = async ({ searchParams }: { searchParams: ParamType }) => {
           <Image src={"/woman.png"} alt="" fill className="object-contain" />
         </div>
       </div>
+
+      {/* Filter */}
       <Filter />
 
       <div className="-mx-2">
+        {/* HEADING AND SEARCH RESULTS HEADING */}
         <div className="mt-8 mb-4 sm:mb-8 text-gray-600 font-semibold text-sm">
-          {!category && !search && (
+          {!category && !search && !brand && (
             <p className="text-lg font-semibold">Products</p>
           )}
           {category && (
@@ -93,6 +97,15 @@ const Products = async ({ searchParams }: { searchParams: ParamType }) => {
               </span>
             </div>
           )}
+
+          {brand && (
+            <div className="flex items-center gap-5">
+              <p>Brand: {brand}</p>
+              <span className="text-gray-600 font-medium text-xs">
+                ({paginatedData?.length} Results){" "}
+              </span>
+            </div>
+          )}
         </div>
         {paginatedData?.length > 0 ? (
           <ProductList products={paginatedData} />
@@ -104,6 +117,8 @@ const Products = async ({ searchParams }: { searchParams: ParamType }) => {
       </div>
 
       <Pagination productLength={filteredData.length} />
+
+      <ScrollToTopOnQueryChange />
     </div>
   );
 };

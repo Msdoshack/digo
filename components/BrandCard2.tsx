@@ -10,7 +10,7 @@ const BrandCard2 = ({ brand }: PropsType) => {
   const lowerCasedBrand = brand.name.toLowerCase();
   return (
     <Link href={`/products?b=${lowerCasedBrand}`} className="w-full h-full">
-      <div className="relative bg-gray-200 w-full h-56 sm:h-60 lg:h-72">
+      <div className="relative bg-gray-200 w-full h-40 sm:h-60 lg:h-72">
         <Image
           src={brand.img}
           alt=""
@@ -19,7 +19,7 @@ const BrandCard2 = ({ brand }: PropsType) => {
           className="object-cover"
         />
       </div>
-      <h1 className="mt-2 md:text-lg tracking-wide text-center capitalize">
+      <h1 className="py-2 text-sm sm:text-base md:text-lg tracking-wide text-center capitalize bg-gray-50 rounded-b-md border-b">
         {brand.name}
       </h1>
     </Link>

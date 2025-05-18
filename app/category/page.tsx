@@ -8,7 +8,7 @@ const page = () => {
       <h1 className="py-10 font-medium text-gray-700 text-lg sm:text-xl">
         Shop By Categories
       </h1>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-8">
         {categories.map((item) => (
           <CategoryCard2 category={item} key={item.id} />
         ))}

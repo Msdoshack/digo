@@ -11,9 +11,9 @@ const CategoryCard = ({ category }: PropsType) => {
   return (
     <Link
       href={`/products?c=${lowerCaseCat}`}
-      className="shrink-0 w-[80%] sm:w-1/2 lg:w-1/4 xl:w-1/6"
+      className="shrink-0 w-[70%] sm:w-1/2 lg:w-1/4 xl:w-1/6 border p-2 rounded-md"
     >
-      <div className="relative bg-slate-100 w-full h-72">
+      <div className="relative bg-slate-100 w-full h-52 sm:h-72">
         <Image
           src={category.img}
           alt=""
@@ -22,7 +22,7 @@ const CategoryCard = ({ category }: PropsType) => {
           className="object-cover"
         />
       </div>
-      <h1 className="mt-2 md:text-lg tracking-wide text-center">
+      <h1 className="p-2 bg-gray-100 rounded-b-md md:text-lg tracking-wide text-center">
         {category.name}
       </h1>
     </Link>
