@@ -93,24 +93,7 @@ const SetUserModal = () => {
                   </FormItem>
                 )}
               />
-              <FormField
-                control={form.control}
-                name="middleName"
-                render={({ field }) => (
-                  <FormItem className="">
-                    <FormLabel>Middle Name</FormLabel>
-                    <FormControl>
-                      <Input
-                        placeholder="Middle Name (optional)"
-                        {...field}
-                        className="py-5 text-sm"
-                      />
-                    </FormControl>
 
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
               <FormField
                 control={form.control}
                 name="lastName"
@@ -120,6 +103,25 @@ const SetUserModal = () => {
                     <FormControl>
                       <Input
                         placeholder="Last Name"
+                        {...field}
+                        className="py-5 text-sm"
+                      />
+                    </FormControl>
+
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+
+              <FormField
+                control={form.control}
+                name="middleName"
+                render={({ field }) => (
+                  <FormItem className="">
+                    <FormLabel>Middle Name</FormLabel>
+                    <FormControl>
+                      <Input
+                        placeholder="Middle Name (optional)"
                         {...field}
                         className="py-5 text-sm"
                       />
