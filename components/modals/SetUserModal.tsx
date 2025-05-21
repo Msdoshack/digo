@@ -23,10 +23,6 @@ import {
   SelectValue,
 } from "../ui/select";
 
-// type PropsType = {
-//   onClose: () => void;
-// };
-
 const formSchema = z.object({
   firstName: z.string().min(1, "please provide a firstName"),
 
