@@ -216,7 +216,6 @@ const CreateAddressPage = () => {
                             {l}
                           </SelectItem>
                         ))}
-                        <SelectItem value="F">Female</SelectItem>
                       </SelectContent>
                     </Select>
                   </FormControl>
