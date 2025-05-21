@@ -111,6 +111,86 @@ export const slides = [
 
 export const productsData = [
   {
+    id: "00000120",
+    name: "Ergonomic Mouse Sturdy Wireless Vertical Black Left Handed",
+
+    category: "Computer Accessories",
+
+    brand: "unknown",
+
+    price: 19423,
+    oldPrice: 27192,
+
+    desc: `
+Dear customers, welcome to my store. We are an online store where you can purchase all your electronics, home appliances, kiddies items, fashion items for men, women, and children; cool gadgets, groceries, automobile parts, and more on the go. Our store is a dedicated to creating and , allowing you to enjoy a . Your support is our greatest driving force. All the our store are sold at the lowest price, and the quality is guaranteed. If you need it, please rest assured to buy, we will provide you with a comfortable shopping experience every time. As are launching new products every day, please follow our store and pay more attention, you will get the information of our latest products as soon as possible. Clicking on the seller information to enter our what you needs, after placing an order, we will deliver the goods for you at the frist time. Thank you and have a nice day!
+
+Description:
+
+【Material】: Wireless Vertical Ergonomic Mouse is made of premium material, which has reliable and can be used for a long time.【Comfortable Hand Feel】: The Wireless Vertical Mouse adopts a vertical grip design, which provides you with a comfortable hand feel and makes it easier and more convenient to use.【Easy to Use】: Wireless Mouse with light, for long term use, 5 buttons design conveniently meets your different needs. Silent and noiseless, fast charging, compact and stylish.【Adjustable DPI】: This cordless vertical mouse offers 3 gear DPI adjustment, 800/1000/1200/1600 DPI, for smooth movement and control.【Compact and Portable】: This ergonomic mouse adopts a design, measuring 123mmx65mmx82mm, which is nice for use on the go while maintaining a quiet and elegant presence in the office environment.
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/83/2015523/1.jpg?5249",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/83/2015523/2.jpg?5249",
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/83/2015523/3.jpg?5249",
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/83/2015523/4.jpg?6251",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 3, 5, 3, 5, 4, 3, 2, 4, 5, 5],
+  },
+
+  {
+    id: "00000121",
+    name: "Multifunctional Foldable Laptop Table",
+
+    category: "Computer Accessories",
+
+    brand: "unknown",
+
+    price: 37500,
+    oldPrice: 45000,
+
+    desc: `
+Portable  7~15.4 Inch Macbook Laptop Stand Also For Tablet Notebook, Laptops
+Seven  Adjustable Levels--The laptop stand conveniently adjusts to heights from 3.23 inches to 5.12 inches and allows you to set the screen at eye level, resulting in more comfortable, ergonomic and healthier working on the laptop.
+Ergonomic Design -- Seven-speed adjustable angle can be adjusted to the most comfortable height you need, comfortable eye-level design ease you from the tension of using gaming laptop for a long time and protect your spine.
+Universal Laptop Stand -- Support for most tablets up to 15.6'' and can also support books and other items. Stable Triangle Support- Strong bearing capacity, stable focus. Come with Carrying Flannelette Bag for easy carry Traveling or Business Trip.
+Good Ventilation -- The back of this portable laptop stand is completely suspended and has no structural obstruction ,which is more conducive to computer ventilation. One second quick open or close design. laptop cooling stand keeps your laptop cool and no more heating up.
+Portable Aluminum 7~15.4 Inch Macbook Laptop Stand Also For Tablet Notebook, Laptops
+Seven  Adjustable Levels--The laptop stand conveniently adjusts to heights from 3.23 inches to 5.12 inches and allows you to set the screen at eye level, resulting in more comfortable, ergonomic and healthier working on the laptop.
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/8469752/1.jpg?7515",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/8469752/1.jpg?7515",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 3, 5, 3, 5, 4, 3, 2, 4, 5, 5],
+  },
+
+  {
     id: "0000096",
 
     name: "Mateamoda Women Bags Ladies Bags Handbags Purse Sling Bag Shoulder Bag",
@@ -201,6 +281,113 @@ Durable and Water-Resistant: Made from leather, this messenger handbag is durabl
     unitLeft: 33,
 
     rating: [5, 4, 4, 5, 4, 5, 4],
+  },
+
+  {
+    id: "00000111",
+    name: "Oraimo FREEPODS Bluetooth Earphones V5 3 Wireless Hearpod Ear Pód / Headphones 5 0 Hear Earpiece Earbùds Pod (oraimo)",
+    category: "Phone Accessories",
+
+    brand: "oraimo",
+
+    price: 19999,
+    oldPrice: 25000,
+
+    desc: `
+Product features: battery display, call function, support for music, multi-point connection
+product design:
+1. Touch Bluetooth headset
+2. Intelligent noise reduction, waterproof and sweat proof
+3. After taking out the headset, it will automatically connect to the phone
+Features:
+
+Mini in-ear wireless invisible design;
+
+Super Mini Size and hidden in the ear, no wearing burden;
+
+Ergonomic earphone design, stable in the ear, good for driving, sports, business, or leisure;
+
+Bluetooth Connection
+
+Deep DPS noise-reduction microphone ensures clear call quality;
+
+Best quality
+
+Voice prompt for pairing, calling, turn on/off;
+
+One function button for on/off, song switch, language change, receive call.
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/56/6975982/1.jpg?4201",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/56/6975982/2.jpg?4201",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/56/6975982/3.jpg?4201",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/56/6975982/4.jpg?4201",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 3, 3, 3, 4, 3, 3],
+  },
+
+  {
+    id: "00000112",
+    name: "Oraimo FreePods 4 Active Noise Cancellation Earbuds",
+
+    category: "Phone Accessories",
+
+    brand: "oraimo",
+
+    price: 41035,
+    oldPrice: 86557,
+
+    desc: `
+Product Parameters：
+
+BT Version: V5.2
+Wireless Range: 10m
+Play Time:
+Up to 8.5 hours, Case provides additional 27 hours (ANC OFF);
+Up to 7 hours; Case provides additional 22 hours (ANC ON)
+Input: Type-C
+
+Model: OEB-E105D
+
+*oraimo Lab test result..
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/39/7741722/1.jpg?2511",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/39/7741722/2.jpg?2511",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/39/7741722/3.jpg?2511",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/39/7741722/4.jpg?2511",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 3, 3, 3, 4, 3, 3],
   },
   {
     id: "0000089",
@@ -557,6 +744,93 @@ Processor : Intel platform powered by 12th Generation Intel Core i7-1260P (Up to
   },
 
   {
+    id: "00000128",
+    name: "Power Plus Laptop ultra massive power bank.",
+
+    category: "Computer Accessories",
+
+    brand: "power plus",
+
+    price: 409000,
+
+    oldPrice: 570000,
+
+    desc: `
+Power packs are inverters (500VA) configured as uninterruptible power supply (UPS) units equip with very powerful inbuilt lithium batteries that provides backup power fo your laptop for several hours.
+
+ 
+
+The PE 70 power pack provides extended backup power for your laptop, home/office equipment, CCTV systems, IT equipment, medical devices and more.
+
+ 
+
+Provides extended backup time for home and office appliances such as 32 inch TV and decoder (up to 18 hours, laptop computer (up to 26 hours), CCTV camera and DVR (up to 32 hours), IT equipment,  medical devices and.more.
+
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/47/1843363/1.jpg?2709",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/47/1843363/2.jpg?2709",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 3, 5, 3, 5, 4, 3, 2, 4, 5, 5],
+  },
+
+  {
+    id: "00000129",
+    name: "150W CAR INVERTER FOR CHARGING LAPTOPS",
+
+    category: "Computer Accessories",
+
+    brand: "unknown",
+
+    price: 18700,
+
+    oldPrice: 25000,
+
+    desc: `
+Convert 12V DC electricity provided by the automobile into AC power and be used with electric equipment with power consumption
+Can be used for a notebook, cell phone, razor, digital camera, digital video, TV, CD, DVD, game machine, cleaner, refrigerator, electric light, charger and various kinds of professional tools, which power consumption are less than 100W
+With the multiple protection circuit, there is no harm to the equipment and automobile
+Special versatile socket, suitable for various kinds of plugs
+Easy to use
+Input voltage range: 12V DC
+
+
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/3262013/1.jpg?8514",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/3262013/2.jpg?8514",
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/3262013/3.jpg?8514",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 3, 5, 3, 5, 4, 3, 2, 4, 5, 5],
+  },
+
+  {
     id: "0000067",
 
     name: "DELL Latitude 5400 TOUCHSCREEN Core I7 -512GB SSD/16GB RAM Keyboard BACKLIT /WIN 11+ BAG",
@@ -600,6 +874,124 @@ Processor : Intel platform powered by 12th Generation Intel Core i7-1260P (Up to
     unitLeft: 33,
 
     rating: [5, 4, 3, 5, 5, 5, 4],
+  },
+
+  {
+    id: "00000103",
+    name: "BT-16 Wireless Headphones Bluetooth 5.1 Neckband Earphone",
+    category: "Phone Accessories",
+
+    brand: "unknown",
+
+    price: 11910,
+    oldPrice: 17897,
+
+    desc: `
+Welcome! We offer premiumBluetooth headphones, phones, tablets, and more.
+
+
+Explore our selection of high-end audio, mobile, and digital products.
+
+
+Experience Premium Audio Without Breaking the Bank
+
+
+Introducing our top-ratedBluetooth earbuds, engineered for an immersiveHi-Filistening experience.
+
+
+These sleek and compact earbuds pack a powerful punch, delivering exceptional audio quality that belies their size:
+
+
+    Studio-Grade Sound: Large dynamic drivers and expertly tuned acoustics deliver rich, detailed sound with deep, impactful bass, crystal-clear mids, and crisp, detailed highs.
+
+
+    Immersive Audio: Experience your music like never before with a wide soundstage and truly immersive stereo separation, making you feel like you're right in the middle of the action.
+
+
+    Lossless Audio Transmission: Enjoy every nuance of your favorite tracks with support for high-fidelity audio codecs, ensuring a pristine listening experience.
+
+
+    Powerful Active Noise Cancellation: Escape distractions with advanced ANC technology that intelligently analyzes and neutralizes background noise, allowing you to focus on your music, podcast, or call.
+
+
+    Crystal-Clear Calls: Built-in microphones ensure clear and effortless communication, even in noisy environments.
+
+
+    Premium Design: These stylish earbuds are crafted for comfort and durability, with a sleek design that's sure to turn heads.
+
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/39/7731063/1.jpg?3378",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/39/7731063/2.jpg?3378",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/39/7731063/3.jpg?3378",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/39/7731063/4.jpg?3378",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [4, 3, 3, 3, 4, 5, 3],
+  },
+
+  {
+    id: "00000104",
+    name: "Samsung CHARGER 45W SUPER FAST CHARGER ADAPTIVE CHARGING FOR NOTE 20 Ultra S20 S21 S22 S23 Ultra Type-C To Type C",
+    category: "Phone Accessories",
+
+    brand: "samsung",
+
+    price: 4910,
+    oldPrice: 7999,
+
+    desc: `
+This Samsung Galaxy charger is an official Samsung product made from the highest quality materials and to the strictest standards For S10, S9, S8 S20 A51 A71 A70 A51 A30S A30
+ This is ideal as a spare or replacement for your existing Galaxy charger.
+Smart Q amp Adjustment technology intelligent chips identifies your device to deliver its fastest possible charge
+Efficient and easy to use
+Just plug into the wall socket and charge up your device
+Adaptive fast charging
+Experience faster charging speeds than ever before with Samsung Adaptive Fast Charging. Using the built-in technology of your latest Samsung Galaxy phones
+ This is official Samsung Adaptive Fast Charger can rapidly recharge your device. No more hanging about, just super quick charging.
+Compact design allows you to take it on your travels
+The charger itself is very compact which makes it highly portable. Ideal for taking with you on holidays or short trips. When not in use, the central pin can retract, giving the adapter a much slimmer profile for convenient storage.
+Easy to store and carry around with you
+Fast Technology in charging your Samsung Galaxy for Latest S series and A series Samsung Smart Phones
+Enjoy Speed in charging
+Compatible with all Type C enable Smart Phones
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/07/8976272/1.jpg?4148",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/07/8976272/2.jpg?4023",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/07/8976272/3.jpg?4023",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/07/8976272/4.jpg?4023",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [4, 4, 4, 3, 4, 3, 3],
   },
 
   {
@@ -1084,6 +1476,93 @@ Intel® CORE I7- (Up to 4.1 GHz with Intel® Turbo Boost Technology, 6 MB L3 cac
   },
 
   {
+    id: "00000124",
+    name: "Apple Macbook Pro Air Original 61W Power Adapter USB Type C",
+
+    category: "Computer Accessories",
+
+    brand: "apple",
+
+    price: 35000,
+    oldPrice: 44900,
+
+    desc: `
+✅ 1. Original Apple Product
+Benefit: Guaranteed compatibility and reliability—protects your device with Apple-certified safety and performance standards.
+
+⚡ 2. 61W High Power Output
+Benefit: Rapid charging for your MacBook Pro/Air, allowing you to power up faster and get back to work without long waits.
+
+???? USB-C Compatibility
+Benefit: Works with a wide range of USB-C devices, not just MacBooks making it a versatile charger for phones, tablets, and more.
+
+???? Intelligent Power Delivery (PD)
+Benefit: Automatically adjusts power output for optimal charging, preventing overheating, overcharging, and short circuits.
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/74/3571904/1.jpg?8272",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/74/3571904/2.jpg?8272",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/74/3571904/3.jpg?8272",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/74/3571904/4.jpg?8272",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 3, 5, 3, 5, 4, 3, 2, 4, 5, 5],
+  },
+
+  {
+    id: "00000125",
+    name: "Laptop Case For MacBook AIR 13 Inch Case Release Model A3113 A2681 M3, M2, Ultra Slim Protective Hard Shell",
+
+    category: "Computer Accessories",
+
+    brand: "apple",
+
+    price: 22000,
+
+    desc: `
+This ultra-thin, lightweight case features a sleek matte finish and comes with a complimentary silicone keyguard to protect against dust, dirt, and spills. Compatible with MacBook Air 13 Inch
+
+ 
+
+Compatibility: Compatible with MacBook Air 13.6-inch models (A3113, A2681, M3, M2).
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/68/4098904/1.jpg?6178",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/68/4098904/2.jpg?6178",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/68/4098904/3.jpg?6178",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 3, 5, 3, 5, 4, 3, 2, 4, 5, 5],
+  },
+
+  {
     id: "0000043",
 
     name: "TiLECC 10.1 Inch Android Tablet PC 12 Dual Camera Sim 8GB RAM 512GB Bluetooth Fntastic Black",
@@ -1459,6 +1938,89 @@ Brand story: SKYRUN was established in 2005. It is a local manufacturing company
     unitLeft: 33,
 
     rating: [4, 5, 3, 3, 5, 4, 5],
+  },
+
+  {
+    id: "00000122",
+    name: "Adjustable Laptop Stand And Stand With Fan And 360 Degree Rotating Base V5.1",
+
+    category: "Computer Accessories",
+
+    brand: "unknown",
+
+    price: 70000,
+
+    desc: `
+The laptop stand is made from high quality aluminium alloy for a more robust construction. The desktop laptop stand provides solid support to hold your device upright without dropping it like the others. It helps you to work more comfortably.
+-The versatile laptop design comes with a USB fan which allows the laptop to cool quickly and can also be used as a desktop fan. The laptop stand will quickly cool your laptop and keep it performing at high speed.
+The unique Z-shaped design of the lift desk stand, which is height adjustable and 360° rotatable, allows you to adjust to the ideal viewing height whether sitting or standing. Improves your body posture and helps relieve neck and back pain and eye strain.
+-The rubber on the laptop stand sticks securely to keep your computer stable and protect it from any scratches. With its portable design, the laptop stand folds easily into your bag and can be carried on business trips and travels.
+-The PC lift is compatible with all tablets and laptops from 10-17 inches such as iPad Mini Air Pro, Mac Book Air Pro, Google Pixelbook, Dell XPS, Acer, Chromebook and many more from 11-17 inches devices.
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/03/3192004/1.jpg?2860",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/03/3192004/2.jpg?2860",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/03/3192004/3.jpg?2860",
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/03/3192004/4.jpg?2860",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 3, 5, 3, 5, 4, 3, 2, 4, 5, 5],
+  },
+
+  {
+    id: "00000123",
+    name: "HP Original 65W Power Adapter USB Type C For HP 65W USB Type C Travel Tablets, Laptops",
+
+    category: "Computer Accessories",
+
+    brand: "hp",
+
+    price: 25999,
+    oldPrice: 49999,
+
+    desc: `
+Unleash the Full Potential of Your HP USB-C Device: The Original HP 65W Power Adapter
+Tired of slow charging and unreliable power sources? Step into a world of seamless power delivery with the Genuine HP USB-C 65W Original Power Adapter. Crafted by HP, the very engineers who designed your beloved device, this isn't just another charger – it's the key to unlocking its optimal performance and ensuring its long-term health.
+
+ 
+
+Imagine a world where your HP laptop or tablet springs to life with swift, efficient charging, allowing you to power through your workday, conquer your gaming sessions, or immerse yourself in your favorite entertainment without the nagging worry of a dwindling battery. This is the promise of the HP USB-C 65W Original Power Adapter.
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/71/2576804/1.jpg?1964",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/71/2576804/2.jpg?1964",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/71/2576804/3.jpg?1964",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/71/2576804/4.jpg?1964",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 3, 5, 3, 5, 4, 3, 2, 4, 5, 5],
   },
 
   {
@@ -1969,6 +2531,89 @@ A collaborative approach to work requires a powerful, secure, and durable laptop
   },
 
   {
+    id: "00000118",
+    name: "Bluetooth Dual-mode Rechargeable Wireless Mouse",
+
+    category: "Computer Accessories",
+
+    brand: "unknown",
+
+    price: 7000,
+    oldPrice: 10000,
+
+    desc: `
+1. Made of good quality ABS material, solid, durable 
+2. 2.4G B receiver, can receive wireless within 10 meters.
+4. Ergonomiwireless technology, optical technology, 1200dpi high precision, plug and play, convenient and practical.
+3. With USc design, suitable for your hand posture, use without fatigue.
+5. Lightweight and portable, suitable for PC, laptops, tablets, smartphones, etc.
+6. With rechargeable inbuilt lithium battery and USB charging cable, easy to charge and use.
+
+Specifications:
+Material: ABS
+Type: 2.4Ghz Wireless Mouse
+Wireless Distance: within 10 meters
+Work: Photoelectric
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/04/8763863/1.jpg?7862",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/04/8763863/2.jpg?7862",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 4, 5, 5, 5, 4, 5, 4, 4, 5, 5],
+  },
+
+  {
+    id: "00000119",
+    name: "Premium-Textured & Waterproof Computer Mousepad with Non-Slip Rubber Base, Gaming Mouse",
+
+    category: "Computer Accessories",
+
+    brand: "unknown",
+
+    price: 3000,
+
+    desc: `
+Small and Perfect Size: Special square shape design, this small mouse pad is suitable for both work and games. 3 mm thickness offer a soft touch. Lightweight and portable, perfect for office, home, business trip and on the go
+
+Ultra Smooth Surface: The surface is made of denser cloth with 230°F and high pressure treatment. Mouse can be quickly moved and accurately positioned on the smooth surface. Available for all types of mice, laser and optical mouse
+
+Non-slip Rubber Base: Dense shading and anti-slip rubber pad base enhance the friction, can firmly grip the desktop. Fits all types of surfaces including wood, glass, marble, metal and more. Offers a more pleasant experience while working or gaming
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/27/3736904/1.jpg?5903",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/27/3736904/2.jpg?5903",
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/27/3736904/3.jpg?5903",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 3, 5, 3, 5, 4, 3, 2, 4, 5, 5],
+  },
+
+  {
     id: "0000033",
 
     name: "itel A18s 5.0 Screen, 32GB + 2GB RAM, 3020mAh Battery,- Orange",
@@ -2199,6 +2844,97 @@ Back-up power
   },
 
   {
+    id: "00000109",
+    name: "New Age 55000 MAh PD 22.5W Digital Fast Charge Power Bank- FC55P",
+    category: "Phone Accessories",
+
+    brand: "new age",
+
+    price: 45990,
+    oldPrice: 80000,
+
+    desc: `
+Powerful Capacity Power Bank with Digital Display
+
+Set Yourself Free
+
+1 Charge = 3 Weeks of Power! Power up your devices and recharge your battery at high speed with USB-C Power Delivery, and provide optimized charging to your mobile devices.
+
+Get freedom from your wall for THREE weeks. New Age FC55P 55000 PD Power Bank provides almost 16 iPhone 11 charges, 13 Samsung Galaxy S21 charges, 10 Tecno Phantom X charges or multiple charges for almost all tablets and other USB devices.
+
+Four-Fold Protection Technology
+
+With New Age’s Four-Fold Protection Technology, your device is protected from;
+
+Short Circuit Protection
+Overload Protection
+Overheating Protection
+Overload Protection of the Connected Device
+Type-C Speed Recharge
+
+With New Age Two-way Type-C port (input & output) recharge of 3A, a full charge takes just over 3 hours—twice as fast as a standard power bank. Recharge for a night; charge for THREE weeks.
+
+High-Speed Charging
+
+
+
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/46/8367953/1.jpg?2143",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/46/8367953/1.jpg?2143",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 3, 4, 3, 3],
+  },
+
+  {
+    id: "00000110",
+    name: "WIRELESS CHARGER Solid Magnetic Fast Wireless Charging Power Bank For IPhone X 11 12 13 14 15 PRO MAX, Samsung",
+    category: "Phone Accessories",
+
+    brand: "unknown",
+
+    price: 11500,
+    oldPrice: 25000,
+
+    desc: `
+For Magsafe External Battery Magnetic Power Bank For iphone 11 11pro 12 12Pro 12proMax 12mini 13 13pro 13 pro max 13mini 14 14 Pro 14 Promax 15 15 Pro 15 Pro max Magnet Wireless Charging Fast Charger
+
+Product Name: magnetic wireless power bank 5W general charge Type-C port input 5v2a USB output 5v2.1a Wireless charging 5W Size: 98 * 63 * 15mm Electric quantity display: four electric quantity Weight: 120g 15W PD fast charge Product size: 98 * 63 * 15mm Capacity: 5000mAh; Key: Click to open; Electric quantity display: four electric quantity + one wireless charging indicator Type-C input / output PD: 5V / 3a, 9V / 2a, 12V / 1.5A USB output: 5V / 3a, 9V / 2a, 12V / 1.5A Wireless charging and output: 15W (compatible with 10W / 7.5W / 5W)
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/8402743/1.jpg?7471",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/8402743/2.jpg?7471",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 3, 3, 3, 4, 3, 3],
+  },
+
+  {
     id: "0000016",
 
     name: "TP-Link 300mbps Wireless N Router TL-WR840N",
@@ -2398,6 +3134,97 @@ Backlit Magic Keyboard and Touch ID for secure unlock
     unitLeft: 23,
 
     rating: [4, 5, 4, 3, 4, 5, 5],
+  },
+
+  {
+    id: "00000105",
+    name: "Oraimo Charger Kit Oraimo Fast Charger With Micro Usb Blackberry Cable",
+    category: "Phone Accessories",
+
+    brand: "oraimo",
+
+    price: 3990,
+
+    desc: `
+It ofers stable charging at 2A max speed.
+It provides surge protection, short circuit prevention, temperature control and more to deliver unbeatable protection to you and your devices.
+Hard-wearing exterior and high-gloss detailing are as durable as they are good looking, and the small body takes up minimal space.
+
+Specifications:
+CHARGER
+Plug Type: UK Type
+Input: 100-240V- 50/60Hz
+Output: 5.0V=-2A (Max)
+CABLE
+Type: usb
+Length: 1m
+
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/87/9513231/1.jpg?0933",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/87/9513231/2.jpg?0933",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/87/9513231/3.jpg?0933",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/87/9513231/4.jpg?0933",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 3, 4, 3, 3],
+  },
+
+  {
+    id: "00000106",
+    name: "Oraimo Type-C And Micro-USB Port Power-Bank 20000mAh Fast Charging",
+    category: "Phone Accessories",
+
+    brand: "oraimo",
+
+    price: 23190,
+    oldPrice: 41997,
+
+    desc: `
+Product Features:
+
+20000 mAh High Capacity-Say Goodbye to Battery Anxiety
+20000mAh large capacity, filled to the brim with power. It lasts up to a week on a single charge, so whether you're on a personal business trip or a family trip, you just need one.
+2.1A Dual Fast Charging-Always Best Choice
+Powered by oraimo AniFast technology, it can intelligently identify the charging protocols of your device. The dual USB port configured with Traveler 4 can charge two devices at the same time with the fastest charging speed.
+
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/44/6788701/1.jpg?8289",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/44/6788701/2.jpg?8289",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/44/6788701/3.jpg?8384",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/44/6788701/4.jpg?7914",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 3, 4, 3, 3],
   },
 
   {
@@ -2863,6 +3690,98 @@ Main camera (MP) 13`,
   },
 
   {
+    id: "00000126",
+    name: "Super Scanner UareU 4500 Biometric Fingerprint Scanner",
+
+    category: "Computer Accessories",
+
+    brand: "unknown",
+
+    price: 107000,
+
+    desc: `
+This is the only biometric reader that's recommended by JAMB, GCE, NYSC, NECO, WAEC, I.T, Project, research work and in organizations for biometric capturing of workers. It comes with the small disk which contains the RTE(drivers 32bit and 64bit) and the SDK file which serves as multipurpose especially for software designers  and programmers. On the other hand, if you don't know how to do the WAEC, JAMB, GCE, NYSC, NECO and other setups, you can always contact me because i know every single step to put you through. That's the added advantage you get when you buy my products.
+Made for power-users and shared environments, the 4500 is the natural choice for those that want and need the very best. Here’s a look at just some of its features and benefits:
+
+Blue LED
+
+Soft, cool blue glow fits into any environment. Provides a pleasing presence; doesn't compete in low light environments, such as restaurants, or conflict with alarm condition colors, such as in healthcare.
+
+Small form factor
+
+Conserves valuable desk space.
+
+Rugged construction
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/10/6106151/1.jpg?2727",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/10/6106151/1.jpg?2727",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 3, 5, 3, 5, 4, 3, 2, 4, 5, 5],
+  },
+
+  {
+    id: "00000127",
+    name: "For Macbook Pro Retina 12 Inch Protective Case(Green)",
+
+    category: "Computer Accessories",
+
+    brand: "unknown",
+
+    price: 14080,
+
+    oldPrice: 20114,
+
+    desc: `
+For Macbook Pro Retina 12 inch Starry Sky Patterns Apple Laptop Water Decals PC Protective Case(Green)
+Feature
+About the product
+1. Ultra thin, super light design, perfect fit for your device.
+2. Starry sky patterns + water decal + rubber oil coating finish, very stylish and extremely durable.
+3. Soft rubber finish bring a comfortable handle as well as keep your MacBook stable and secure.
+4. The outer surface coating delivers superior scratch resistance and protects from from scuffs,finger prints,water,oil,dust and other dirty.
+5. Fully access to all ports, buttons and connectors. Unique protective design allows operating your Macbook freely without removing the case.
+6. Fully vented for safe heat emitting.
+7. Easy to clean up the sleek and smooth surface.
+
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/28/9596722/1.jpg?8407",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/28/9596722/2.jpg?8407",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/28/9596722/3.jpg?8407",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/28/9596722/4.jpg?8407",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 3, 5, 3, 5, 4, 3, 2, 4, 5, 5],
+  },
+  {
     id: "0000024",
 
     name: "itel RS4 256GB ROM+8 GB RAM Silvery White",
@@ -3155,6 +4074,93 @@ Connection & Ports] Wi-Fi 6E (2x2) 802.11AX and Bluetooth 5.2 Combo; 1x USB 3.2 
     unitLeft: 33,
 
     rating: [5, 4, 3, 5, 5, 5, 4],
+  },
+
+  {
+    id: "00000107",
+    name: "Ace Elec 70,000MAh Large Capacity Portable Power Bank With 28 PCS LED Lights",
+    category: "Phone Accessories",
+
+    brand: "Ace Elec",
+
+    price: 37529,
+
+    desc: `
+ACE ELEC multifunctional 70,000mAh large-capacity pøwer bank with 28PCS LED lights and digital display, supports charging 4 devices simultaneously with multiple interfaces and lanyard, convenient to use.
+ 
+
+Product features:
+
+[70,000mAh large capacity] Built-in 70,000mAh high-density safe polymer battery, can provide long-term power support for your smartphone, tablet computer, digital camera and a variety of electronic devices. Whether you are in daily work or on a long-distance trip, this pøwer bank can be your reliable energy guarantee, so that your device always stays active, without worrying about the trouble caused by running out of power. It is your ideal companion for daily life and outdoor travel.
+
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/2686104/1.jpg?7543",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/2686104/2.jpg?7543",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/2686104/3.jpg?7543",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 3, 4, 3, 3],
+  },
+
+  {
+    id: "00000108",
+    name: "itel 40000mAh 22.5W Fast Charging Type-C Output Powerbank",
+    category: "Phone Accessories",
+
+    brand: "itel",
+
+    price: 34950,
+    oldPrice: 80000,
+
+    desc: `
+LARGER CAPACITY
+LONGER USAGE
+SUPER STRONG
+40,000mAh Power Bank
+
+SPECIFICATIONS
+Battery Cell Type: Lithium BatteryCapacity: 40,000mAhRated Input: DC 5.0V, 3A: 9V, 2ARated Output: DC 5.0V - 3A , 9V - 2.22A, 12V - 1.67A (22.5W Max) 
+
+
+40,000mAh High Capacity
+It holds enough energy to charge a phone and most tablets for up to a week
+
+Fast Charging for Up to 6 Devices
+Itel exclusive charging technology ensures up to 22.5W charging speed for three device simultaneously.
+
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/83/6245773/1.jpg?5235",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/83/6245773/2.jpg?1302",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 4, 3, 4, 3, 3],
   },
 
   {
@@ -4521,6 +5527,390 @@ Compatible with Canon, Nikon, Sony, Olympus, Pentax digital cameras and other di
 
     rating: [5, 4, 4, 5, 4, 5, 4],
   },
+
+  {
+    id: "00000101",
+
+    name: "Lenovo LP40 Pro Bluetooth 5.1 Headset - Black",
+
+    category: "Phone Accessories",
+
+    brand: "lenovo",
+
+    price: 7732,
+    oldPrice: 14580,
+
+    desc: `
+BT 5.1 technology provides high-speed data transfer rate, stable performance and low power consumption. With T W S technology, you can use headphones individually or in pairs. Equipped with a 350mAh charging box, which can store and charge the headset. The built-in microphone provides clearer and more realistic sound. It will bring you a perfect user experience.
+
+Brand Name: Lenovo
+Model: LP40
+BT version: 5.1
+Transmission range: up to 10m (without obstacles)
+Unit diameter: 13mm
+Frequency range: 20-20KHz
+Speaker sensitivity: 98dB
+Microphone sensitivity: -32dB±3dB
+Impedance: 32Ω
+Charging box battery capacity: 3.7V 350mAh
+Headphone battery capacity (each): 3.7V 40mAh
+Music playback time: about 3 hours (depending on the volume of the music)
+Color: black, white (optional)
+Headphone weight (each): 3.2g / 0.11oz
+Packing size: 8.7*8.7*2.8cm/3.42*3.42*1.10oz
+Package weight: 64g / 2.25oz
+Lenovo LP40 gaming headset headset
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/98/3332221/1.jpg?5291",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/98/3332221/2.jpg?5291",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/98/3332221/3.jpg?5291",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 3, 3, 3, 4, 5, 4],
+  },
+
+  {
+    id: "00000102",
+    name: "Full Touch Screen Fashion Smartwatch X7 For IOS And Android",
+    category: "Phone Accessories",
+
+    brand: "unknown",
+
+    price: 9677,
+    oldPrice: 13184,
+
+    desc: `
+Finally, I've waited for you. Welcome to my store. I hope you can buy your favorite products in my store!
+1.There are many high-quality imported products in the store. You can click "Seller Information" to enter my store to view.
+2.I hope you can buy your favorite products here. Baby, come and have a pleasant shopping experience!
+Product Description:
+
+【Bluetooth Call Receive/Dial and Built-in Speaker】This smart watch has built-in high-fidelity speaker and microphone. After connecting to Bluetooth, you can directly dial the phone number on the watch to answer calls. This watch supports answering/making/rejecting calls (as well as playing music) from your wrist, allowing you to free your hands while exercising.
+【1.44-Inch Large HD Color Touch Screen and Customized Dial】This smart watch for Android iOS phones comes with a 1.44-inch touch screen with smooth operation. Screen color saturation is better. It is designed with a functional UI and multiple watch faces. A variety of customized watch faces are provided, and you can switch the watch face style at any time according to your mood and occasion, or you can customize the watch face with your own photos!
+【24/7 Accurate Health Monitoring】The upgraded heart rate and sleep monitoring watch can monitor your real-time heart rate and deep or light sleep status to help you better understand your health. A sensitive motion sensor smartwatch can also monitor blood pressure (BP) and blood oxygen (SPO2H). When the heart rate is abnormal, early warnings will be issued in time to help you better take care of your health from all aspects. 
+【Sports Mode and Life Assistant Fitness Tracker】Supports sports mode, IP67 sweat-proof life, such as running, cycling, walking, etc., records your steps, distance, calories and other activity data. It can also serve as an assistant: music and camera control, weather display, sedentary reminder, stopwatch, alarm clock, stopwatch, find watch, etc., making your life more convenient.
+【Wider Compatibility & Longer Battery Life】This digital sports smart watch is compatible with iOS 9.0 and above or Android 5.0 and above smartphones.
+【Style adjustment】 Rotatable digital crown: zoom in/out, display changes 11 UI menu styles: smart full view style, grid style, circular style, list style, etc. Dial: a more beautiful dial, make every day more beautiful They all have built-in NFC always-on AI voice assistant.
+
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/91/3497352/1.jpg?7263",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/91/3497352/2.jpg?9457",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/91/3497352/3.jpg?9457",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/91/3497352/4.jpg?9457",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 3, 3, 3, 4, 5, 3],
+  },
+
+  {
+    id: "00000113",
+    name: "Quality Silicone Protective Back Case IPHONE 16 Promax/16 Pro/16/15 Promax/15 Pro/14 Plus/15/14 Promax/14 Pro/14/13 Promax/13 Pro/13/12 Promax/12 Pro/12/11 Promax/11 Pro/11/Xs Max/X/Xs/Xr/8 Plus/7 Plus/7/8",
+
+    category: "Phone Accessories",
+
+    brand: "unknown",
+
+    price: 4470,
+    oldPrice: 7000,
+
+    desc: `
+All Iphone Quality Magnetic Magsafe Transparent Case.
+
+Protect your high earned phone from scratch, cracks and breaks when it falls! It is unintentional and many times unavoidable to let it fall off our hands or hit the edges on an object. We obviously know that we spend about 40% (if not more) of the cost value of our high earned phones fixing the broken/cracked screen (if at all its available in the market). Hence, there is need to protect our phones adequately to ensure we feel more relaxed when it suddenly falls, spills or hit an object.
+This clear view pouch provides maximum protection to both front and back of your phone, gives elegant look and also enable you view incoming calls, messages and other notifications without opening.
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/77/1938013/1.jpg?6314",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/77/1938013/2.jpg?6314",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/77/1938013/3.jpg?6314",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/77/1938013/4.jpg?6314",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 3, 3, 3, 4, 3, 3],
+  },
+
+  {
+    id: "00000114",
+    name: "10inch BT Rechargeable Mini Keyboard Mouse Combo 78 Keys",
+
+    category: "Computer Accessories",
+
+    brand: "unknown",
+
+    price: 10460,
+    oldPrice: 18245,
+
+    desc: `
+Warm tips:Please pay attention to sufficient power before using lithium battery products.
+If the keyboard is disconnected, it is recommended to charge the keyboard. If the battery is insufficient, the keyboard will be disconnected.
+
+
+
+Features:
+
+imageimageimage
+
+Keyboard
+Built-in BT3.0 chip, up to 10m stable connection, no latency, wide compatibility.
+Multifunctional shortcut keys design, easy to realize different operations.
+Scissor foot button structure, simple chocolate keycaps, good rebound effect, comfortable typing.
+Support Windows/Android/iOS/Mac OS, compatible with mobile phone, tablet, PC and laptop with BT function.
+Built-in rechargeable lithium battery, low power consumption and energy-saving, long endurance time.
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/24/9570241/1.jpg?0974",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/24/9570241/2.jpg?0974",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/24/9570241/3.jpg?0363",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/24/9570241/4.jpg?0363",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 3, 4, 4, 3, 3],
+  },
+
+  {
+    id: "00000115",
+    name: "Wireless Vertical Mouse Ergonomic Vertical Mouse",
+
+    category: "Computer Accessories",
+
+    brand: "unknown",
+
+    price: 20200,
+    oldPrice: 28000,
+
+    desc: `
+Warm tips:Please pay attention to sufficient power before using lithium battery products.
+If the keyboard is disconnected, it is recommended to charge the keyboard. If the battery is insufficient, the keyboard will be disconnected.
+
+
+
+Features:
+
+imageimageimage
+
+Keyboard
+Built-in BT3.0 chip, up to 10m stable connection, no latency, wide compatibility.
+Multifunctional shortcut keys design, easy to realize different operations.
+Scissor foot button structure, simple chocolate keycaps, good rebound effect, comfortable typing.
+Support Windows/Android/iOS/Mac OS, compatible with mobile phone, tablet, PC and laptop with BT function.
+Built-in rechargeable lithium battery, low power consumption and energy-saving, long endurance time.
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/41/5719093/1.jpg?1783",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/41/5719093/2.jpg?1783",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/41/5719093/3.jpg?1783",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/41/5719093/4.jpg?1783",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 4, 5, 5, 5, 4, 5, 4, 4, 5, 5],
+  },
+
+  {
+    id: "00000116",
+    name: "Portable 2.4G Wireless Business Gaming Mouse/Mice 2400DPI",
+
+    category: "Computer Accessories",
+
+    brand: "unknown",
+
+    price: 6950,
+    oldPrice: 15000,
+
+    desc: `
+Warm tips:Please pay attention to sufficient power before using lithium battery products.
+If the keyboard is disconnected, it is recommended to charge the keyboard. If the battery is insufficient, the keyboard will be disconnected.
+
+
+
+Features:
+
+imageimageimage
+
+Keyboard
+Built-in BT3.0 chip, up to 10m stable connection, no latency, wide compatibility.
+Multifunctional shortcut keys design, easy to realize different operations.
+Scissor foot button structure, simple chocolate keycaps, good rebound effect, comfortable typing.
+Support Windows/Android/iOS/Mac OS, compatible with mobile phone, tablet, PC and laptop with BT function.
+Built-in rechargeable lithium battery, low power consumption and energy-saving, long endurance time.
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/04/5251172/1.jpg?6241",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/04/5251172/2.jpg?6241",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/04/5251172/3.jpg?6241",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/04/5251172/4.jpg?6241",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 4, 5, 5],
+  },
+
+  {
+    id: "00000117",
+    name: "Rgb Rechargeable Wireless Mouse, Ergonomic Gaming Mouse",
+
+    category: "Computer Accessories",
+
+    brand: "unknown",
+
+    price: 9999,
+
+    desc: `
+Rgb Rechargeable Wireless Mouse, Ergonomic Gaming Mouse
+YouTube URL：https://youtube.com/shorts/6Z6SdInZ86o?feature=share
+[Control your own speed as you wish] 3 levels of DPI by pressing the button below the scroll wheel. (800/1200/1600) You can easily adjust the movement speed, perfect for gaming and office, meeting your various needs.
+[Plug and Play] No need to install any drivers, just plug the USB receiver into your laptop and this 2.4G portable gaming wireless mouse will work normally.
+[Ergonomic Design] Ergonomic design and soft rubber grip fit your hand perfectly, providing a comfortable grip while reducing wrist fatigue caused by long-term work. Whether you use your computer at home, at work, or anywhere else, its compact size makes it easy to take with you.
+[Wide Compatibility] It is not only a wireless mouse, but also an artifact for office, home and gaming use. It is compatible with Android, Linux, Windows95/98/XP/2000/VISTA/ Windows 7/8/10/11 or Mac OS10.5.1 Wait for the latest version.
+[Skin Friendly and Noiseless] The wireless mouse is made of frosted, anti-sweat, anti-slip material, with silent click characteristics, less interference and fatigue during work, so you don’t have to worry about disturbing your baby when working at home.
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/3426113/1.jpg?8219",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/3426113/2.jpg?8219",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/3426113/3.jpg?8219",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/84/3426113/4.jpg?8219",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 4, 5, 5],
+  },
+
+  {
+    id: "00000130",
+    name: "Computer / Laptop Stand Adjustable Laptop Stand With Phone Holde",
+
+    category: "Computer Accessories",
+
+    brand: "unknown",
+
+    price: 12500,
+
+    oldPrice: 19900,
+
+    desc: `
+WIDE COMPATIBILITY】- Fits for Mac Stand is compatible with all laptop models and sizes from 8-18 inches, such as Tablet, MacBook, MacBook Air, Macbook Pro, M icrosoft Surface, Google Pixelbook, Dell XPS, H P, ASUS, Lenovo, Acer, Chromebook and more.
+【Foldable&Portable Design】– This portable folding stand weighs only 0.7kg. Collapsible small size, Amazing construction. makes it ideal to carry, you can put it in backpack or laptop bag.
+【ERGONOMIC DESIGN】- 6 Adjustable Ergonomics Levels - You can set multiple angles (maximum 5.34 "minimum 1.35") and the line of sight varies with the angle adjustment. This helps correct posture, relieve neck and back pain, wrist pain and eyestrain.
+【Steadiness&Durability】Made of premium engeneering plastic makes the laptop riser more sturdy; Non-skid pads keep the notebook riser stable and protects your device/desktop surface once placed on.
+
+
+
+`,
+
+    isAvailable: true,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/62/8739111/1.jpg?3843",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/62/8739111/2.jpg?3843",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 3, 5, 3, 5, 4, 3, 2, 4, 5, 5],
+  },
 ];
 
 export const addresses = [
@@ -4772,92 +6162,6 @@ export const categories = [
   },
 ];
 
-export const topBrands = [
-  {
-    id: "001",
-    name: "apple",
-    img: "https://www.apple.com/newsroom/images/default/qr/QR-Apple-logo.jpg.square_social.jpg",
-  },
-  {
-    id: "002",
-    name: "samsung",
-    img: "https://images.samsung.com/is/image/samsung/assets/global/about-us/brand/logo/mo/256_144_1.png?$512_N_PNG$",
-  },
-  {
-    id: "003",
-    name: "nexus",
-    img: "https://www.logo.wine/a/logo/Nexus_5X/Nexus_5X-Logo.wine.svg",
-  },
-  {
-    id: "004",
-    name: "SILVER CREST",
-    img: "https://0501.nccdn.net/4_2/000/000/06b/a1b/picture2.jpg#RDAMDAID12117240",
-  },
-
-  {
-    id: "005",
-    name: "Hisense",
-    img: "https://images.seeklogo.com/logo-png/44/2/hisense-logo-png_seeklogo-449490.png",
-  },
-  {
-    id: "009",
-    name: "Skyrun",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSezCnY_a6zxczUyT7exkgnXTx5uvHQ9gblwNFv7tu6LDA5VVJMw5dvUMZDO3-hdVUsBvQ&usqp=CAU",
-  },
-  {
-    id: "011",
-    name: "Haier Thermocool",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPVevdL0uw77x44y7vFnnyPUqCfaanLbsuSA&s",
-  },
-  {
-    id: "012",
-    name: "Hp",
-    img: "https://www.logo.wine/a/logo/HP_Inc./HP_Inc.-Logo.wine.svg",
-  },
-  {
-    id: "013",
-    name: "Mtng",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdfoKNo3w3MB8yaUuVycl39IEnyFwN8vNDLQ&s",
-  },
-
-  {
-    id: "015",
-    name: "Century",
-    img: "https://century.com.ng/wp-content/uploads/2024/09/CENTURY-LOGO.jpg",
-  },
-  {
-    id: "016",
-    name: "tecno",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnQrloETz2rwO4TZm6uFmHPzXVi8GfdpQmAw&s",
-  },
-  {
-    id: "017",
-    name: "itel",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-req4K32CSA_wDH-KcCl0PMYYbKaLSlxJOg&s",
-  },
-  {
-    id: "018",
-    name: "infinix",
-    img: "https://seeklogo.com/images/I/infinix-logo-62FA1B616A-seeklogo.com.png",
-  },
-
-  {
-    id: "024",
-    name: "dell",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dell_Logo.svg/2048px-Dell_Logo.svg.png",
-  },
-  {
-    id: "027",
-    name: "lenovo",
-    img: "https://www.svgrepo.com/show/303399/lenovo-1-logo.svg",
-  },
-  {
-    id: "028",
-    name: "adidas",
-    img: "https://cdn.logojoy.com/wp-content/uploads/20231013154327/Adidas-logo-1991-1-600x319.png",
-  },
-];
-
 export const brands = [
   {
     id: "001",
@@ -5034,6 +6338,12 @@ export const brands = [
     id: "028",
     name: "addidas",
     img: "/brand/addidas-brand.png",
+    topBrand: true,
+  },
+  {
+    id: "029",
+    name: "oraimo",
+    img: "/brand/oraimo-brand.png",
     topBrand: true,
   },
 ];

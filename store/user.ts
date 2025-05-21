@@ -3,6 +3,8 @@ import { persist } from "zustand/middleware";
 
 interface IUser {
   maxNo: 60;
+  user: UserType | null;
+  setUser: (user: UserType) => void;
   history: ProductCardType[];
   addHistory: (product: ProductCardType) => void;
 }
@@ -12,6 +14,12 @@ export const useUserStore = create<IUser>()(
     (set, get) => ({
       history: [],
       maxNo: 60,
+      user: null,
+
+      setUser: (user) => {
+        return set({ user });
+      },
+
       addHistory: (product) => {
         const state = get();
 
@@ -34,6 +42,7 @@ export const useUserStore = create<IUser>()(
 
       partialize: (state) => ({
         history: state.history,
+        user: state.user,
       }),
     }
   )

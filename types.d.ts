@@ -31,6 +31,19 @@ type CartProductType = {
   };
 };
 
+type UserType = {
+  id: string;
+  firstName: string;
+  middleName?: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  gender: string;
+  // country: string;
+  phone: string;
+  phone2: string;
+};
+
 type ProductCardType = {
   id: string;
   name: string;

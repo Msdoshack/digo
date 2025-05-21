@@ -1,6 +1,7 @@
 import BrandList from "@/components/BrandList";
 import CategoryList from "@/components/CategoryList";
 import ProductList from "@/components/ProductList";
+
 import Slider from "@/components/Slider";
 import { productsData } from "@/constants";
 import Link from "next/link";
