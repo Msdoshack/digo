@@ -16,9 +16,19 @@ const Card = ({ order }: { order: OrderedProductType }) => {
     <div className="py-5 px-2 border border-gray-200 rounded-md mt-5">
       <div className="flex gap-4 justify-between ">
         <div>
-          <p className="text-xs sm:text-sm uppercase p-[2px] text-gray-700">
-            Cancelled - payment Unsuccessfull
-          </p>
+          {order.status === "pending" ? (
+            <p className="text-xs sm:text-sm uppercase p-[2px]  text-yellow-600">
+              Pending - payment Successfull
+            </p>
+          ) : order.status === "success" ? (
+            <p className="text-xs sm:text-sm uppercase p-[2px] text-green-500">
+              Delivered - payment successfull
+            </p>
+          ) : (
+            <p className="text-xs sm:text-sm uppercase p-[2px] text-red-400">
+              Cancelled - payment Unsuccessfull
+            </p>
+          )}
           <p className="text-sm  mb-5">On Monday, 28-04</p>
         </div>
 
@@ -170,5 +180,3 @@ export default function Page(/* { params }: { params: Params } */) {
     </div>
   );
 }
-
-// export default page;

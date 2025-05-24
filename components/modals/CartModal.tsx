@@ -100,13 +100,13 @@ const CartModal = ({ onClose }: PropsType) => {
 
   const router = useRouter();
 
-  const handleViewCart = () => {
-    router.push("/cart");
-    onClose();
-  };
+  // const handleViewCart = () => {
+  //   router.push("/cart");
+  //   onClose();
+  // };
 
   const handleCheckout = () => {
-    router.push("/checkout/addresses");
+    router.push("/cart");
     onClose();
   };
 
@@ -147,15 +147,15 @@ const CartModal = ({ onClose }: PropsType) => {
             <p className="text-gray-500 text-sm mt-2 mb-4">
               Shipping and taxes calculated at checkout
             </p>
-            <div className="flex items-center justify-between">
-              <Button
+            <div className="flex items-center justify-end">
+              {/* <Button
                 size={"sm"}
                 variant={"outline"}
                 className="ring-1 ring-gray-300"
                 onClick={handleViewCart}
               >
                 View Cart
-              </Button>
+              </Button> */}
               <Button
                 size={"sm"}
                 className="brand-bg hover:brand-bg hover:opacity-85"

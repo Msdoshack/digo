@@ -114,30 +114,33 @@ const CartCard = ({ product }: PropsType) => {
             Icon={Trash}
           />
 
-          <div
-            className={`flex items-center gap-4 pr-1 ${
-              !product.isAvailable && "pointer-events-none opacity-45"
-            }`}
-          >
-            <Button
-              disabled={qty === 1 || !product.isAvailable}
-              onClick={decrease}
-              className="brand-bg hover:brand-bg! hover:opacity-85"
-              size={"sm"}
+          <div className="pr-1">
+            <h4 className="text-center text-sm text-gray-600">Qty</h4>
+            <div
+              className={`flex items-center gap-4 ${
+                !product.isAvailable && "pointer-events-none opacity-45"
+              }`}
             >
-              <Minus color="white" />
-            </Button>
+              <Button
+                disabled={qty === 1 || !product.isAvailable}
+                onClick={decrease}
+                className="brand-bg hover:brand-bg! hover:opacity-85"
+                size={"sm"}
+              >
+                <Minus color="white" />
+              </Button>
 
-            <p>{qty}</p>
+              <p>{qty}</p>
 
-            <Button
-              disabled={qty === product.unitLeft || !product.isAvailable}
-              onClick={increase}
-              className="brand-bg hover:brand-bg! hover:opacity-85"
-              size={"sm"}
-            >
-              <Plus color="white" />
-            </Button>
+              <Button
+                disabled={qty === product.unitLeft || !product.isAvailable}
+                onClick={increase}
+                className="brand-bg hover:brand-bg! hover:opacity-85"
+                size={"sm"}
+              >
+                <Plus color="white" />
+              </Button>
+            </div>
           </div>
         </div>
       </div>

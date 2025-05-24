@@ -48,7 +48,7 @@ const CartPage = () => {
                 href="/checkout/addresses"
                 className="brand-bg font-semibold py-2 px-4 rounded-md w-max text-white hover:opacity-85 text-xs sm:text-sm text-center"
               >
-                Proceed (# {subTotal.toLocaleString()})
+                Proceed #{subTotal.toLocaleString()}
               </Link>
             </div>
           </div>

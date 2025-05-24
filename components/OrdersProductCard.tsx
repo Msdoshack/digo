@@ -52,7 +52,7 @@ const OrdersProductCard = ({ product, orderId }: PropsType) => {
                 className={`text-[10px]  p-[3px] w-max text-white uppercase ${
                   product.status === "delivered"
                     ? "bg-lime-500"
-                    : product.status === "processing"
+                    : product.status === "pending"
                     ? "bg-orange-400"
                     : "bg-cyan-700"
                 }`}
