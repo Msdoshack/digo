@@ -1,11 +1,17 @@
+"use client";
 import { Button } from "@/components/ui/button";
-import { orders } from "@/constants";
+import { useOrdersStore } from "@/store/userOrder";
 import Image from "next/image";
 import Link from "next/link";
-
+import { useParams, useRouter } from "next/navigation";
 import React from "react";
 
 const Card = ({ order }: { order: OrderedProductType }) => {
+  const router = useRouter();
+
+  const handleBuyAgain = () => {
+    router.push(`/products/${order.id}`);
+  };
   return (
     <div className="py-5 px-2 border border-gray-200 rounded-md mt-5">
       <div className="flex gap-4 justify-between ">
@@ -17,7 +23,11 @@ const Card = ({ order }: { order: OrderedProductType }) => {
         </div>
 
         <div>
-          <Button className="brand-bg" size={"sm"}>
+          <Button
+            className="brand-bg text-xs!"
+            size={"sm"}
+            onClick={handleBuyAgain}
+          >
             Buy Again
           </Button>
         </div>
@@ -52,14 +62,16 @@ const Card = ({ order }: { order: OrderedProductType }) => {
   );
 };
 
-type Params = Promise<{ orderId: string }>;
+// type Params = Promise<{ orderId: string }>;
 
-export default async function Page({ params }: { params: Params }) {
-  const { orderId } = await params;
+export default function Page(/* { params }: { params: Params } */) {
+  // const { orderId } = await params;
 
-  const order: UserOrderType = orders.find(
-    (item) => item.id.toString() === orderId
-  )!;
+  const { orderId } = useParams();
+
+  const { getOrder } = useOrdersStore();
+
+  const order = getOrder(orderId as string);
 
   const totalOrder = order?.products.reduce(
     (prev, item) => prev + item.price,
@@ -77,13 +89,13 @@ export default async function Page({ params }: { params: Params }) {
             {order?.products.length} items
           </p>
           <p>Placed on 28-04-2025</p>
-          <p>Total: # {totalOrder.toLocaleString()}</p>
+          <p>Total: # {totalOrder?.toLocaleString()}</p>
         </div>
 
         <div>
           <h5 className="uppercase p-2 text-sm">Items in your order</h5>
 
-          {order.products.map((item) => (
+          {order?.products.map((item) => (
             <Card order={item} key={item.id} />
           ))}
         </div>
@@ -109,16 +121,16 @@ export default async function Page({ params }: { params: Params }) {
               </h4>
               <p className="text-sm text-gray-500">
                 Items total: #{" "}
-                {order.paymentDetails.itemsTotal.toLocaleString()}
+                {order?.paymentDetails.itemsTotal.toLocaleString()}
               </p>
 
               <p>
                 Delivery Fees: #{" "}
-                {order.paymentDetails.deliveryFees.toLocaleString()}
+                {order?.paymentDetails.deliveryFees.toLocaleString()}
               </p>
 
               <p className="text-gray-600 font-medium">
-                Total: # {order.paymentDetails.total.toLocaleString()}
+                Total: # {order?.paymentDetails.total.toLocaleString()}
               </p>
             </div>
           </div>
@@ -139,13 +151,13 @@ export default async function Page({ params }: { params: Params }) {
 
             <div>
               <h4 className="font-medium text-gray-700">Address</h4>
-              <p className="text-gray-500 text-sm">{order.address}</p>
+              <p className="text-gray-500 text-sm">{order?.address.address}</p>
             </div>
 
             <div>
               <h4 className="font-medium text-gray-700">Phone No.</h4>
               <p className="text-gray-500 text-sm">
-                {order.phoneNo.map((no) => no + " , ")}
+                {order?.address.phone.map((no) => no.no + " , ")}
               </p>
             </div>
           </div>

@@ -1,8 +1,11 @@
+"use client";
 import OrdersProductCard from "@/components/OrdersProductCard";
-import { orders } from "@/constants";
+import { useOrdersStore } from "@/store/userOrder";
 import React from "react";
 
 const OrdersPage = () => {
+  const { orders } = useOrdersStore();
+
   return (
     <>
       {orders.length ? (

@@ -63,6 +63,35 @@ type ProductCardType = {
   rating: number[];
 };
 
+type OrdersProductType = {
+  id: string;
+
+  name: string;
+
+  price: number;
+
+  img: string;
+
+  qty: number;
+  status: string;
+};
+
+type OrdersType = {
+  id: string;
+  paymentMethod: string;
+  address: AddressType;
+
+  paymentDetails: {
+    itemsTotal: number;
+    deliveryFees: number;
+    total: number;
+  };
+
+  products: OrdersProductType[];
+
+  // phoneNo: PhoneType;
+};
+
 type OrderedProductType = {
   id: string;
 

@@ -1,4 +1,4 @@
-import { Heart, History, Mail, ShoppingBag } from "lucide-react";
+import { Heart, History, Mail, ShoppingBag, ShoppingCart } from "lucide-react";
 
 export const mobileNavItems = [
   { id: 1, name: "Home", link: "/" },
@@ -25,19 +25,25 @@ export const customersMenu = [
   },
   {
     id: 2,
+    name: "Cart",
+    link: "/cart",
+    icon: ShoppingCart,
+  },
+  {
+    id: 3,
     name: "Wishlist",
     link: "/customer/wishlist",
     icon: Heart,
   },
   {
-    id: 3,
+    id: 4,
     name: "Recently Viewed",
     link: "/customer/history",
     icon: History,
   },
 
   {
-    id: 4,
+    id: 5,
     name: "Inbox",
     link: "/customer/inbox",
     icon: Mail,

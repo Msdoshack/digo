@@ -116,31 +116,36 @@ const Addresses = () => {
             <Plus size={18} />
             Add address
           </Link>
-          <div className="flex items-center justify-end gap-6 p-5 mt-4">
-            <Button size={"sm"} variant={"outline"}>
-              Cancel
-            </Button>
-            <Button
-              onClick={handleClick}
-              size={"sm"}
-              className="brand-bg hover:bg-brand-bg hover:opacity-85"
-              disabled={!selectedAddress}
-            >
-              {/* <Link href=""> */}
-              Select address
-              {/* </Link> */}
-            </Button>
+          <div className="flex justify-between items-center mt-4">
+            <p className="text-xs brand-color capitalize sm:text-sm">
+              Select An Address to Continue
+            </p>
+            <div className="flex items-center gap-5 p-2 ">
+              <Button size={"sm"} variant={"outline"}>
+                Cancel
+              </Button>
+              <Button
+                onClick={handleClick}
+                size={"sm"}
+                className="brand-bg hover:bg-brand-bg hover:opacity-85"
+                disabled={!selectedAddress}
+              >
+                {/* <Link href=""> */}
+                Select address
+                {/* </Link> */}
+              </Button>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="text-gray-500 p-2 uppercase bg-white text-sm font-medium">
+      {/* <div className="text-gray-500 p-2 uppercase bg-white text-sm font-medium">
         Delivery Details
       </div>
 
       <div className="text-gray-500 uppercase text-sm p-2 font-medium bg-white">
         Payment Method
-      </div>
+      </div> */}
 
       <Button variant={"link"} className="text-xs w-max text-blue-600">
         back & continue shopping

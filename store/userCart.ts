@@ -6,6 +6,7 @@ interface ICartStore {
   cart: CartProductType[];
   totalItems: number;
   subTotal: number;
+  clearCart: () => void;
   addProduct: (product: CartProductType) => void;
   removeProduct: (productId: string) => void;
   updateQty: (productId: string, qty: number) => void;
@@ -84,6 +85,14 @@ export const useCartStore = create<ICartStore>()(
           cart: updatedCart,
           totalItems: updatedCart.length,
           subTotal,
+        });
+      },
+
+      clearCart: () => {
+        return set({
+          cart: [],
+          totalItems: 0,
+          subTotal: 0,
         });
       },
     }),

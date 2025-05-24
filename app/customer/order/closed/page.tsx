@@ -1,24 +1,30 @@
+"use client";
 import OrdersProductCard from "@/components/OrdersProductCard";
-import { orders } from "@/constants";
+
+import { useOrdersStore } from "@/store/userOrder";
 import React from "react";
 
 const ClosedOrderPage = () => {
+  const { orders } = useOrdersStore();
+
+  const closedOrder = orders.filter((order) =>
+    order.products.some((product) => product.status === "cancelled")
+  );
+
   return (
     <div>
       <>
-        {orders.length ? (
+        {closedOrder.length ? (
           <div className="flex flex-col gap-5 mt-6">
-            {orders
-              .slice(2)
-              .map((item) =>
-                item.products.map((order) => (
-                  <OrdersProductCard
-                    orderId={item.id}
-                    product={order}
-                    key={order.id}
-                  />
-                ))
-              )}
+            {closedOrder.map((item) =>
+              item.products.map((order) => (
+                <OrdersProductCard
+                  orderId={item.id}
+                  product={order}
+                  key={order.id}
+                />
+              ))
+            )}
           </div>
         ) : (
           <div className="h-[calc(100vh-80px)] flex items-center justify-center w-full">

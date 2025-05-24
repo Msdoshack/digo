@@ -30,6 +30,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { useRouter } from "next/navigation";
+import { useUserStore } from "@/store/user";
 
 const formSchema = z.object({
   firstName: z.string().min(1, "please provide a firstName"),
@@ -45,6 +46,8 @@ const formSchema = z.object({
 const CreateAddressPage = () => {
   const { addAddress } = useAddressStore((state) => state);
 
+  const { user } = useUserStore();
+
   const isPending = false;
 
   const router = useRouter();
@@ -52,10 +55,10 @@ const CreateAddressPage = () => {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      firstName: "",
-      lastName: "",
-      phone: "",
-      phone2: "",
+      firstName: user?.firstName || "",
+      lastName: user?.lastName || "",
+      phone: user?.phone || "",
+      phone2: user?.phone2 || "",
       address: "",
       isDefault: false,
     },
@@ -88,8 +91,8 @@ const CreateAddressPage = () => {
   return (
     <div className="flex flex-col gap-5">
       <div className="bg-white rounded-md p-2">
-        <h3 className="p-2 border-b border-gray-200 uppercase text-sm font-medium">
-          1. Customer Address
+        <h3 className="p-2 border-b border-gray-200 uppercase text-sm font-medium mb-10">
+          Add Delivery Address
         </h3>
 
         <Form {...form}>
@@ -107,7 +110,7 @@ const CreateAddressPage = () => {
                     <Input
                       placeholder="firstName"
                       {...field}
-                      className="py-5 text-sm"
+                      className="py-5 text-sm capitalize"
                     />
                   </FormControl>
 
@@ -126,7 +129,7 @@ const CreateAddressPage = () => {
                     <Input
                       placeholder="firstName"
                       {...field}
-                      className="py-5 text-sm"
+                      className="py-5 text-sm capitalize"
                     />
                   </FormControl>
 
@@ -182,7 +185,7 @@ const CreateAddressPage = () => {
                   <FormControl>
                     <Select value={field.value} onValueChange={field.onChange}>
                       <SelectTrigger className="w-full sm:w-[180px]">
-                        <SelectValue placeholder="state" />
+                        <SelectValue placeholder="State" />
                       </SelectTrigger>
                       <SelectContent>
                         {nigeriaStates.map((s) => (
@@ -288,13 +291,13 @@ const CreateAddressPage = () => {
         </Form>
       </div>
 
-      <div className="text-gray-500 p-2 uppercase bg-white text-sm font-medium">
+      {/* <div className="text-gray-500 p-2 uppercase bg-white text-sm font-medium">
         Delivery Details
       </div>
 
       <div className="text-gray-500 uppercase text-sm p-2 font-medium bg-white">
         Payment Method
-      </div>
+      </div> */}
 
       <Link href={"/products"} className="text-xs w-max text-blue-600">
         back & continue shopping

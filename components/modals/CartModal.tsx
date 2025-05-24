@@ -161,7 +161,8 @@ const CartModal = ({ onClose }: PropsType) => {
                 className="brand-bg hover:brand-bg hover:opacity-85"
                 onClick={handleCheckout}
               >
-                Checkout
+                Buy Now
+                {/* Checkout */}
               </Button>
             </div>
           </div>
