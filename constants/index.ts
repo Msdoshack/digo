@@ -5917,6 +5917,47 @@ WIDE COMPATIBILITY】- Fits for Mac Stand is compatible with all laptop models a
 
     rating: [5, 4, 5, 4, 3, 5, 3, 5, 4, 3, 2, 4, 5, 5],
   },
+
+  {
+    id: "00000131",
+    name: "Computer / Laptop Stand Adjustable Laptop Stand With Phone Holde",
+
+    category: "Computer Accessories",
+
+    brand: "unknown",
+
+    price: 12500,
+
+    oldPrice: 19900,
+
+    desc: `
+WIDE COMPATIBILITY】- Fits for Mac Stand is compatible with all laptop models and sizes from 8-18 inches, such as Tablet, MacBook, MacBook Air, Macbook Pro, M icrosoft Surface, Google Pixelbook, Dell XPS, H P, ASUS, Lenovo, Acer, Chromebook and more.
+【Foldable&Portable Design】– This portable folding stand weighs only 0.7kg. Collapsible small size, Amazing construction. makes it ideal to carry, you can put it in backpack or laptop bag.
+【ERGONOMIC DESIGN】- 6 Adjustable Ergonomics Levels - You can set multiple angles (maximum 5.34 "minimum 1.35") and the line of sight varies with the angle adjustment. This helps correct posture, relieve neck and back pain, wrist pain and eyestrain.
+【Steadiness&Durability】Made of premium engeneering plastic makes the laptop riser more sturdy; Non-skid pads keep the notebook riser stable and protects your device/desktop surface once placed on.
+
+
+
+`,
+
+    isAvailable: false,
+
+    featured: false,
+
+    imgs: [
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/62/8739111/1.jpg?3843",
+
+      "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/62/8739111/2.jpg?3843",
+    ],
+
+    // sizes: [],
+
+    // colors: [],
+
+    unitLeft: 33,
+
+    rating: [5, 4, 5, 4, 3, 5, 3, 5, 4, 3, 2, 4, 5, 5],
+  },
 ];
 
 export const addresses = [
