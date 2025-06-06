@@ -23,9 +23,18 @@ const Card = ({
 const AccountComponent = () => {
   const { user } = useUserStore((state) => state);
 
+  const firstName = user?.firstName || "";
+  const lastName = user?.lastName || "";
+  const middleName = user?.middleName || "";
+  const phone = user?.phone || "";
+  const phone2 = user?.phone2;
+  const gender = user?.gender || "";
+  const email = user?.email || "";
+
   const { address } = useAddressStore((state) => state);
 
   const dAddress = address.find((item) => item.isDefault == true) || address[0];
+
   return (
     <div>
       <h1 className="text-lg font-medium p-3 border-b">Account Overview</h1>
@@ -33,18 +42,18 @@ const AccountComponent = () => {
       <div className="flex  flex-wrap w-full gap-4">
         <Card title="Account Details">
           <h4 className="text-gray-700">
-            Fullname: {}
-            {`${user?.firstName} ${user?.middleName} ${user?.lastName}`}
+            Fullname:
+            {`${firstName} ${middleName} ${lastName}`}
           </h4>
-          <p className="text-gray-500 text-sm">Email: {user?.email}</p>
-          <p className="text-gray-500 text-sm">Phone: {`${user?.phone}`}</p>
-          {user?.phone2 && (
+          <p className="text-gray-500 text-sm">Email: {email}</p>
+          <p className="text-gray-500 text-sm">Phone: {`${phone}`}</p>
+          {phone2 && (
             <p className="text-gray-500 text-sm">
-              Additional Phone: {`${user?.phone2}, ${user?.phone2}`}
+              Additional Phone: {`${phone2}`}
             </p>
           )}
 
-          <p className="text-gray-500 text-sm">Gender: {user?.gender}</p>
+          <p className="text-gray-500 text-sm">Gender: {gender}</p>
         </Card>
         <Card title="Address book">
           {dAddress ? (

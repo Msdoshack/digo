@@ -60,7 +60,7 @@ const SetUserModal = () => {
     setUser({ ...values, id: uuidv4().slice(0, 8) });
   };
   return (
-    <div className="fixed left-0 top-0 w-full h-screen overflow-hidden bg-[#000000e8] z-50 flex items-center justify-center">
+    <div className="fixed left-0 top-0 w-full h-screen overflow-hidden bg-[#000000e8] z-50 flex items-center justify-center px-4 md:px-0">
       <div className="bg-white p-5 rounded-md min-w-md h-[60%] overflow-y-scroll">
         {/* <div className="flex justify-end  mb-4 cursor-pointer">
           <X color="red" />
