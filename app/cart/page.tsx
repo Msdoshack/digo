@@ -10,6 +10,7 @@ const product = productsData.slice(0, 5);
 
 const CartPage = () => {
   const { subTotal, cart, totalItems } = useCartStore((state) => state);
+
   return (
     <div className="bg-gray-100 w-full py-4">
       {cart.length > 0 ? (

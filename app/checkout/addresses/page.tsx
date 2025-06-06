@@ -1,4 +1,5 @@
 "use client";
+import SetUserComponent from "@/components/SetUserComponent";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
@@ -137,6 +138,7 @@ const Addresses = () => {
             </div>
           </div>
         </div>
+        <SetUserComponent />
       </div>
 
       {/* <div className="text-gray-500 p-2 uppercase bg-white text-sm font-medium">

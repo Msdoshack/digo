@@ -23,6 +23,8 @@ import {
   SelectValue,
 } from "../ui/select";
 
+// import { X } from "lucide-react";
+
 const formSchema = z.object({
   firstName: z.string().min(1, "please provide a firstName"),
 
@@ -59,7 +61,11 @@ const SetUserModal = () => {
   };
   return (
     <div className="fixed left-0 top-0 w-full h-screen overflow-hidden bg-[#000000e8] z-50 flex items-center justify-center">
-      <div className="bg-white p-5 rounded-md min-w-sm h-full overflow-y-scroll">
+      <div className="bg-white p-5 rounded-md min-w-md h-[60%] overflow-y-scroll">
+        {/* <div className="flex justify-end  mb-4 cursor-pointer">
+          <X color="red" />
+        </div> */}
+
         <h1 className="text-center mb-4">
           Hi There! Welcome to{" "}
           <span className="text-sm font-bold brand-color">(DIGO DEMO)</span>{" "}
